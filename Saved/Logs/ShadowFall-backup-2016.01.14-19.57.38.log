@@ -1,0 +1,665 @@
+﻿[2016.01.15-00.55.53:571][  0]Log file open, 01/14/16 19:55:53
+[2016.01.15-00.55.53:571][  0]LogInit:Display: Running engine for game: ShadowFall
+[2016.01.15-00.55.53:571][  0]LogInit:Display: RandInit(-1614136775) SRandInit(-1614136774).
+[2016.01.15-00.55.53:571][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.01.15-00.55.53:571][  0]LogStats: Stats thread started at 0.095467
+[2016.01.15-00.55.53:571][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.01.15-00.55.53:571][  0]LogInit: API Version: 2672455
+[2016.01.15-00.55.53:571][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2016.01.15-00.55.53:571][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2016.01.15-00.55.53:571][  0]LogInit: Build Configuration: Development
+[2016.01.15-00.55.53:571][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2016.01.15-00.55.53:571][  0]LogInit: Command line:  
+[2016.01.15-00.55.53:571][  0]LogInit: Base directory: D:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2016.01.15-00.55.53:571][  0]LogInit: Rocket: 1
+[2016.01.15-00.55.53:586][  0]LogInit: Using libcurl 7.41.0
+[2016.01.15-00.55.53:586][  0]LogInit:  - built for x86_64-pc-win32
+[2016.01.15-00.55.53:586][  0]LogInit:  - supports SSL with WinSSL
+[2016.01.15-00.55.53:586][  0]LogInit:  - other features:
+[2016.01.15-00.55.53:586][  0]LogInit:      CURL_VERSION_SSL
+[2016.01.15-00.55.53:586][  0]LogInit:      CURL_VERSION_IPV6
+[2016.01.15-00.55.53:586][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.01.15-00.55.53:586][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.01.15-00.55.53:586][  0]LogInit:      CURL_VERSION_IDN
+[2016.01.15-00.55.53:586][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.01.15-00.55.53:586][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.01.15-00.55.53:586][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.01.15-00.55.53:586][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.01.15-00.55.53:586][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.01.15-00.55.53:594][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.01.15-00.55.53:602][  0]LogInit: Object subsystem initialized
+[2016.01.15-00.55.53:604][  0]LogInit: Selected Device Profile: [Windows]
+[2016.01.15-00.55.53:604][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.01.15-00.55.53:615][  0]LogInit: Computer: PCMAXIME
+[2016.01.15-00.55.53:615][  0]LogInit: User: Maxime
+[2016.01.15-00.55.53:615][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.01.15-00.55.53:615][  0]LogInit: High frequency timer resolution =2.338452 MHz
+[2016.01.15-00.55.53:615][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.01.15-00.55.53:615][  0]LogMemory: Platform Memory Stats for Windows
+[2016.01.15-00.55.53:615][  0]LogMemory: Process Physical Memory: 56.08 MB used, 56.08 MB peak
+[2016.01.15-00.55.53:615][  0]LogMemory: Process Virtual Memory: 59.22 MB used, 59.22 MB peak
+[2016.01.15-00.55.53:615][  0]LogMemory: Physical Memory: 3821.69 MB used, 8123.55 MB total
+[2016.01.15-00.55.53:615][  0]LogMemory: Virtual Memory: 354.16 MB used, 134217728.00 MB total
+[2016.01.15-00.55.53:656][  0]LogTextLocalizationManager: No translations for ('fr-FR') exist, falling back to 'en' for localization and internationalization data.
+[2016.01.15-00.55.54:472][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon HD 7570M (Feature Level 11_0)
+[2016.01.15-00.55.54:472][  0]LogD3D11RHI: Adapter has 1004MB of dedicated video memory, 0MB of dedicated system memory, and 3840MB of shared system memory, 1 output[s]
+[2016.01.15-00.55.54:474][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.01.15-00.55.54:474][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4061MB of shared system memory, 0 output[s]
+[2016.01.15-00.55.54:474][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.01.15-00.55.54:478][  0]LogD3D11RHI: !Direct3DDevice
+[2016.01.15-00.55.54:478][  0]LogRHI: Texture pool is 702 MB (70% of 1004 MB)
+[2016.01.15-00.55.54:485][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2016.01.15-00.55.54:497][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Bibliothèques/Documents/Unreal Projects/ShadowerFall/Intermediate/Shaders/WorkingDirectory/8476/).
+[2016.01.15-00.55.54:497][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Bibliothèques/Documents/Unreal Projects/ShadowerFall/Intermediate/Shaders/tmp/3C2AB65A49A7E7C2E5426690166E5556/'.
+[2016.01.15-00.55.54:497][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.01.15-00.55.55:648][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.01.15-00.55.55:654][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.01.15-00.55.55:660][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.01.15-00.55.55:666][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.01.15-00.55.55:671][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.01.15-00.55.55:675][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.01.15-00.55.55:679][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.01.15-00.55.55:683][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.01.15-00.55.55:686][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.01.15-00.55.55:690][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.01.15-00.55.55:694][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.01.15-00.55.55:698][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.01.15-00.55.55:699][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.01.15-00.55.55:718][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.01.15-00.55.55:722][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.01.15-00.55.55:725][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.01.15-00.55.55:730][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.01.15-00.55.55:730][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.01.15-00.55.55:837][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.01.15-00.55.55:879][  0]LogDerivedDataCache: Loaded boot cache 0.04s 41MB C:/Users/Maxime/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.01.15-00.55.55:879][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Maxime/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2016.01.15-00.55.55:879][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Bibliothèques/Documents/Unreal Projects/ShadowerFall/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.01.15-00.55.55:879][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.01.15-00.55.55:879][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Bibliothèques/Documents/Unreal Projects/ShadowerFall/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.01.15-00.55.55:879][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.01.15-00.55.56:037][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.01.15-00.55.56:049][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Maxime/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.01.15-00.55.56:266][  0]LogInit: Selected Device Profile: [Windows]
+[2016.01.15-00.55.56:269][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.01.15-00.55.56:410][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.01.15-00.55.56:410][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.01.15-00.55.56:684][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.01.15-00.55.57:480][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.01.15-00.55.57:584][  0]LogAssetRegistry: FAssetRegistry took 0.0105 seconds to start up
+[2016.01.15-00.55.57:781][  0]SourceControl: Info Source control is disabled
+[2016.01.15-00.55.57:783][  0]SourceControl: Info Source control is disabled
+[2016.01.15-00.55.57:798][  0]SourceControl: Info Source control is disabled
+[2016.01.15-00.55.57:813][  0]SourceControl: Info Source control is disabled
+[2016.01.15-00.55.58:018][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.15-00.55.58:123][  0]LogObj: 28361 objects as part of root set at end of initial load.
+[2016.01.15-00.55.58:123][  0]LogUObjectAllocator: 6038872 out of 0 bytes used by permanent object pool.
+[2016.01.15-00.55.58:184][  0]LogEngine: Initializing Engine...
+[2016.01.15-00.55.58:187][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2016.01.15-00.55.58:188][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.01.15-00.55.58:322][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.01.15-00.55.58:327][  0]LogInit: XAudio2 using 'Haut-parleurs (Périphérique High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.01.15-00.55.58:341][  0]LogInit: FAudioDevice initialized.
+[2016.01.15-00.55.58:363][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/Maxime/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.01.15-00.55.58:365][  0]LogInit: Texture streaming: Enabled
+[2016.01.15-00.55.58:371][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.01.15-00.55.58:371][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.01.15-00.55.58:372][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 9a9effe84c4b08c90696e581cd7488a3|06ed4f6a0f4048debc1b07e05a99303a|05176c3f-19e8-4dc1-8202-ec95daad005f
+[2016.01.15-00.55.58:372][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.01.15-00.55.58:412][  0]LogInit: Transaction tracking system initialized
+[2016.01.15-00.55.58:447][  0]BlueprintLog: New page: Editor Load
+[2016.01.15-00.55.58:542][  0]LocalizationService: Info Localization service is disabled
+[2016.01.15-00.55.58:771][  0]LogConsoleResponse:Display: 
+[2016.01.15-00.55.58:898][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.01.15-00.55.58:968][  0]LogFileCache: Scanning file cache for directory 'D:/Bibliothèques/Documents/Unreal Projects/ShadowerFall/Content/' took 0.02s
+[2016.01.15-00.55.58:968][  0]SourceControl: Info Source control is disabled
+[2016.01.15-00.55.58:968][  0]Cmd: MAP LOAD FILE="../../../../../../Bibliothèques/Documents/Unreal Projects/ShadowerFall/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.01.15-00.55.58:968][  0]LightingResults: New page: Lighting Build
+[2016.01.15-00.55.58:972][  0]MapCheck: New page: Map Check
+[2016.01.15-00.55.58:972][  0]LightingResults: New page: Lighting Build
+[2016.01.15-00.55.58:982][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000171508400
+[2016.01.15-00.55.59:001][  0]LogLinker:Warning: Asset '../../../../../../Bibliothèques/Documents/Unreal Projects/ShadowerFall/Content/FirstPerson/Meshes/FirstPersonProjectileMesh.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.15-00.56.01:034][  0]LogMaterial: Missing cached shader map for material M_St_Glass_Rouge, compiling. 
+[2016.01.15-00.56.01:166][  0]LogMaterial: Missing cached shader map for material HUB, compiling. 
+[2016.01.15-00.56.01:656][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.01.15-00.56.01:703][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.01.15-00.56.01:704][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.01.15-00.56.01:829][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 124.194ms to complete.
+[2016.01.15-00.56.01:829][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 2.861
+[2016.01.15-00.56.01:952][  0]LogCollectionManager: Loaded 0 collections in 0.003945 seconds
+[2016.01.15-00.56.02:004][  0]LogFileCache: Scanning file cache for directory 'D:/Bibliothèques/Documents/Unreal Projects/ShadowerFall/Saved/Collections/' took 0.01s
+[2016.01.15-00.56.02:004][  0]LogFileCache: Scanning file cache for directory 'D:/Bibliothèques/Documents/Unreal Projects/ShadowerFall/Content/Developers/Maxime/Collections/' took 0.01s
+[2016.01.15-00.56.02:004][  0]LogFileCache: Scanning file cache for directory 'D:/Bibliothèques/Documents/Unreal Projects/ShadowerFall/Content/Collections/' took 0.01s
+[2016.01.15-00.56.02:004][  0]LogContentBrowser: Native class hierarchy populated in 0.0153 seconds. Added 1867 classes and 333 folders.
+[2016.01.15-00.56.02:012][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2016.01.15-00.56.02:023][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2016.01.15-00.56.02:106][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2016.01.15-00.56.02:113][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2016.01.15-00.56.02:212][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.01.15-00.56.02:216][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.01.15-00.56.02:239][  0]LogLoad: Full Startup: 9.30 seconds (BP compile: 0.92 seconds)
+[2016.01.15-00.56.02:358][  0]LogContentStreaming: Texture pool size now 200 MB
+[2016.01.15-00.56.02:553][  0]LogRenderer: Reallocating scene render targets to support 1252x668 (Frame:2).
+[2016.01.15-00.56.03:440][ 12]LogAssetRegistry: Asset discovery search completed in 5.8671 seconds
+[2016.01.15-00.56.03:440][ 12]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.01.15-00.56.03:440][ 12]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000040 seconds (updated 0 objects)
+[2016.01.15-00.56.05:544][ 90]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.15-00.56.06:484][ 90]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0017 seconds. Added 107 classes and 0 folders.
+[2016.01.15-00.56.32:134][146]LogUObjectHash:Warning: Ambiguous search, could be K2Node_ExecutionSequence /Game/FirstPersonBP/Blueprints/AI/NewKamikaze.NewKamikaze:EventGraph.K2Node_ExecutionSequence_138 or K2Node_ExecutionSequence /Game/FirstPersonBP/Blueprints/AI/Tourelle.Tourelle:EventGraph.K2Node_ExecutionSequence_138
+[2016.01.15-00.56.32:134][146]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/AI/NewKamikaze.NewKamikaze:EventGraph.K2Node_ExecutionSequence_138.EdGraphPin_9526) from referencer (EdGraphPin /Game/FirstPersonBP/Blueprints/AI/Tourelle.Tourelle:EventGraph.K2Node_DynamicCast_515.EdGraphPin_10291).  Import failed...
+[2016.01.15-00.56.32:134][146]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_ExecutionSequence_138.EdGraphPin_9526''
+[2016.01.15-00.56.32:134][146]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Blueprints/Arrows/ArrowEXPLO.ArrowEXPLO:EventGraph.K2Node_CallFunction_3055 or K2Node_CallFunction /Game/FirstPersonBP/Blueprints/AI/NewKamikaze.NewKamikaze:EventGraph.K2Node_CallFunction_3055
+[2016.01.15-00.56.32:134][146]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Blueprints/Arrows/ArrowEXPLO.ArrowEXPLO:EventGraph.K2Node_CallFunction_3055 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_3055
+[2016.01.15-00.56.32:134][146]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Blueprints/Arrows/ArrowEXPLO.ArrowEXPLO:EventGraph.K2Node_CallFunction_3055 or K2Node_CallFunction /Game/FirstPersonBP/Blueprints/AI/Tourelle.Tourelle:EventGraph.K2Node_CallFunction_3055
+[2016.01.15-00.56.32:134][146]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/AI/NewKamikaze.NewKamikaze:EventGraph.K2Node_CallFunction_3055.EdGraphPin_10609) from referencer (EdGraphPin /Game/FirstPersonBP/Blueprints/AI/Tourelle.Tourelle:EventGraph.K2Node_DynamicCast_515.EdGraphPin_10292).  Import failed...
+[2016.01.15-00.56.32:134][146]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3055.EdGraphPin_10609''
+[2016.01.15-00.56.32:134][146]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Event /Game/FirstPersonBP/Blueprints/AI/NewKamikaze.NewKamikaze:EventGraph.K2Node_Event_330 or K2Node_Event /Game/FirstPersonBP/Blueprints/AI/Tourelle.Tourelle:EventGraph.K2Node_Event_330
+[2016.01.15-00.56.32:134][146]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/AI/NewKamikaze.NewKamikaze:EventGraph.K2Node_Event_330.EdGraphPin_10479) from referencer (EdGraphPin /Game/FirstPersonBP/Blueprints/AI/Tourelle.Tourelle:EventGraph.K2Node_DynamicCast_515.EdGraphPin_10294).  Import failed...
+[2016.01.15-00.56.32:134][146]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Event_330.EdGraphPin_10479''
+[2016.01.15-00.56.32:135][146]LogUObjectHash:Warning: Ambiguous search, could be K2Node_ExecutionSequence /Game/FirstPersonBP/Blueprints/AI/NewKamikaze.NewKamikaze:EventGraph.K2Node_ExecutionSequence_138 or K2Node_ExecutionSequence /Game/FirstPersonBP/Blueprints/AI/Tourelle.Tourelle:EventGraph.K2Node_ExecutionSequence_138
+[2016.01.15-00.56.32:135][146]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/AI/NewKamikaze.NewKamikaze:EventGraph.K2Node_ExecutionSequence_138.EdGraphPin_9527) from referencer (EdGraphPin /Game/FirstPersonBP/Blueprints/AI/Tourelle.Tourelle:EventGraph.K2Node_DynamicCast_665.EdGraphPin_10309).  Import failed...
+[2016.01.15-00.56.32:135][146]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_ExecutionSequence_138.EdGraphPin_9527''
+[2016.01.15-00.56.32:135][146]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Blueprints/Arrows/ArrowEXPLO.ArrowEXPLO:EventGraph.K2Node_CallFunction_3055 or K2Node_CallFunction /Game/FirstPersonBP/Blueprints/AI/NewKamikaze.NewKamikaze:EventGraph.K2Node_CallFunction_3055
+[2016.01.15-00.56.32:135][146]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Blueprints/Arrows/ArrowEXPLO.ArrowEXPLO:EventGraph.K2Node_CallFunction_3055 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_3055
+[2016.01.15-00.56.32:135][146]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Blueprints/Arrows/ArrowEXPLO.ArrowEXPLO:EventGraph.K2Node_CallFunction_3055 or K2Node_CallFunction /Game/FirstPersonBP/Blueprints/AI/Tourelle.Tourelle:EventGraph.K2Node_CallFunction_3055
+[2016.01.15-00.56.32:135][146]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/AI/NewKamikaze.NewKamikaze:EventGraph.K2Node_CallFunction_3055.EdGraphPin_10609) from referencer (EdGraphPin /Game/FirstPersonBP/Blueprints/AI/Tourelle.Tourelle:EventGraph.K2Node_DynamicCast_665.EdGraphPin_10310).  Import failed...
+[2016.01.15-00.56.32:135][146]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3055.EdGraphPin_10609''
+[2016.01.15-00.56.32:135][146]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Event /Game/FirstPersonBP/Blueprints/AI/NewKamikaze.NewKamikaze:EventGraph.K2Node_Event_330 or K2Node_Event /Game/FirstPersonBP/Blueprints/AI/Tourelle.Tourelle:EventGraph.K2Node_Event_330
+[2016.01.15-00.56.32:135][146]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/AI/NewKamikaze.NewKamikaze:EventGraph.K2Node_Event_330.EdGraphPin_10479) from referencer (EdGraphPin /Game/FirstPersonBP/Blueprints/AI/Tourelle.Tourelle:EventGraph.K2Node_DynamicCast_665.EdGraphPin_10312).  Import failed...
+[2016.01.15-00.56.32:135][146]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Event_330.EdGraphPin_10479''
+[2016.01.15-00.56.32:135][146]LogUObjectHash:Warning: Ambiguous search, could be K2Node_ExecutionSequence /Engine/EditorBlueprintResources/StandardMacros.StandardMacros:Gate.K2Node_ExecutionSequence_39 or K2Node_ExecutionSequence /Game/FirstPersonBP/Blueprints/AI/NewKamikaze.NewKamikaze:EventGraph.K2Node_ExecutionSequence_39
+[2016.01.15-00.56.32:135][146]LogUObjectHash:Warning: Ambiguous search, could be K2Node_ExecutionSequence /Engine/EditorBlueprintResources/StandardMacros.StandardMacros:Gate.K2Node_ExecutionSequence_39 or K2Node_ExecutionSequence /Game/FirstPersonBP/Blueprints/AI/NewKamikaze.NewKamikaze:ExecuteUbergraph_NewKamikaze.K2Node_ExecutionSequence_39
+[2016.01.15-00.56.32:135][146]LogUObjectHash:Warning: Ambiguous search, could be K2Node_ExecutionSequence /Engine/EditorBlueprintResources/StandardMacros.StandardMacros:Gate.K2Node_ExecutionSequence_39 or K2Node_ExecutionSequence /Game/FirstPersonBP/Blueprints/AI/Tourelle.Tourelle:EventGraph.K2Node_ExecutionSequence_39
+[2016.01.15-00.56.32:136][146]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/AI/NewKamikaze.NewKamikaze:EventGraph.K2Node_ExecutionSequence_39.EdGraphPin_9685) from referencer (EdGraphPin /Game/FirstPersonBP/Blueprints/AI/Tourelle.Tourelle:EventGraph.K2Node_DynamicCast_517.EdGraphPin_10327).  Import failed...
+[2016.01.15-00.56.32:136][146]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_ExecutionSequence_39.EdGraphPin_9685''
+[2016.01.15-00.56.32:136][146]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Blueprints/Arrows/ArrowEXPLO.ArrowEXPLO:EventGraph.K2Node_CallFunction_3055 or K2Node_CallFunction /Game/FirstPersonBP/Blueprints/AI/NewKamikaze.NewKamikaze:EventGraph.K2Node_CallFunction_3055
+[2016.01.15-00.56.32:136][146]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Blueprints/Arrows/ArrowEXPLO.ArrowEXPLO:EventGraph.K2Node_CallFunction_3055 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_3055
+[2016.01.15-00.56.32:136][146]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Blueprints/Arrows/ArrowEXPLO.ArrowEXPLO:EventGraph.K2Node_CallFunction_3055 or K2Node_CallFunction /Game/FirstPersonBP/Blueprints/AI/Tourelle.Tourelle:EventGraph.K2Node_CallFunction_3055
+[2016.01.15-00.56.32:136][146]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/AI/NewKamikaze.NewKamikaze:EventGraph.K2Node_CallFunction_3055.EdGraphPin_10609) from referencer (EdGraphPin /Game/FirstPersonBP/Blueprints/AI/Tourelle.Tourelle:EventGraph.K2Node_DynamicCast_517.EdGraphPin_10328).  Import failed...
+[2016.01.15-00.56.32:136][146]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3055.EdGraphPin_10609''
+[2016.01.15-00.56.32:136][146]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Event /Game/FirstPersonBP/Blueprints/AI/NewKamikaze.NewKamikaze:EventGraph.K2Node_Event_300 or K2Node_Event /Game/FirstPersonBP/Blueprints/AI/Tourelle.Tourelle:EventGraph.K2Node_Event_300
+[2016.01.15-00.56.32:136][146]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/AI/NewKamikaze.NewKamikaze:EventGraph.K2Node_Event_300.EdGraphPin_10450) from referencer (EdGraphPin /Game/FirstPersonBP/Blueprints/AI/Tourelle.Tourelle:EventGraph.K2Node_DynamicCast_517.EdGraphPin_10330).  Import failed...
+[2016.01.15-00.56.32:136][146]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Event_300.EdGraphPin_10450''
+[2016.01.15-00.56.32:136][146]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Blueprints/Arrows/ArrowEXPLO.ArrowEXPLO:EventGraph.K2Node_CallFunction_3096 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_3096
+[2016.01.15-00.56.32:136][146]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Blueprints/Arrows/ArrowEXPLO.ArrowEXPLO:EventGraph.K2Node_CallFunction_3096 or K2Node_CallFunction /Game/FirstPersonBP/Blueprints/AI/NewKamikaze.NewKamikaze:EventGraph.K2Node_CallFunction_3096
+[2016.01.15-00.56.32:136][146]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Blueprints/Arrows/ArrowEXPLO.ArrowEXPLO:EventGraph.K2Node_CallFunction_3096 or K2Node_CallFunction /Game/FirstPersonBP/Blueprints/AI/Tourelle.Tourelle:EventGraph.K2Node_CallFunction_3096
+[2016.01.15-00.56.32:136][146]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/AI/NewKamikaze.NewKamikaze:EventGraph.K2Node_CallFunction_3096.EdGraphPin_10637) from referencer (EdGraphPin /Game/FirstPersonBP/Blueprints/AI/Tourelle.Tourelle:EventGraph.K2Node_CallFunction_3103.EdGraphPin_10345).  Import failed...
+[2016.01.15-00.56.32:136][146]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3096.EdGraphPin_10637''
+[2016.01.15-00.56.32:137][146]LogUObjectHash:Warning: Ambiguous search, could be K2Node_ExecutionSequence /Engine/EditorBlueprintResources/StandardMacros.StandardMacros:Gate.K2Node_ExecutionSequence_39 or K2Node_ExecutionSequence /Game/FirstPersonBP/Blueprints/AI/NewKamikaze.NewKamikaze:EventGraph.K2Node_ExecutionSequence_39
+[2016.01.15-00.56.32:137][146]LogUObjectHash:Warning: Ambiguous search, could be K2Node_ExecutionSequence /Engine/EditorBlueprintResources/StandardMacros.StandardMacros:Gate.K2Node_ExecutionSequence_39 or K2Node_ExecutionSequence /Game/FirstPersonBP/Blueprints/AI/NewKamikaze.NewKamikaze:ExecuteUbergraph_NewKamikaze.K2Node_ExecutionSequence_39
+[2016.01.15-00.56.32:137][146]LogUObjectHash:Warning: Ambiguous search, could be K2Node_ExecutionSequence /Engine/EditorBlueprintResources/StandardMacros.StandardMacros:Gate.K2Node_ExecutionSequence_39 or K2Node_ExecutionSequence /Game/FirstPersonBP/Blueprints/AI/Tourelle.Tourelle:EventGraph.K2Node_ExecutionSequence_39
+[2016.01.15-00.56.32:137][146]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/AI/NewKamikaze.NewKamikaze:EventGraph.K2Node_ExecutionSequence_39.EdGraphPin_9684) from referencer (EdGraphPin /Game/FirstPersonBP/Blueprints/AI/Tourelle.Tourelle:EventGraph.K2Node_Event_300.EdGraphPin_10448).  Import failed...
+[2016.01.15-00.56.32:137][146]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_ExecutionSequence_39.EdGraphPin_9684''
+[2016.01.15-00.56.32:137][146]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/FirstPersonBP/Blueprints/AI/NewKamikaze.NewKamikaze:EventGraph.K2Node_DynamicCast_516 or K2Node_DynamicCast /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_DynamicCast_516
+[2016.01.15-00.56.32:137][146]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/FirstPersonBP/Blueprints/AI/NewKamikaze.NewKamikaze:EventGraph.K2Node_DynamicCast_516 or K2Node_DynamicCast /Game/FirstPersonBP/Blueprints/AI/Tourelle.Tourelle:EventGraph.K2Node_DynamicCast_516
+[2016.01.15-00.56.32:137][146]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/AI/NewKamikaze.NewKamikaze:EventGraph.K2Node_DynamicCast_516.EdGraphPin_10489) from referencer (EdGraphPin /Game/FirstPersonBP/Blueprints/AI/Tourelle.Tourelle:EventGraph.K2Node_Event_300.EdGraphPin_10450).  Import failed...
+[2016.01.15-00.56.32:137][146]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_DynamicCast_516.EdGraphPin_10489''
+[2016.01.15-00.56.32:138][146]LogUObjectHash:Warning: Ambiguous search, could be K2Node_ExecutionSequence /Game/FirstPersonBP/Blueprints/AI/NewKamikaze.NewKamikaze:EventGraph.K2Node_ExecutionSequence_138 or K2Node_ExecutionSequence /Game/FirstPersonBP/Blueprints/AI/Tourelle.Tourelle:EventGraph.K2Node_ExecutionSequence_138
+[2016.01.15-00.56.32:138][146]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/AI/NewKamikaze.NewKamikaze:EventGraph.K2Node_ExecutionSequence_138.EdGraphPin_9525) from referencer (EdGraphPin /Game/FirstPersonBP/Blueprints/AI/Tourelle.Tourelle:EventGraph.K2Node_Event_330.EdGraphPin_10478).  Import failed...
+[2016.01.15-00.56.32:138][146]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_ExecutionSequence_138.EdGraphPin_9525''
+[2016.01.15-00.56.32:138][146]LogUObjectHash:Warning: Ambiguous search, could be K2Node_ExecutionSequence /Engine/EditorBlueprintResources/StandardMacros.StandardMacros:Gate.K2Node_ExecutionSequence_39 or K2Node_ExecutionSequence /Game/FirstPersonBP/Blueprints/AI/NewKamikaze.NewKamikaze:EventGraph.K2Node_ExecutionSequence_39
+[2016.01.15-00.56.32:138][146]LogUObjectHash:Warning: Ambiguous search, could be K2Node_ExecutionSequence /Engine/EditorBlueprintResources/StandardMacros.StandardMacros:Gate.K2Node_ExecutionSequence_39 or K2Node_ExecutionSequence /Game/FirstPersonBP/Blueprints/AI/NewKamikaze.NewKamikaze:ExecuteUbergraph_NewKamikaze.K2Node_ExecutionSequence_39
+[2016.01.15-00.56.32:138][146]LogUObjectHash:Warning: Ambiguous search, could be K2Node_ExecutionSequence /Engine/EditorBlueprintResources/StandardMacros.StandardMacros:Gate.K2Node_ExecutionSequence_39 or K2Node_ExecutionSequence /Game/FirstPersonBP/Blueprints/AI/Tourelle.Tourelle:EventGraph.K2Node_ExecutionSequence_39
+[2016.01.15-00.56.32:138][146]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/AI/NewKamikaze.NewKamikaze:EventGraph.K2Node_ExecutionSequence_39.EdGraphPin_9686) from referencer (EdGraphPin /Game/FirstPersonBP/Blueprints/AI/Tourelle.Tourelle:EventGraph.K2Node_DynamicCast_516.EdGraphPin_10486).  Import failed...
+[2016.01.15-00.56.32:138][146]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_ExecutionSequence_39.EdGraphPin_9686''
+[2016.01.15-00.56.32:138][146]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Blueprints/Arrows/ArrowEXPLO.ArrowEXPLO:EventGraph.K2Node_CallFunction_3055 or K2Node_CallFunction /Game/FirstPersonBP/Blueprints/AI/NewKamikaze.NewKamikaze:EventGraph.K2Node_CallFunction_3055
+[2016.01.15-00.56.32:138][146]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Blueprints/Arrows/ArrowEXPLO.ArrowEXPLO:EventGraph.K2Node_CallFunction_3055 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_3055
+[2016.01.15-00.56.32:138][146]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Blueprints/Arrows/ArrowEXPLO.ArrowEXPLO:EventGraph.K2Node_CallFunction_3055 or K2Node_CallFunction /Game/FirstPersonBP/Blueprints/AI/Tourelle.Tourelle:EventGraph.K2Node_CallFunction_3055
+[2016.01.15-00.56.32:138][146]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/AI/NewKamikaze.NewKamikaze:EventGraph.K2Node_CallFunction_3055.EdGraphPin_10609) from referencer (EdGraphPin /Game/FirstPersonBP/Blueprints/AI/Tourelle.Tourelle:EventGraph.K2Node_DynamicCast_516.EdGraphPin_10487).  Import failed...
+[2016.01.15-00.56.32:139][146]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3055.EdGraphPin_10609''
+[2016.01.15-00.56.32:139][146]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Blueprints/Arrows/ArrowEXPLO.ArrowEXPLO:EventGraph.K2Node_CallFunction_3096 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_3096
+[2016.01.15-00.56.32:139][146]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Blueprints/Arrows/ArrowEXPLO.ArrowEXPLO:EventGraph.K2Node_CallFunction_3096 or K2Node_CallFunction /Game/FirstPersonBP/Blueprints/AI/NewKamikaze.NewKamikaze:EventGraph.K2Node_CallFunction_3096
+[2016.01.15-00.56.32:139][146]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Blueprints/Arrows/ArrowEXPLO.ArrowEXPLO:EventGraph.K2Node_CallFunction_3096 or K2Node_CallFunction /Game/FirstPersonBP/Blueprints/AI/Tourelle.Tourelle:EventGraph.K2Node_CallFunction_3096
+[2016.01.15-00.56.32:139][146]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/AI/NewKamikaze.NewKamikaze:EventGraph.K2Node_CallFunction_3096.EdGraphPin_10636) from referencer (EdGraphPin /Game/FirstPersonBP/Blueprints/AI/Tourelle.Tourelle:EventGraph.K2Node_CallFunction_3055.EdGraphPin_10610).  Import failed...
+[2016.01.15-00.56.32:139][146]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3096.EdGraphPin_10636''
+[2016.01.15-00.56.32:140][146]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Blueprints/AI/NewKamikaze.NewKamikaze:EventGraph.K2Node_CallFunction_3060 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_3060
+[2016.01.15-00.56.32:140][146]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/AI/NewKamikaze.NewKamikaze:EventGraph.K2Node_CallFunction_3060.EdGraphPin_10409) from referencer (EdGraphPin /Game/FirstPersonBP/Blueprints/AI/Tourelle.Tourelle:EventGraph.K2Node_CallFunction_3055.EdGraphPin_10614).  Import failed...
+[2016.01.15-00.56.32:140][146]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3060.EdGraphPin_10409''
+[2016.01.15-00.56.32:140][146]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Blueprints/Arrows/ArrowEXPLO.ArrowEXPLO:EventGraph.K2Node_CallFunction_3096 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_3096
+[2016.01.15-00.56.32:140][146]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Blueprints/Arrows/ArrowEXPLO.ArrowEXPLO:EventGraph.K2Node_CallFunction_3096 or K2Node_CallFunction /Game/FirstPersonBP/Blueprints/AI/NewKamikaze.NewKamikaze:EventGraph.K2Node_CallFunction_3096
+[2016.01.15-00.56.32:140][146]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Blueprints/Arrows/ArrowEXPLO.ArrowEXPLO:EventGraph.K2Node_CallFunction_3096 or K2Node_CallFunction /Game/FirstPersonBP/Blueprints/AI/Tourelle.Tourelle:EventGraph.K2Node_CallFunction_3096
+[2016.01.15-00.56.32:140][146]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/AI/NewKamikaze.NewKamikaze:EventGraph.K2Node_CallFunction_3096.EdGraphPin_10638) from referencer (EdGraphPin /Game/FirstPersonBP/Blueprints/AI/Tourelle.Tourelle:EventGraph.K2Node_CallFunction_3055.EdGraphPin_10617).  Import failed...
+[2016.01.15-00.56.32:140][146]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3096.EdGraphPin_10638''
+[2016.01.15-00.56.32:190][146]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.15-00.56.32:190][146]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2016.01.15-00.56.32:190][146]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2016.01.15-00.56.41:650][677]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2016.01.15-00.56.49:506][141]BlueprintLog: New page: Compile Tourelle
+[2016.01.15-00.56.49:648][141]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2016.01.15-00.56.49:738][141]BlueprintEditorCompileResults: Info [0056.80] Compile of Tourelle successful! [in 231 ms]
+[2016.01.15-00.57.06:828][152]BlueprintLog: New page: Compile Tourelle
+[2016.01.15-00.57.06:956][152]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.15-00.57.06:996][152]BlueprintEditorCompileResults: Info [0074.06] Compile of Tourelle successful! [in 167 ms]
+[2016.01.15-00.57.07:878][182]LogSavePackage: Save=288.778656ms
+[2016.01.15-00.57.07:878][182]LogSavePackage: Moving '../../../../../../Bibliothèques/Documents/Unreal Projects/ShadowerFall/Saved/Tourelle28A669694DD172F06D46B3A7D5A2950A.tmp' to '../../../../../../Bibliothèques/Documents/Unreal Projects/ShadowerFall/Content/FirstPersonBP/Blueprints/AI/Tourelle.uasset'
+[2016.01.15-00.57.07:881][182]LogSavePackage: Total save time: 303.449888ms
+[2016.01.15-00.57.07:881][182]LogSavePackage:Warning: Finished SavePackage ../../../../../../Bibliothèques/Documents/Unreal Projects/ShadowerFall/Content/FirstPersonBP/Blueprints/AI/Tourelle.uasset
+[2016.01.15-00.57.10:263][273]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.15-00.57.10:263][273]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.15-00.57.10:263][273]PIE: New page: PIE session: FirstPersonExampleMap (Jan 14, 2016, 2:57:10 PM)
+[2016.01.15-00.57.10:263][273]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.01.15-00.57.10:316][273]LogPlayLevel: PIE: StaticDuplicateObject took: (0.052660s)
+[2016.01.15-00.57.10:316][273]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.01.15-00.57.10:317][273]LogPlayLevel: PIE: World Init took: (0.000869s)
+[2016.01.15-00.57.10:317][273]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.053798s)
+[2016.01.15-00.57.10:317][273]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.15-00.57.10:347][273]LogInit: XAudio2 using 'Haut-parleurs (Périphérique High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.01.15-00.57.10:354][273]LogInit: FAudioDevice initialized.
+[2016.01.15-00.57.10:450][273]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.01.15-00.57.10:476][273]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2016.01.15-00.57.10:476][273]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2016.01.14-19.57.10
+[2016.01.15-00.57.10:476][273]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.15-00.57.10:477][273]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.15-00.57.10:480][273]LogWorld: Bringing up level for play took: 0.028120
+[2016.01.15-00.57.10:484][273]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.067
+[2016.01.15-00.57.10:484][273]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.15-00.57.10:532][273]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.10:561][274]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.10:590][275]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.10:671][276]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.10:718][277]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.10:751][278]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.10:778][279]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.10:805][280]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.10:832][281]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.10:860][282]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.10:894][283]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.10:920][284]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.10:947][285]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.10:974][286]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.11:008][287]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.11:034][288]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.11:061][289]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.11:078][290]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.11:106][291]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.11:135][292]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.11:160][293]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.11:194][294]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.11:218][295]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.11:249][296]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.11:277][297]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.11:311][298]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.11:337][299]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.11:359][300]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.11:386][301]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.11:409][302]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.11:436][303]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.11:459][304]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.11:493][305]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.11:519][306]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.11:547][307]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.11:574][308]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.11:601][309]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.11:629][310]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.11:657][311]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.11:684][312]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.11:713][313]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.11:730][314]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.11:758][315]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.11:786][316]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.11:820][317]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.11:847][318]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.11:875][319]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.11:903][320]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.11:931][321]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.11:959][322]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.11:987][323]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.12:014][324]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.12:042][325]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.12:070][326]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.12:098][327]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.12:125][328]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.12:153][329]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.12:180][330]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.12:205][331]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.12:227][332]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.12:254][333]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.12:281][334]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.12:308][335]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.12:336][336]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.12:363][337]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.12:397][338]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.12:423][339]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.12:450][340]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.12:477][341]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.12:499][342]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.12:527][343]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.12:549][344]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.12:576][345]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.12:603][346]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.12:630][347]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.12:652][348]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.12:679][349]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.12:701][350]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.12:729][351]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.12:751][352]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.12:778][353]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.12:800][354]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.12:827][355]LogBlueprintUserMessages: [Tourelle_167] Caché
+[2016.01.15-00.57.12:849][356]LogBlueprintUserMessages: [Tourelle_167] Caché
+[2016.01.15-00.57.12:877][357]LogBlueprintUserMessages: [Tourelle_167] Caché
+[2016.01.15-00.57.12:902][358]LogBlueprintUserMessages: [Tourelle_167] Caché
+[2016.01.15-00.57.12:929][359]LogBlueprintUserMessages: [Tourelle_167] Caché
+[2016.01.15-00.57.12:952][360]LogBlueprintUserMessages: [Tourelle_167] Caché
+[2016.01.15-00.57.12:980][361]LogBlueprintUserMessages: [Tourelle_167] Caché
+[2016.01.15-00.57.13:002][362]LogBlueprintUserMessages: [Tourelle_167] Caché
+[2016.01.15-00.57.13:030][363]LogBlueprintUserMessages: [Tourelle_167] Caché
+[2016.01.15-00.57.13:052][364]LogBlueprintUserMessages: [Tourelle_167] Caché
+[2016.01.15-00.57.13:079][365]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.13:102][366]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.13:129][367]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.13:152][368]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.13:179][369]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.13:201][370]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.13:230][371]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.13:253][372]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.13:280][373]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.13:302][374]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.13:329][375]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.13:352][376]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.13:379][377]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.13:402][378]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.13:429][379]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.13:452][380]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.13:479][381]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.13:502][382]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.13:529][383]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.13:552][384]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.13:580][385]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.13:607][386]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.13:630][387]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.13:657][388]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.13:691][389]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.13:724][390]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.13:767][391]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.13:794][392]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.13:822][393]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.13:860][394]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.13:888][395]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.13:915][396]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.13:938][397]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.13:965][398]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.13:988][399]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.14:016][400]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.14:038][401]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.14:066][402]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.14:088][403]LogBlueprintUserMessages: [Tourelle_167] Caché
+[2016.01.15-00.57.14:115][404]LogBlueprintUserMessages: [Tourelle_167] Caché
+[2016.01.15-00.57.14:138][405]LogBlueprintUserMessages: [Tourelle_167] Caché
+[2016.01.15-00.57.14:166][406]LogBlueprintUserMessages: [Tourelle_167] Caché
+[2016.01.15-00.57.14:188][407]LogBlueprintUserMessages: [Tourelle_167] Caché
+[2016.01.15-00.57.14:227][408]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.14:249][409]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.14:277][410]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.14:299][411]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.14:327][412]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.14:349][413]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.14:377][414]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.14:399][415]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.14:427][416]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.14:449][417]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.14:477][418]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.14:499][419]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.14:527][420]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.14:549][421]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.14:583][422]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.14:610][423]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.14:632][424]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.14:660][425]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.14:682][426]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.14:710][427]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.14:734][428]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.14:762][429]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.14:789][430]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.14:817][431]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.14:851][432]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.14:877][433]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.14:905][434]LogBlueprintUserMessages: [Tourelle_167] Caché
+[2016.01.15-00.57.14:933][435]LogBlueprintUserMessages: [Tourelle_167] Caché
+[2016.01.15-00.57.14:960][436]LogBlueprintUserMessages: [Tourelle_167] Caché
+[2016.01.15-00.57.14:988][437]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.15:016][438]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.15:044][439]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.15:071][440]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.15:099][441]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.15:127][442]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.15:155][443]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.15:183][444]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.15:211][445]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.15:239][446]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.15:267][447]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.15:302][448]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.15:328][449]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.15:356][450]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.15:385][451]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.15:420][452]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.15:446][453]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.15:474][454]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.15:502][455]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.15:537][456]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.15:564][457]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.15:592][458]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.15:621][459]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.15:639][460]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.15:667][461]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.15:702][462]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.15:729][463]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.15:758][464]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.15:786][465]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.15:821][466]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.15:848][467]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.15:876][468]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.15:905][469]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.15:933][470]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.15:962][471]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.15:990][472]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.16:019][473]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.16:054][474]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.16:080][475]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.16:109][476]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.16:137][477]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.16:172][478]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.16:193][479]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.16:211][480]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.16:240][481]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.16:262][482]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.16:291][483]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.16:319][484]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.16:346][485]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.16:374][486]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.16:402][487]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.16:430][488]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.16:457][489]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.16:485][490]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.16:513][491]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.16:540][492]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.16:563][493]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.16:591][494]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.16:618][495]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.16:646][496]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.16:674][497]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.16:691][498]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.16:719][499]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.16:747][500]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.16:774][501]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.16:791][502]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.16:819][503]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.16:847][504]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.16:874][505]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.16:902][506]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.16:929][507]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.16:957][508]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.16:991][509]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.17:017][510]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.17:044][511]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.17:072][512]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.17:106][513]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.17:131][514]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.17:159][515]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.17:186][516]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.17:213][517]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.17:241][518]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.17:275][519]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.17:301][520]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.17:328][521]LogBlueprintUserMessages: [Tourelle_167] Caché
+[2016.01.15-00.57.17:355][522]LogBlueprintUserMessages: [Tourelle_167] Caché
+[2016.01.15-00.57.17:389][523]LogBlueprintUserMessages: [Tourelle_167] Caché
+[2016.01.15-00.57.17:411][524]LogBlueprintUserMessages: [Tourelle_167] Caché
+[2016.01.15-00.57.17:428][525]LogBlueprintUserMessages: [Tourelle_167] Caché
+[2016.01.15-00.57.17:455][526]LogBlueprintUserMessages: [Tourelle_167] Caché
+[2016.01.15-00.57.17:478][527]LogBlueprintUserMessages: [Tourelle_167] Caché
+[2016.01.15-00.57.17:518][528]LogBlueprintUserMessages: [Tourelle_167] Caché
+[2016.01.15-00.57.17:544][529]LogBlueprintUserMessages: [Tourelle_167] Caché
+[2016.01.15-00.57.17:572][530]LogBlueprintUserMessages: [Tourelle_167] Caché
+[2016.01.15-00.57.17:595][531]LogBlueprintUserMessages: [Tourelle_167] Caché
+[2016.01.15-00.57.17:622][532]LogBlueprintUserMessages: [Tourelle_167] Caché
+[2016.01.15-00.57.17:657][533]LogBlueprintUserMessages: [Tourelle_167] Caché
+[2016.01.15-00.57.17:683][534]LogBlueprintUserMessages: [Tourelle_167] Caché
+[2016.01.15-00.57.17:712][535]LogBlueprintUserMessages: [Tourelle_167] Caché
+[2016.01.15-00.57.17:739][536]LogBlueprintUserMessages: [Tourelle_167] Caché
+[2016.01.15-00.57.17:774][537]LogBlueprintUserMessages: [Tourelle_167] Caché
+[2016.01.15-00.57.17:802][538]LogBlueprintUserMessages: [Tourelle_167] Caché
+[2016.01.15-00.57.17:829][539]LogBlueprintUserMessages: [Tourelle_167] Caché
+[2016.01.15-00.57.17:857][540]LogBlueprintUserMessages: [Tourelle_167] Caché
+[2016.01.15-00.57.17:879][541]LogBlueprintUserMessages: [Tourelle_167] Caché
+[2016.01.15-00.57.17:907][542]LogBlueprintUserMessages: [Tourelle_167] Caché
+[2016.01.15-00.57.17:942][543]LogBlueprintUserMessages: [Tourelle_167] Caché
+[2016.01.15-00.57.17:968][544]LogBlueprintUserMessages: [Tourelle_167] Caché
+[2016.01.15-00.57.17:997][545]LogBlueprintUserMessages: [Tourelle_167] Caché
+[2016.01.15-00.57.18:025][546]LogBlueprintUserMessages: [Tourelle_167] Caché
+[2016.01.15-00.57.18:059][547]LogBlueprintUserMessages: [Tourelle_167] Caché
+[2016.01.15-00.57.18:081][548]LogBlueprintUserMessages: [Tourelle_167] Caché
+[2016.01.15-00.57.18:098][549]LogBlueprintUserMessages: [Tourelle_167] Caché
+[2016.01.15-00.57.18:126][550]LogBlueprintUserMessages: [Tourelle_167] Caché
+[2016.01.15-00.57.18:148][551]LogBlueprintUserMessages: [Tourelle_167] Caché
+[2016.01.15-00.57.18:176][552]LogBlueprintUserMessages: [Tourelle_167] Caché
+[2016.01.15-00.57.18:211][553]LogBlueprintUserMessages: [Tourelle_167] Caché
+[2016.01.15-00.57.18:237][554]LogBlueprintUserMessages: [Tourelle_167] Caché
+[2016.01.15-00.57.18:265][555]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.18:292][556]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.18:327][557]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.18:365][558]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.18:392][559]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.18:427][560]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.18:454][561]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.18:482][562]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.18:510][563]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.18:532][564]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.18:560][565]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.18:595][566]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.18:632][567]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.18:660][568]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.18:695][569]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.18:721][570]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.18:749][571]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.18:776][572]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.18:811][573]LogBlueprintUserMessages: [Tourelle_167] Caché
+[2016.01.15-00.57.18:838][574]LogBlueprintUserMessages: [Tourelle_167] Caché
+[2016.01.15-00.57.18:865][575]LogBlueprintUserMessages: [Tourelle_167] Caché
+[2016.01.15-00.57.18:893][576]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.18:928][577]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.18:954][578]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.18:982][579]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.19:010][580]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.19:045][581]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.19:071][582]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.19:099][583]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.19:127][584]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.19:162][585]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.19:188][586]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.19:216][587]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.19:244][588]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.19:280][589]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.19:306][590]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.19:334][591]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.19:363][592]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.19:397][593]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.19:419][594]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.19:436][595]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.19:464][596]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.19:486][597]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.19:514][598]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.19:542][599]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.19:570][600]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.19:598][601]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.19:620][602]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.19:648][603]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.19:676][604]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.19:703][605]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.19:731][606]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.19:748][607]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.19:776][608]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.19:804][609]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.19:831][610]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.19:854][611]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.19:881][612]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.19:899][613]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.19:926][614]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.19:954][615]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.19:981][616]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.20:004][617]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.20:032][618]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.20:049][619]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.20:076][620]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.20:104][621]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.20:131][622]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.20:148][623]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.20:171][624]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.20:198][625]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.20:215][626]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.20:243][627]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.20:270][628]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.20:298][629]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.20:315][630]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.20:337][631]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.20:365][632]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.20:382][633]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.20:405][634]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.20:432][635]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.20:449][636]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.20:477][637]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.20:504][638]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.20:531][639]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.20:560][640]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.20:586][641]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.20:614][642]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.20:648][643]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.20:673][644]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.20:701][645]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.20:728][646]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.20:756][647]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.20:784][648]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.20:813][649]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] 2
+[2016.01.15-00.57.20:813][649]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] 3
+[2016.01.15-00.57.20:814][649]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.20:839][650]LogBlueprintUserMessages: [Tourelle_167] VIsible
+[2016.01.15-00.57.21:953][685]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.15-00.57.22:016][685]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.15-00.57.22:072][686]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000010A93AC00
+[2016.01.15-00.57.22:582][688]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.01.15-00.57.23:083][689]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.01.15-00.57.23:582][689]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.01.15-00.57.24:083][689]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.01.15-00.57.24:583][689]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.01.15-00.57.25:082][689]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.01.15-00.57.25:583][689]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.01.15-00.57.26:084][689]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.01.15-00.57.26:582][689]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.01.15-00.57.27:083][689]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.01.15-00.57.27:583][689]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.01.15-00.57.28:083][689]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.01.15-00.57.28:584][689]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.01.15-00.57.29:083][689]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.01.15-00.57.29:583][689]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.01.15-00.57.30:083][689]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.01.15-00.57.30:583][689]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.01.15-00.57.31:083][689]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.01.15-00.57.31:583][689]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.01.15-00.57.32:083][689]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.01.15-00.57.32:583][689]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.01.15-00.57.33:083][689]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.01.15-00.57.33:202][689]LogD3D11RHI:Error: Direct3DDevice->CreateTexture2D(TextureDesc,SubResourceData,OutTexture2D) failed 
+ at D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.9\Engine\Source\Runtime\Windows\D3D11RHI\Private\D3D11Texture.cpp:432 
+ with error DXGI_ERROR_DEVICE_REMOVED, 
+ Size=1252x668x1 Format=DXGI_FORMAT_B8G8R8A8_TYPELESS(0x0000005A), NumMips=1, Flags=D3D11_BIND_RENDER_TARGET D3D11_BIND_SHADER_RESOURCE 
+[2016.01.15-00.57.35:249][689]LogWindows: FPlatformMisc::RequestExit(1)
+[2016.01.15-00.57.35:249][689]Log file closed, 01/14/16 19:57:35

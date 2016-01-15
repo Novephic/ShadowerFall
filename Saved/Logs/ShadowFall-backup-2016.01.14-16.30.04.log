@@ -1,0 +1,1930 @@
+﻿[2016.01.14-21.14.34:391][  0]Log file open, 01/14/16 16:14:34
+[2016.01.14-21.14.34:391][  0]LogInit:Display: Running engine for game: ShadowFall
+[2016.01.14-21.14.34:391][  0]LogInit:Display: RandInit(1673282294) SRandInit(1673282294).
+[2016.01.14-21.14.34:391][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.01.14-21.14.34:391][  0]LogStats: Stats thread started at 0.087709
+[2016.01.14-21.14.34:391][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.01.14-21.14.34:391][  0]LogInit: API Version: 2672455
+[2016.01.14-21.14.34:391][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2016.01.14-21.14.34:391][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2016.01.14-21.14.34:391][  0]LogInit: Build Configuration: Development
+[2016.01.14-21.14.34:391][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2016.01.14-21.14.34:391][  0]LogInit: Command line:  
+[2016.01.14-21.14.34:391][  0]LogInit: Base directory: D:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2016.01.14-21.14.34:391][  0]LogInit: Rocket: 1
+[2016.01.14-21.14.34:405][  0]LogInit: Using libcurl 7.41.0
+[2016.01.14-21.14.34:405][  0]LogInit:  - built for x86_64-pc-win32
+[2016.01.14-21.14.34:405][  0]LogInit:  - supports SSL with WinSSL
+[2016.01.14-21.14.34:405][  0]LogInit:  - other features:
+[2016.01.14-21.14.34:405][  0]LogInit:      CURL_VERSION_SSL
+[2016.01.14-21.14.34:405][  0]LogInit:      CURL_VERSION_IPV6
+[2016.01.14-21.14.34:405][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.01.14-21.14.34:405][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.01.14-21.14.34:405][  0]LogInit:      CURL_VERSION_IDN
+[2016.01.14-21.14.34:405][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.01.14-21.14.34:405][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.01.14-21.14.34:405][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.01.14-21.14.34:405][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.01.14-21.14.34:405][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.01.14-21.14.34:413][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.01.14-21.14.34:421][  0]LogInit: Object subsystem initialized
+[2016.01.14-21.14.34:422][  0]LogInit: Selected Device Profile: [Windows]
+[2016.01.14-21.14.34:422][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.01.14-21.14.34:433][  0]LogInit: Computer: PCMAXIME
+[2016.01.14-21.14.34:433][  0]LogInit: User: Maxime
+[2016.01.14-21.14.34:433][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.01.14-21.14.34:433][  0]LogInit: High frequency timer resolution =2.338452 MHz
+[2016.01.14-21.14.34:433][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.01.14-21.14.34:433][  0]LogMemory: Platform Memory Stats for Windows
+[2016.01.14-21.14.34:433][  0]LogMemory: Process Physical Memory: 56.23 MB used, 56.23 MB peak
+[2016.01.14-21.14.34:433][  0]LogMemory: Process Virtual Memory: 59.41 MB used, 59.41 MB peak
+[2016.01.14-21.14.34:433][  0]LogMemory: Physical Memory: 3244.66 MB used, 8123.55 MB total
+[2016.01.14-21.14.34:433][  0]LogMemory: Virtual Memory: 354.31 MB used, 134217728.00 MB total
+[2016.01.14-21.14.34:472][  0]LogTextLocalizationManager: No translations for ('fr-FR') exist, falling back to 'en' for localization and internationalization data.
+[2016.01.14-21.14.35:295][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon HD 7570M (Feature Level 11_0)
+[2016.01.14-21.14.35:295][  0]LogD3D11RHI: Adapter has 1004MB of dedicated video memory, 0MB of dedicated system memory, and 3840MB of shared system memory, 1 output[s]
+[2016.01.14-21.14.35:297][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.01.14-21.14.35:297][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4061MB of shared system memory, 0 output[s]
+[2016.01.14-21.14.35:297][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.01.14-21.14.35:301][  0]LogD3D11RHI: !Direct3DDevice
+[2016.01.14-21.14.35:301][  0]LogRHI: Texture pool is 702 MB (70% of 1004 MB)
+[2016.01.14-21.14.35:309][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2016.01.14-21.14.35:319][  0]LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (../../../../../../Bibliothèques/Documents/Unreal Projects/ShadowerFall/Intermediate/Shaders/WorkingDirectory/10440/).
+[2016.01.14-21.14.35:319][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Bibliothèques/Documents/Unreal Projects/ShadowerFall/Intermediate/Shaders/tmp/1B0C3A9C4347D576E8F81AA60888FA7A/'.
+[2016.01.14-21.14.35:319][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.01.14-21.14.36:488][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.01.14-21.14.36:494][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.01.14-21.14.36:500][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.01.14-21.14.36:506][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.01.14-21.14.36:512][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.01.14-21.14.36:516][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.01.14-21.14.36:520][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.01.14-21.14.36:523][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.01.14-21.14.36:527][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.01.14-21.14.36:531][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.01.14-21.14.36:535][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.01.14-21.14.36:539][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.01.14-21.14.36:540][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.01.14-21.14.36:559][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.01.14-21.14.36:562][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.01.14-21.14.36:566][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.01.14-21.14.36:570][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.01.14-21.14.36:570][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.01.14-21.14.36:675][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.01.14-21.14.36:716][  0]LogDerivedDataCache: Loaded boot cache 0.04s 41MB C:/Users/Maxime/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.01.14-21.14.36:716][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Maxime/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2016.01.14-21.14.36:716][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Bibliothèques/Documents/Unreal Projects/ShadowerFall/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.01.14-21.14.36:716][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.01.14-21.14.36:716][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Bibliothèques/Documents/Unreal Projects/ShadowerFall/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.01.14-21.14.36:716][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.01.14-21.14.36:873][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.01.14-21.14.36:886][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Maxime/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.01.14-21.14.37:103][  0]LogInit: Selected Device Profile: [Windows]
+[2016.01.14-21.14.37:106][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.01.14-21.14.37:244][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.01.14-21.14.37:244][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.01.14-21.14.37:523][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.01.14-21.14.38:326][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.01.14-21.14.38:430][  0]LogAssetRegistry: FAssetRegistry took 0.0104 seconds to start up
+[2016.01.14-21.14.38:637][  0]SourceControl: Info Source control is disabled
+[2016.01.14-21.14.38:639][  0]SourceControl: Info Source control is disabled
+[2016.01.14-21.14.38:654][  0]SourceControl: Info Source control is disabled
+[2016.01.14-21.14.38:669][  0]SourceControl: Info Source control is disabled
+[2016.01.14-21.14.38:872][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.14-21.14.38:978][  0]LogObj: 28361 objects as part of root set at end of initial load.
+[2016.01.14-21.14.38:978][  0]LogUObjectAllocator: 6038864 out of 0 bytes used by permanent object pool.
+[2016.01.14-21.14.39:039][  0]LogEngine: Initializing Engine...
+[2016.01.14-21.14.39:042][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2016.01.14-21.14.39:043][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.01.14-21.14.39:169][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.01.14-21.14.39:174][  0]LogInit: XAudio2 using 'Haut-parleurs (Périphérique High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.01.14-21.14.39:183][  0]LogInit: FAudioDevice initialized.
+[2016.01.14-21.14.39:204][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/Maxime/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.01.14-21.14.39:207][  0]LogInit: Texture streaming: Enabled
+[2016.01.14-21.14.39:213][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.01.14-21.14.39:213][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.01.14-21.14.39:213][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 9a9effe84c4b08c90696e581cd7488a3|06ed4f6a0f4048debc1b07e05a99303a|05176c3f-19e8-4dc1-8202-ec95daad005f
+[2016.01.14-21.14.39:213][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.01.14-21.14.39:252][  0]LogInit: Transaction tracking system initialized
+[2016.01.14-21.14.39:289][  0]BlueprintLog: New page: Editor Load
+[2016.01.14-21.14.39:391][  0]LocalizationService: Info Localization service is disabled
+[2016.01.14-21.14.39:624][  0]LogConsoleResponse:Display: 
+[2016.01.14-21.14.39:748][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.01.14-21.14.39:819][  0]LogFileCache: Scanning file cache for directory 'D:/Bibliothèques/Documents/Unreal Projects/ShadowerFall/Content/' took 0.02s
+[2016.01.14-21.14.39:819][  0]SourceControl: Info Source control is disabled
+[2016.01.14-21.14.39:819][  0]Cmd: MAP LOAD FILE="../../../../../../Bibliothèques/Documents/Unreal Projects/ShadowerFall/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.01.14-21.14.39:819][  0]LightingResults: New page: Lighting Build
+[2016.01.14-21.14.39:823][  0]MapCheck: New page: Map Check
+[2016.01.14-21.14.39:823][  0]LightingResults: New page: Lighting Build
+[2016.01.14-21.14.39:834][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000003FB620400
+[2016.01.14-21.14.39:854][  0]LogLinker:Warning: Asset '../../../../../../Bibliothèques/Documents/Unreal Projects/ShadowerFall/Content/FirstPerson/Meshes/FirstPersonProjectileMesh.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.14-21.14.42:072][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.01.14-21.14.42:106][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.01.14-21.14.42:108][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.01.14-21.14.42:220][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 111.867ms to complete.
+[2016.01.14-21.14.42:220][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 2.401
+[2016.01.14-21.14.42:336][  0]LogCollectionManager: Loaded 0 collections in 0.002466 seconds
+[2016.01.14-21.14.42:382][  0]LogFileCache: Scanning file cache for directory 'D:/Bibliothèques/Documents/Unreal Projects/ShadowerFall/Saved/Collections/' took 0.01s
+[2016.01.14-21.14.42:382][  0]LogFileCache: Scanning file cache for directory 'D:/Bibliothèques/Documents/Unreal Projects/ShadowerFall/Content/Developers/Maxime/Collections/' took 0.01s
+[2016.01.14-21.14.42:382][  0]LogFileCache: Scanning file cache for directory 'D:/Bibliothèques/Documents/Unreal Projects/ShadowerFall/Content/Collections/' took 0.01s
+[2016.01.14-21.14.42:382][  0]LogContentBrowser: Native class hierarchy populated in 0.0084 seconds. Added 1867 classes and 333 folders.
+[2016.01.14-21.14.42:387][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2016.01.14-21.14.42:394][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.01.14-21.14.42:451][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.01.14-21.14.42:456][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2016.01.14-21.14.42:541][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.01.14-21.14.42:544][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.01.14-21.14.42:566][  0]LogLoad: Full Startup: 8.80 seconds (BP compile: 0.81 seconds)
+[2016.01.14-21.14.42:634][  0]LogContentStreaming: Texture pool size now 200 MB
+[2016.01.14-21.14.42:771][  0]LogRenderer: Reallocating scene render targets to support 1252x668 (Frame:2).
+[2016.01.14-21.14.43:426][  9]LogAssetRegistry: Asset discovery search completed in 5.0069 seconds
+[2016.01.14-21.14.43:426][  9]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.01.14-21.14.43:426][  9]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000026 seconds (updated 0 objects)
+[2016.01.14-21.14.46:901][124]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.14-21.14.46:901][124]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.14-21.14.46:901][124]PIE: New page: PIE session: FirstPersonExampleMap (Jan 14, 2016, 11:14:46 AM)
+[2016.01.14-21.14.46:901][124]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.01.14-21.14.46:950][124]LogPlayLevel: PIE: StaticDuplicateObject took: (0.049124s)
+[2016.01.14-21.14.46:951][124]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.01.14-21.14.46:951][124]LogPlayLevel: PIE: World Init took: (0.000732s)
+[2016.01.14-21.14.46:951][124]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.050112s)
+[2016.01.14-21.14.46:951][124]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.14-21.14.47:008][124]LogInit: XAudio2 using 'Haut-parleurs (Périphérique High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.01.14-21.14.47:015][124]LogInit: FAudioDevice initialized.
+[2016.01.14-21.14.47:107][124]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.01.14-21.14.47:132][124]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2016.01.14-21.14.47:132][124]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2016.01.14-16.14.47
+[2016.01.14-21.14.47:132][124]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.14-21.14.47:132][124]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.14-21.14.47:135][124]LogWorld: Bringing up level for play took: 0.026083
+[2016.01.14-21.14.47:138][124]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.342
+[2016.01.14-21.14.47:144][124]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.14-21.14.48:699][180]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 2
+[2016.01.14-21.14.48:699][180]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 3
+[2016.01.14-21.14.49:319][204]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 1
+[2016.01.14-21.14.49:319][204]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 2
+[2016.01.14-21.14.49:609][215]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.14-21.14.49:663][215]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.14-21.14.49:679][215]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000003976F0900
+[2016.01.14-21.14.57:394][367]LogAIModule: Creating AISystem for world Boss
+[2016.01.14-21.14.57:394][367]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Boss/Beam/P_Beam.P_Beam Component=/Game/FirstPersonBP/Maps/Boss.Boss:PersistentLevel.P_Beam_7.ParticleSystemComponent0
+[2016.01.14-21.14.57:395][367]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Boss/Beam/P_Beam.P_Beam Component=/Game/FirstPersonBP/Maps/Boss.Boss:PersistentLevel.P_Beam2_11.ParticleSystemComponent0
+[2016.01.14-21.14.57:395][367]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Boss/Beam/P_Beam.P_Beam Component=/Game/FirstPersonBP/Maps/Boss.Boss:PersistentLevel.P_Beam3_14.ParticleSystemComponent0
+[2016.01.14-21.14.57:395][367]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Boss/Beam/P_Beam.P_Beam Component=/Game/FirstPersonBP/Maps/Boss.Boss:PersistentLevel.P_Beam4.ParticleSystemComponent0
+[2016.01.14-21.14.57:395][367]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Boss/Beam/P_Beam.P_Beam Component=/Game/FirstPersonBP/Maps/Boss.Boss:PersistentLevel.P_Beam5.ParticleSystemComponent0
+[2016.01.14-21.14.57:395][367]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Boss/Beam/P_Beam.P_Beam Component=/Game/FirstPersonBP/Maps/Boss.Boss:PersistentLevel.P_Beam6.ParticleSystemComponent0
+[2016.01.14-21.14.57:395][367]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Boss/Beam/P_Beam.P_Beam Component=/Game/FirstPersonBP/Maps/Boss.Boss:PersistentLevel.P_Beam7_2.ParticleSystemComponent0
+[2016.01.14-21.14.57:396][367]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Boss/Beam/P_Beam.P_Beam Component=/Game/FirstPersonBP/Maps/Boss.Boss:PersistentLevel.P_Beam8.ParticleSystemComponent0
+[2016.01.14-21.14.57:443][367]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.14-21.14.57:471][367]Cmd: MAP LOAD FILE="../../../../../../Bibliothèques/Documents/Unreal Projects/ShadowerFall/Content/FirstPersonBP/Maps/Boss.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.01.14-21.14.57:471][367]LightingResults: New page: Lighting Build
+[2016.01.14-21.14.57:491][367]LoadErrors: New page: Loading map: Boss.umap
+[2016.01.14-21.14.57:492][367]MapCheck: New page: Map Check
+[2016.01.14-21.14.57:493][367]LightingResults: New page: Lighting Build
+[2016.01.14-21.14.57:507][367]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000384CF6A20
+[2016.01.14-21.14.57:600][367]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.01.14-21.14.57:635][367]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.01.14-21.14.57:733][367]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 97.436ms to complete.
+[2016.01.14-21.14.57:735][367]LogFileHelpers: Loading map 'Boss' took 0.265
+[2016.01.14-21.14.58:279][382]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Boss.Boss:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Boss.Boss:PersistentLevel.Boss' with GeneratedClass '/Game/FirstPersonBP/Maps/Boss.Boss_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Boss.Boss:PersistentLevel.Boss'
+[2016.01.14-21.14.58:279][382]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.14-21.14.58:279][382]PIE: New page: PIE session: Boss (Jan 14, 2016, 11:14:58 AM)
+[2016.01.14-21.14.58:279][382]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Boss
+[2016.01.14-21.14.58:349][382]LogPlayLevel: PIE: StaticDuplicateObject took: (0.070531s)
+[2016.01.14-21.14.58:350][382]LogAIModule: Creating AISystem for world Boss
+[2016.01.14-21.14.58:350][382]LogPlayLevel: PIE: World Init took: (0.000638s)
+[2016.01.14-21.14.58:350][382]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Boss.Boss to /Game/FirstPersonBP/Maps/UEDPIE_0_Boss.Boss (0.071377s)
+[2016.01.14-21.14.58:350][382]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.14-21.14.58:369][382]LogInit: XAudio2 using 'Haut-parleurs (Périphérique High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.01.14-21.14.58:375][382]LogInit: FAudioDevice initialized.
+[2016.01.14-21.14.58:413][382]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.01.14-21.14.58:434][382]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Boss.Boss up for play (max tick rate 60) at 2016.01.14-16.14.58
+[2016.01.14-21.14.58:434][382]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_Boss.Boss:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.14-21.14.58:434][382]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_Boss.Boss:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.14-21.14.58:436][382]LogWorld: Bringing up level for play took: 0.022009
+[2016.01.14-21.14.58:442][382]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Boss -0.355
+[2016.01.14-21.14.58:442][382]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Boss.Boss:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Boss.Boss:PersistentLevel.Boss' with GeneratedClass '/Game/FirstPersonBP/Maps/Boss.Boss_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Boss.Boss:PersistentLevel.Boss'
+[2016.01.14-21.15.01:318][497]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Boss.Boss:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Boss.Boss:PersistentLevel.Boss' with GeneratedClass '/Game/FirstPersonBP/Maps/Boss.Boss_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Boss.Boss:PersistentLevel.Boss'
+[2016.01.14-21.15.01:367][497]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Boss.Boss:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Boss.Boss:PersistentLevel.Boss' with GeneratedClass '/Game/FirstPersonBP/Maps/Boss.Boss_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Boss.Boss:PersistentLevel.Boss'
+[2016.01.14-21.15.01:384][497]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000382F66FC0
+[2016.01.14-21.15.04:724][559]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.14-21.15.05:320][559]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 107 classes and 0 folders.
+[2016.01.14-21.15.30:072][895]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Boss.Boss:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Boss.Boss:PersistentLevel.Boss' with GeneratedClass '/Game/FirstPersonBP/Maps/Boss.Boss_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Boss.Boss:PersistentLevel.Boss'
+[2016.01.14-21.15.30:072][895]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.14-21.15.30:072][895]PIE: New page: PIE session: Boss (Jan 14, 2016, 11:15:30 AM)
+[2016.01.14-21.15.30:072][895]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Boss
+[2016.01.14-21.15.30:150][895]LogPlayLevel: PIE: StaticDuplicateObject took: (0.077208s)
+[2016.01.14-21.15.30:150][895]LogAIModule: Creating AISystem for world Boss
+[2016.01.14-21.15.30:150][895]LogPlayLevel: PIE: World Init took: (0.000634s)
+[2016.01.14-21.15.30:150][895]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Boss.Boss to /Game/FirstPersonBP/Maps/UEDPIE_0_Boss.Boss (0.078057s)
+[2016.01.14-21.15.30:151][895]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.01.14-21.15.30:151][895]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_0) Not registered. Aborting.
+[2016.01.14-21.15.30:151][895]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
+[2016.01.14-21.15.30:183][895]LogInit: XAudio2 using 'Haut-parleurs (Périphérique High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.01.14-21.15.30:190][895]LogInit: FAudioDevice initialized.
+[2016.01.14-21.15.30:226][895]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.01.14-21.15.30:247][895]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Boss.Boss up for play (max tick rate 60) at 2016.01.14-16.15.30
+[2016.01.14-21.15.30:247][895]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_Boss.Boss:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.14-21.15.30:248][895]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_Boss.Boss:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.14-21.15.30:249][895]LogWorld: Bringing up level for play took: 0.022491
+[2016.01.14-21.15.30:255][895]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Boss -0.541
+[2016.01.14-21.15.30:255][895]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Boss.Boss:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Boss.Boss:PersistentLevel.Boss' with GeneratedClass '/Game/FirstPersonBP/Maps/Boss.Boss_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Boss.Boss:PersistentLevel.Boss'
+[2016.01.14-21.15.35:052][ 85]Cmd: LevelEditor.ToggleImmersive
+[2016.01.14-21.15.37:136][162]LogBlueprintUserMessages: [BP_Wall9_338] OnTOUCH
+[2016.01.14-21.15.37:136][162]LogBlueprintUserMessages: [BP_Wall9_338] NoTouch
+[2016.01.14-21.15.37:162][163]LogBlueprintUserMessages: [BP_Wall9_338] OnTOUCH
+[2016.01.14-21.15.37:285][168]LogBlueprintUserMessages: [BP_Wall9_338] NoTouch
+[2016.01.14-21.15.38:754][231]LogBlueprintUserMessages: [BP_Wall9_338] OnTOUCH
+[2016.01.14-21.15.38:754][231]LogBlueprintUserMessages: [BP_Wall9_338] NoTouch
+[2016.01.14-21.15.38:825][234]LogBlueprintUserMessages: [BP_Wall9_338] OnTOUCH
+[2016.01.14-21.15.38:951][239]LogBlueprintUserMessages: [BP_Wall9_338] NoTouch
+[2016.01.14-21.15.40:144][291]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Boss.Boss:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Boss.Boss:PersistentLevel.Boss' with GeneratedClass '/Game/FirstPersonBP/Maps/Boss.Boss_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Boss.Boss:PersistentLevel.Boss'
+[2016.01.14-21.15.40:219][291]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Boss.Boss:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Boss.Boss:PersistentLevel.Boss' with GeneratedClass '/Game/FirstPersonBP/Maps/Boss.Boss_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Boss.Boss:PersistentLevel.Boss'
+[2016.01.14-21.15.40:246][291]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000397DD1C60
+[2016.01.14-21.15.40:291][292]LogRenderer: Reallocating scene render targets to support 1920x1040 (Frame:1223).
+[2016.01.14-21.15.42:595][329]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Sol)
+[2016.01.14-21.15.46:104][384]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Boss.Boss:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Boss.Boss:PersistentLevel.Boss' with GeneratedClass '/Game/FirstPersonBP/Maps/Boss.Boss_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Boss.Boss:PersistentLevel.Boss'
+[2016.01.14-21.15.46:104][384]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.14-21.15.46:104][384]PIE: New page: PIE session: Boss (Jan 14, 2016, 11:15:46 AM)
+[2016.01.14-21.15.46:104][384]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Boss
+[2016.01.14-21.15.46:184][384]LogPlayLevel: PIE: StaticDuplicateObject took: (0.080404s)
+[2016.01.14-21.15.46:185][384]LogAIModule: Creating AISystem for world Boss
+[2016.01.14-21.15.46:185][384]LogPlayLevel: PIE: World Init took: (0.000626s)
+[2016.01.14-21.15.46:185][384]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Boss.Boss to /Game/FirstPersonBP/Maps/UEDPIE_0_Boss.Boss (0.081242s)
+[2016.01.14-21.15.46:185][384]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.01.14-21.15.46:214][384]LogInit: XAudio2 using 'Haut-parleurs (Périphérique High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.01.14-21.15.46:220][384]LogInit: FAudioDevice initialized.
+[2016.01.14-21.15.46:254][384]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.01.14-21.15.46:275][384]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Boss.Boss up for play (max tick rate 60) at 2016.01.14-16.15.46
+[2016.01.14-21.15.46:275][384]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_Boss.Boss:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.14-21.15.46:275][384]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_Boss.Boss:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.14-21.15.46:277][384]LogWorld: Bringing up level for play took: 0.022296
+[2016.01.14-21.15.46:282][384]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Boss -0.513
+[2016.01.14-21.15.46:283][384]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Boss.Boss:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Boss.Boss:PersistentLevel.Boss' with GeneratedClass '/Game/FirstPersonBP/Maps/Boss.Boss_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Boss.Boss:PersistentLevel.Boss'
+[2016.01.14-21.15.50:203][523]Cmd: LevelEditor.ToggleImmersive
+[2016.01.14-21.15.54:019][658]LogBlueprintUserMessages: [FirstPersonCharacter_C_8] Dash
+[2016.01.14-21.15.54:238][666]LogBlueprintUserMessages: [FirstPersonCharacter_C_8] Can't Dash
+[2016.01.14-21.16.00:796][901]LogBlueprintUserMessages: [FirstPersonCharacter_C_8] 3
+[2016.01.14-21.16.00:796][901]LogBlueprintUserMessages: [FirstPersonCharacter_C_8] 4
+[2016.01.14-21.16.01:360][921]LogBlueprintUserMessages: [FirstPersonCharacter_C_8] Dash
+[2016.01.14-21.16.01:580][929]LogBlueprintUserMessages: [FirstPersonCharacter_C_8] En L'air
+[2016.01.14-21.16.04:124][ 20]LogBlueprintUserMessages: [FirstPersonCharacter_C_8] Dash
+[2016.01.14-21.16.04:356][ 28]LogBlueprintUserMessages: [FirstPersonCharacter_C_8] En L'air
+[2016.01.14-21.16.08:492][173]LogBlueprintUserMessages: [FirstPersonCharacter_C_8] Dash
+[2016.01.14-21.16.08:740][182]LogBlueprintUserMessages: [FirstPersonCharacter_C_8] En L'air
+[2016.01.14-21.16.10:375][241]LogBlueprintUserMessages: [FirstPersonCharacter_C_8] Dash
+[2016.01.14-21.16.10:627][250]LogBlueprintUserMessages: [FirstPersonCharacter_C_8] En L'air
+[2016.01.14-21.16.12:403][314]LogBlueprintUserMessages: [FirstPersonCharacter_C_8] Dash
+[2016.01.14-21.16.12:652][323]LogBlueprintUserMessages: [FirstPersonCharacter_C_8] En L'air
+[2016.01.14-21.16.14:014][372]LogBlueprintUserMessages: [FirstPersonCharacter_C_8] 2
+[2016.01.14-21.16.14:014][372]LogBlueprintUserMessages: [FirstPersonCharacter_C_8] 3
+[2016.01.14-21.16.16:328][455]LogBlueprintUserMessages: [FirstPersonCharacter_C_8] 1
+[2016.01.14-21.16.16:328][455]LogBlueprintUserMessages: [FirstPersonCharacter_C_8] 2
+[2016.01.14-21.16.19:172][557]LogBlueprintUserMessages: [FirstPersonCharacter_C_8] Dash
+[2016.01.14-21.16.19:395][565]LogBlueprintUserMessages: [FirstPersonCharacter_C_8] En L'air
+[2016.01.14-21.16.20:972][621]LogBlueprintUserMessages: [FirstPersonCharacter_C_8] Dash
+[2016.01.14-21.16.21:221][630]LogBlueprintUserMessages: [FirstPersonCharacter_C_8] En L'air
+[2016.01.14-21.16.29:803][938]LogBlueprintUserMessages: [FirstPersonCharacter_C_8] 0
+[2016.01.14-21.16.29:803][938]LogBlueprintUserMessages: [FirstPersonCharacter_C_8] 1
+[2016.01.14-21.16.34:140][102]LogBlueprintUserMessages: [FirstPersonCharacter_C_8] Dash
+[2016.01.14-21.16.34:377][111]LogBlueprintUserMessages: [FirstPersonCharacter_C_8] En L'air
+[2016.01.14-21.16.36:986][212]LogBlueprintUserMessages: [BP_Wall3] OnTOUCH
+[2016.01.14-21.16.36:986][212]LogBlueprintUserMessages: [BP_Wall3] NoTouch
+[2016.01.14-21.16.37:004][213]LogBlueprintUserMessages: [BP_Wall3] OnTOUCH
+[2016.01.14-21.16.37:082][216]LogBlueprintUserMessages: [BP_Wall3] NoTouch
+[2016.01.14-21.16.37:349][226]LogBlueprintUserMessages: [BP_Wall3] OnTOUCH
+[2016.01.14-21.16.37:379][227]LogBlueprintUserMessages: [BP_Wall3] NoTouch
+[2016.01.14-21.16.38:749][279]LogBlueprintUserMessages: [FirstPersonCharacter_C_8] Dash
+[2016.01.14-21.16.40:933][361]LogBlueprintUserMessages: [BP_Wall3] OnTOUCH
+[2016.01.14-21.16.40:933][361]LogBlueprintUserMessages: [BP_Wall3] NoTouch
+[2016.01.14-21.16.40:952][362]LogBlueprintUserMessages: [BP_Wall3] OnTOUCH
+[2016.01.14-21.16.40:952][362]LogBlueprintUserMessages: [FirstPersonCharacter_C_8] touchWall
+[2016.01.14-21.16.40:952][362]LogBlueprintUserMessages: [FirstPersonCharacter_C_8] true
+[2016.01.14-21.16.41:677][389]LogBlueprintUserMessages: [BP_Wall3] NoTouch
+[2016.01.14-21.16.42:072][404]LogBlueprintUserMessages: [FirstPersonCharacter_C_8] Dash
+[2016.01.14-21.16.42:205][409]LogBlueprintUserMessages: [BP_Wall18] OnTOUCH
+[2016.01.14-21.16.42:205][409]LogBlueprintUserMessages: [BP_Wall18] NoTouch
+[2016.01.14-21.16.42:223][410]LogBlueprintUserMessages: [BP_Wall18] OnTOUCH
+[2016.01.14-21.16.42:223][410]LogBlueprintUserMessages: [FirstPersonCharacter_C_8] touchWall
+[2016.01.14-21.16.42:223][410]LogBlueprintUserMessages: [FirstPersonCharacter_C_8] true
+[2016.01.14-21.16.42:737][430]LogBlueprintUserMessages: [BP_Wall18] NoTouch
+[2016.01.14-21.16.43:413][455]LogBlueprintUserMessages: [BP_Wall2] OnTOUCH
+[2016.01.14-21.16.43:413][455]LogBlueprintUserMessages: [BP_Wall2] NoTouch
+[2016.01.14-21.16.43:433][456]LogBlueprintUserMessages: [BP_Wall2] OnTOUCH
+[2016.01.14-21.16.43:433][456]LogBlueprintUserMessages: [FirstPersonCharacter_C_8] touchWall
+[2016.01.14-21.16.43:433][456]LogBlueprintUserMessages: [FirstPersonCharacter_C_8] true
+[2016.01.14-21.16.43:700][466]LogBlueprintUserMessages: [BP_Wall2] NoTouch
+[2016.01.14-21.16.44:533][497]LogBlueprintUserMessages: [BP_Wall18] OnTOUCH
+[2016.01.14-21.16.44:582][499]LogBlueprintUserMessages: [FirstPersonCharacter_C_8] touchWall
+[2016.01.14-21.16.44:583][499]LogBlueprintUserMessages: [FirstPersonCharacter_C_8] true
+[2016.01.14-21.16.44:613][500]LogBlueprintUserMessages: [BP_Wall18] NoTouch
+[2016.01.14-21.16.44:662][502]LogBlueprintUserMessages: [BP_Wall21] OnTOUCH
+[2016.01.14-21.16.44:662][502]LogBlueprintUserMessages: [BP_Wall21] NoTouch
+[2016.01.14-21.16.44:692][503]LogBlueprintUserMessages: [BP_Wall21] OnTOUCH
+[2016.01.14-21.16.44:692][503]LogBlueprintUserMessages: [FirstPersonCharacter_C_8] touchWall
+[2016.01.14-21.16.44:692][503]LogBlueprintUserMessages: [FirstPersonCharacter_C_8] true
+[2016.01.14-21.16.45:117][519]LogBlueprintUserMessages: [BP_Wall21] NoTouch
+[2016.01.14-21.16.45:755][543]LogBlueprintUserMessages: [FirstPersonCharacter_C_8] Dash
+[2016.01.14-21.16.45:815][545]LogBlueprintUserMessages: [BP_Wall_374] OnTOUCH
+[2016.01.14-21.16.45:815][545]LogBlueprintUserMessages: [BP_Wall_374] NoTouch
+[2016.01.14-21.16.45:995][552]LogBlueprintUserMessages: [FirstPersonCharacter_C_8] En L'air
+[2016.01.14-21.16.48:007][628]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Boss.Boss:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Boss.Boss:PersistentLevel.Boss' with GeneratedClass '/Game/FirstPersonBP/Maps/Boss.Boss_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Boss.Boss:PersistentLevel.Boss'
+[2016.01.14-21.16.48:113][628]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Boss.Boss:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Boss.Boss:PersistentLevel.Boss' with GeneratedClass '/Game/FirstPersonBP/Maps/Boss.Boss_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Boss.Boss:PersistentLevel.Boss'
+[2016.01.14-21.16.48:140][628]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000003801BDE40
+[2016.01.14-21.16.49:261][648]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Sol2)
+[2016.01.14-21.16.51:049][676]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sol2)
+[2016.01.14-21.16.51:838][688]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Sol2)
+[2016.01.14-21.16.53:123][711]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sol2)
+[2016.01.14-21.16.54:920][739]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Boss.Boss:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Boss.Boss:PersistentLevel.Boss' with GeneratedClass '/Game/FirstPersonBP/Maps/Boss.Boss_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Boss.Boss:PersistentLevel.Boss'
+[2016.01.14-21.16.54:920][739]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.14-21.16.54:920][739]PIE: New page: PIE session: Boss (Jan 14, 2016, 11:16:54 AM)
+[2016.01.14-21.16.54:920][739]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Boss
+[2016.01.14-21.16.54:996][739]LogPlayLevel: PIE: StaticDuplicateObject took: (0.075476s)
+[2016.01.14-21.16.54:996][739]LogAIModule: Creating AISystem for world Boss
+[2016.01.14-21.16.54:996][739]LogPlayLevel: PIE: World Init took: (0.000657s)
+[2016.01.14-21.16.54:997][739]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Boss.Boss to /Game/FirstPersonBP/Maps/UEDPIE_0_Boss.Boss (0.076348s)
+[2016.01.14-21.16.54:997][739]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.01.14-21.16.54:997][739]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_2) Not registered. Aborting.
+[2016.01.14-21.16.54:997][739]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_3) Not registered. Aborting.
+[2016.01.14-21.16.55:025][739]LogInit: XAudio2 using 'Haut-parleurs (Périphérique High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.01.14-21.16.55:031][739]LogInit: FAudioDevice initialized.
+[2016.01.14-21.16.55:062][739]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.01.14-21.16.55:084][739]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Boss.Boss up for play (max tick rate 60) at 2016.01.14-16.16.55
+[2016.01.14-21.16.55:084][739]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_Boss.Boss:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.14-21.16.55:084][739]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_Boss.Boss:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.14-21.16.55:086][739]LogWorld: Bringing up level for play took: 0.022696
+[2016.01.14-21.16.55:092][739]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Boss 0.296
+[2016.01.14-21.16.55:092][739]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Boss.Boss:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Boss.Boss:PersistentLevel.Boss' with GeneratedClass '/Game/FirstPersonBP/Maps/Boss.Boss_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Boss.Boss:PersistentLevel.Boss'
+[2016.01.14-21.16.56:943][803]Cmd: LevelEditor.ToggleImmersive
+[2016.01.14-21.17.03:401][ 39]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] Dash
+[2016.01.14-21.17.03:636][ 48]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] En L'air
+[2016.01.14-21.17.05:541][117]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] Dash
+[2016.01.14-21.17.05:790][126]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] En L'air
+[2016.01.14-21.17.06:990][168]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] 2
+[2016.01.14-21.17.06:990][168]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] 3
+[2016.01.14-21.17.07:829][196]LogBlueprintUserMessages: [ArrowNORMAL2_566] PLEIN
+[2016.01.14-21.17.09:401][251]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] Dash
+[2016.01.14-21.17.09:634][259]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] En L'air
+[2016.01.14-21.17.11:332][321]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] Dash
+[2016.01.14-21.17.11:551][329]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] En L'air
+[2016.01.14-21.17.13:251][390]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] Dash
+[2016.01.14-21.17.13:501][399]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] En L'air
+[2016.01.14-21.17.15:580][474]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] 4
+[2016.01.14-21.17.15:580][474]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] 5
+[2016.01.14-21.17.18:532][581]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] Dash
+[2016.01.14-21.17.18:775][590]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] En L'air
+[2016.01.14-21.17.20:668][660]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] Dash
+[2016.01.14-21.17.20:911][669]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] En L'air
+[2016.01.14-21.17.23:986][780]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] 3
+[2016.01.14-21.17.23:986][780]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] 4
+[2016.01.14-21.17.27:730][921]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] Dash
+[2016.01.14-21.17.27:957][930]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] En L'air
+[2016.01.14-21.17.29:377][986]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] Dash
+[2016.01.14-21.17.29:615][995]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] En L'air
+[2016.01.14-21.17.31:546][ 70]LogBlueprintUserMessages: [BP_Wall23] OnTOUCH
+[2016.01.14-21.17.31:546][ 70]LogBlueprintUserMessages: [BP_Wall23] NoTouch
+[2016.01.14-21.17.31:595][ 72]LogBlueprintUserMessages: [BP_Wall23] OnTOUCH
+[2016.01.14-21.17.32:005][ 87]LogBlueprintUserMessages: [BP_Wall23] NoTouch
+[2016.01.14-21.17.32:773][116]LogBlueprintUserMessages: [BP_Wall3] OnTOUCH
+[2016.01.14-21.17.32:773][116]LogBlueprintUserMessages: [BP_Wall3] NoTouch
+[2016.01.14-21.17.32:793][117]LogBlueprintUserMessages: [BP_Wall3] OnTOUCH
+[2016.01.14-21.17.32:793][117]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.17.32:793][117]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.17.33:377][139]LogBlueprintUserMessages: [BP_Wall3] NoTouch
+[2016.01.14-21.17.33:753][153]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] Dash
+[2016.01.14-21.17.33:960][161]LogBlueprintUserMessages: [BP_Wall18] OnTOUCH
+[2016.01.14-21.17.33:960][161]LogBlueprintUserMessages: [BP_Wall18] NoTouch
+[2016.01.14-21.17.33:990][162]LogBlueprintUserMessages: [BP_Wall18] OnTOUCH
+[2016.01.14-21.17.33:990][162]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.17.33:990][162]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.17.34:574][184]LogBlueprintUserMessages: [BP_Wall18] NoTouch
+[2016.01.14-21.17.35:326][212]LogBlueprintUserMessages: [BP_Wall2] OnTOUCH
+[2016.01.14-21.17.35:326][212]LogBlueprintUserMessages: [BP_Wall2] NoTouch
+[2016.01.14-21.17.35:356][213]LogBlueprintUserMessages: [BP_Wall2] OnTOUCH
+[2016.01.14-21.17.35:356][213]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.17.35:356][213]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.17.35:623][223]LogBlueprintUserMessages: [BP_Wall2] NoTouch
+[2016.01.14-21.17.35:940][235]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] Dash
+[2016.01.14-21.17.36:178][244]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] En L'air
+[2016.01.14-21.17.36:208][245]LogBlueprintUserMessages: [BP_Wall21] OnTOUCH
+[2016.01.14-21.17.36:208][245]LogBlueprintUserMessages: [BP_Wall21] NoTouch
+[2016.01.14-21.17.36:238][246]LogBlueprintUserMessages: [BP_Wall21] OnTOUCH
+[2016.01.14-21.17.36:239][246]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.17.36:239][246]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.17.36:651][262]LogBlueprintUserMessages: [BP_Wall21] NoTouch
+[2016.01.14-21.17.39:587][372]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] Dash
+[2016.01.14-21.17.39:825][381]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] En L'air
+[2016.01.14-21.17.40:966][425]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] Dash
+[2016.01.14-21.17.41:193][434]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] En L'air
+[2016.01.14-21.17.43:941][539]LogBlueprintUserMessages: [BP_Wall3] OnTOUCH
+[2016.01.14-21.17.43:941][539]LogBlueprintUserMessages: [BP_Wall3] NoTouch
+[2016.01.14-21.17.43:961][540]LogBlueprintUserMessages: [BP_Wall3] OnTOUCH
+[2016.01.14-21.17.43:961][540]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.17.43:961][540]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.17.44:396][556]LogBlueprintUserMessages: [BP_Wall3] NoTouch
+[2016.01.14-21.17.45:213][587]LogBlueprintUserMessages: [BP_Wall18] OnTOUCH
+[2016.01.14-21.17.45:213][587]LogBlueprintUserMessages: [BP_Wall18] NoTouch
+[2016.01.14-21.17.45:241][588]LogBlueprintUserMessages: [BP_Wall18] OnTOUCH
+[2016.01.14-21.17.45:241][588]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.17.45:241][588]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.17.45:595][602]LogBlueprintUserMessages: [BP_Wall18] NoTouch
+[2016.01.14-21.17.46:511][636]LogBlueprintUserMessages: [BP_Wall2] OnTOUCH
+[2016.01.14-21.17.46:511][636]LogBlueprintUserMessages: [BP_Wall2] NoTouch
+[2016.01.14-21.17.46:530][637]LogBlueprintUserMessages: [BP_Wall2] OnTOUCH
+[2016.01.14-21.17.46:530][637]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.17.46:530][637]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.17.46:799][647]LogBlueprintUserMessages: [BP_Wall2] NoTouch
+[2016.01.14-21.17.47:342][668]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] Dash
+[2016.01.14-21.17.47:580][677]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] En L'air
+[2016.01.14-21.17.47:609][678]LogBlueprintUserMessages: [BP_Wall21] OnTOUCH
+[2016.01.14-21.17.47:610][678]LogBlueprintUserMessages: [BP_Wall21] NoTouch
+[2016.01.14-21.17.47:639][679]LogBlueprintUserMessages: [BP_Wall21] OnTOUCH
+[2016.01.14-21.17.47:639][679]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.17.47:639][679]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.17.48:258][703]LogBlueprintUserMessages: [BP_Wall21] NoTouch
+[2016.01.14-21.17.51:381][821]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] Dash
+[2016.01.14-21.17.51:618][830]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] En L'air
+[2016.01.14-21.17.54:002][920]LogBlueprintUserMessages: [BP_Wall23] OnTOUCH
+[2016.01.14-21.17.54:002][920]LogBlueprintUserMessages: [BP_Wall23] NoTouch
+[2016.01.14-21.17.54:032][921]LogBlueprintUserMessages: [BP_Wall23] OnTOUCH
+[2016.01.14-21.17.54:143][925]LogBlueprintUserMessages: [BP_Wall23] NoTouch
+[2016.01.14-21.17.54:985][957]LogBlueprintUserMessages: [BP_Wall3] OnTOUCH
+[2016.01.14-21.17.54:985][957]LogBlueprintUserMessages: [BP_Wall3] NoTouch
+[2016.01.14-21.17.55:015][958]LogBlueprintUserMessages: [BP_Wall3] OnTOUCH
+[2016.01.14-21.17.55:015][958]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.17.55:015][958]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.17.55:381][972]LogBlueprintUserMessages: [BP_Wall3] NoTouch
+[2016.01.14-21.17.56:211][  3]LogBlueprintUserMessages: [BP_Wall18] OnTOUCH
+[2016.01.14-21.17.56:211][  3]LogBlueprintUserMessages: [BP_Wall18] NoTouch
+[2016.01.14-21.17.56:241][  4]LogBlueprintUserMessages: [BP_Wall18] OnTOUCH
+[2016.01.14-21.17.56:638][ 19]LogBlueprintUserMessages: [BP_Wall18] NoTouch
+[2016.01.14-21.17.58:655][ 95]LogBlueprintUserMessages: [BP_Wall3] OnTOUCH
+[2016.01.14-21.17.58:655][ 95]LogBlueprintUserMessages: [BP_Wall3] NoTouch
+[2016.01.14-21.17.58:686][ 96]LogBlueprintUserMessages: [BP_Wall3] OnTOUCH
+[2016.01.14-21.17.58:686][ 96]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.17.58:686][ 96]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.17.59:061][110]LogBlueprintUserMessages: [BP_Wall3] NoTouch
+[2016.01.14-21.17.59:881][141]LogBlueprintUserMessages: [BP_Wall18] OnTOUCH
+[2016.01.14-21.17.59:881][141]LogBlueprintUserMessages: [BP_Wall18] NoTouch
+[2016.01.14-21.17.59:910][142]LogBlueprintUserMessages: [BP_Wall18] OnTOUCH
+[2016.01.14-21.17.59:910][142]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.17.59:910][142]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.18.00:403][161]LogBlueprintUserMessages: [BP_Wall18] NoTouch
+[2016.01.14-21.18.01:290][195]LogBlueprintUserMessages: [BP_Wall2] OnTOUCH
+[2016.01.14-21.18.01:290][195]LogBlueprintUserMessages: [BP_Wall2] NoTouch
+[2016.01.14-21.18.01:310][196]LogBlueprintUserMessages: [BP_Wall2] OnTOUCH
+[2016.01.14-21.18.01:310][196]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.18.01:310][196]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.18.01:875][217]LogBlueprintUserMessages: [BP_Wall2] NoTouch
+[2016.01.14-21.18.02:706][248]LogBlueprintUserMessages: [BP_Wall18] OnTOUCH
+[2016.01.14-21.18.02:706][248]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.18.02:706][248]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.18.02:726][249]LogBlueprintUserMessages: [BP_Wall21] OnTOUCH
+[2016.01.14-21.18.02:726][249]LogBlueprintUserMessages: [BP_Wall18] NoTouch
+[2016.01.14-21.18.02:726][249]LogBlueprintUserMessages: [BP_Wall21] NoTouch
+[2016.01.14-21.18.02:786][251]LogBlueprintUserMessages: [BP_Wall21] OnTOUCH
+[2016.01.14-21.18.02:786][251]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.18.02:786][251]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.18.03:324][271]LogBlueprintUserMessages: [BP_Wall21] NoTouch
+[2016.01.14-21.18.03:912][293]LogBlueprintUserMessages: [BP_Wall_374] OnTOUCH
+[2016.01.14-21.18.03:912][293]LogBlueprintUserMessages: [BP_Wall_374] NoTouch
+[2016.01.14-21.18.03:961][295]LogBlueprintUserMessages: [BP_Wall_374] OnTOUCH
+[2016.01.14-21.18.03:962][295]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.18.03:962][295]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.18.04:466][314]LogBlueprintUserMessages: [BP_Wall_374] NoTouch
+[2016.01.14-21.18.04:984][334]LogBlueprintUserMessages: [BP_Wall21] OnTOUCH
+[2016.01.14-21.18.04:984][334]LogBlueprintUserMessages: [BP_Wall21] NoTouch
+[2016.01.14-21.18.05:013][335]LogBlueprintUserMessages: [BP_Wall21] OnTOUCH
+[2016.01.14-21.18.05:325][347]LogBlueprintUserMessages: [BP_Wall20] OnTOUCH
+[2016.01.14-21.18.05:325][347]LogBlueprintUserMessages: [BP_Wall21] NoTouch
+[2016.01.14-21.18.08:769][478]LogBlueprintUserMessages: [BP_Wall24] OnTOUCH
+[2016.01.14-21.18.08:769][478]LogBlueprintUserMessages: [BP_Wall20] NoTouch
+[2016.01.14-21.18.09:246][496]LogBlueprintUserMessages: [BP_Wall20] OnTOUCH
+[2016.01.14-21.18.09:246][496]LogBlueprintUserMessages: [BP_Wall24] NoTouch
+[2016.01.14-21.18.10:627][549]LogBlueprintUserMessages: [BP_Wall20] NoTouch
+[2016.01.14-21.18.12:190][608]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] Dash
+[2016.01.14-21.18.12:429][617]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] En L'air
+[2016.01.14-21.18.13:494][655]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] Dash
+[2016.01.14-21.18.13:725][664]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] En L'air
+[2016.01.14-21.18.16:251][763]LogBlueprintUserMessages: [BP_Wall23] OnTOUCH
+[2016.01.14-21.18.16:251][763]LogBlueprintUserMessages: [BP_Wall23] NoTouch
+[2016.01.14-21.18.16:281][764]LogBlueprintUserMessages: [BP_Wall23] OnTOUCH
+[2016.01.14-21.18.16:281][764]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.18.16:281][764]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.18.16:470][771]LogBlueprintUserMessages: [BP_Wall23] NoTouch
+[2016.01.14-21.18.16:919][788]LogBlueprintUserMessages: [BP_Wall23] OnTOUCH
+[2016.01.14-21.18.16:919][788]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.18.16:920][788]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.18.16:979][790]LogBlueprintUserMessages: [BP_Wall23] NoTouch
+[2016.01.14-21.18.17:439][807]LogBlueprintUserMessages: [BP_Wall23] OnTOUCH
+[2016.01.14-21.18.17:439][807]LogBlueprintUserMessages: [BP_Wall23] NoTouch
+[2016.01.14-21.18.17:459][808]LogBlueprintUserMessages: [BP_Wall23] OnTOUCH
+[2016.01.14-21.18.17:459][808]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.18.17:459][808]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.18.17:489][809]LogBlueprintUserMessages: [BP_Wall23] NoTouch
+[2016.01.14-21.18.17:938][826]LogBlueprintUserMessages: [BP_Wall23] OnTOUCH
+[2016.01.14-21.18.17:938][826]LogBlueprintUserMessages: [BP_Wall23] NoTouch
+[2016.01.14-21.18.17:967][827]LogBlueprintUserMessages: [BP_Wall23] OnTOUCH
+[2016.01.14-21.18.17:968][827]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.18.17:968][827]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.18.18:027][829]LogBlueprintUserMessages: [BP_Wall23] NoTouch
+[2016.01.14-21.18.18:476][846]LogBlueprintUserMessages: [BP_Wall23] OnTOUCH
+[2016.01.14-21.18.18:476][846]LogBlueprintUserMessages: [BP_Wall23] NoTouch
+[2016.01.14-21.18.18:506][847]LogBlueprintUserMessages: [BP_Wall23] OnTOUCH
+[2016.01.14-21.18.18:506][847]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.18.18:506][847]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.18.18:586][850]LogBlueprintUserMessages: [BP_Wall23] NoTouch
+[2016.01.14-21.18.19:033][867]LogBlueprintUserMessages: [BP_Wall23] OnTOUCH
+[2016.01.14-21.18.19:033][867]LogBlueprintUserMessages: [BP_Wall23] NoTouch
+[2016.01.14-21.18.19:063][868]LogBlueprintUserMessages: [BP_Wall23] OnTOUCH
+[2016.01.14-21.18.19:063][868]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.18.19:063][868]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.18.19:142][871]LogBlueprintUserMessages: [BP_Wall23] NoTouch
+[2016.01.14-21.18.19:591][887]LogBlueprintUserMessages: [BP_Wall23] OnTOUCH
+[2016.01.14-21.18.19:591][887]LogBlueprintUserMessages: [BP_Wall23] NoTouch
+[2016.01.14-21.18.19:623][888]LogBlueprintUserMessages: [BP_Wall23] OnTOUCH
+[2016.01.14-21.18.19:623][888]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.18.19:623][888]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.18.19:675][890]LogBlueprintUserMessages: [BP_Wall23] NoTouch
+[2016.01.14-21.18.20:145][908]LogBlueprintUserMessages: [BP_Wall23] OnTOUCH
+[2016.01.14-21.18.20:145][908]LogBlueprintUserMessages: [BP_Wall23] NoTouch
+[2016.01.14-21.18.20:163][909]LogBlueprintUserMessages: [BP_Wall23] OnTOUCH
+[2016.01.14-21.18.20:163][909]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.18.20:163][909]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.18.20:192][910]LogBlueprintUserMessages: [BP_Wall23] NoTouch
+[2016.01.14-21.18.20:649][928]LogBlueprintUserMessages: [BP_Wall23] OnTOUCH
+[2016.01.14-21.18.20:649][928]LogBlueprintUserMessages: [BP_Wall23] NoTouch
+[2016.01.14-21.18.20:678][929]LogBlueprintUserMessages: [BP_Wall23] OnTOUCH
+[2016.01.14-21.18.20:678][929]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.18.20:678][929]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.18.20:735][931]LogBlueprintUserMessages: [BP_Wall23] NoTouch
+[2016.01.14-21.18.21:192][949]LogBlueprintUserMessages: [BP_Wall15] OnTOUCH
+[2016.01.14-21.18.21:192][949]LogBlueprintUserMessages: [BP_Wall15] NoTouch
+[2016.01.14-21.18.21:221][950]LogBlueprintUserMessages: [BP_Wall15] OnTOUCH
+[2016.01.14-21.18.21:221][950]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.18.21:221][950]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.18.21:296][953]LogBlueprintUserMessages: [BP_Wall15] NoTouch
+[2016.01.14-21.18.21:755][971]LogBlueprintUserMessages: [BP_Wall15] OnTOUCH
+[2016.01.14-21.18.21:755][971]LogBlueprintUserMessages: [BP_Wall15] NoTouch
+[2016.01.14-21.18.21:784][972]LogBlueprintUserMessages: [BP_Wall15] OnTOUCH
+[2016.01.14-21.18.21:784][972]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.18.21:784][972]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.18.21:832][974]LogBlueprintUserMessages: [BP_Wall15] NoTouch
+[2016.01.14-21.18.22:299][992]LogBlueprintUserMessages: [BP_Wall15] OnTOUCH
+[2016.01.14-21.18.22:299][992]LogBlueprintUserMessages: [BP_Wall15] NoTouch
+[2016.01.14-21.18.22:318][993]LogBlueprintUserMessages: [BP_Wall15] OnTOUCH
+[2016.01.14-21.18.22:318][993]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.18.22:318][993]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.18.22:375][995]LogBlueprintUserMessages: [BP_Wall15] NoTouch
+[2016.01.14-21.18.22:830][ 13]LogBlueprintUserMessages: [BP_Wall15] OnTOUCH
+[2016.01.14-21.18.22:830][ 13]LogBlueprintUserMessages: [BP_Wall15] NoTouch
+[2016.01.14-21.18.22:860][ 14]LogBlueprintUserMessages: [BP_Wall15] OnTOUCH
+[2016.01.14-21.18.22:860][ 14]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.18.22:860][ 14]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.18.22:936][ 17]LogBlueprintUserMessages: [BP_Wall15] NoTouch
+[2016.01.14-21.18.23:391][ 35]LogBlueprintUserMessages: [BP_Wall15] OnTOUCH
+[2016.01.14-21.18.23:391][ 35]LogBlueprintUserMessages: [BP_Wall15] NoTouch
+[2016.01.14-21.18.23:419][ 36]LogBlueprintUserMessages: [BP_Wall15] OnTOUCH
+[2016.01.14-21.18.23:420][ 36]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.18.23:420][ 36]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.18.23:524][ 40]LogBlueprintUserMessages: [BP_Wall15] NoTouch
+[2016.01.14-21.18.24:007][ 59]LogBlueprintUserMessages: [BP_Wall15] OnTOUCH
+[2016.01.14-21.18.24:007][ 59]LogBlueprintUserMessages: [BP_Wall15] NoTouch
+[2016.01.14-21.18.24:025][ 60]LogBlueprintUserMessages: [BP_Wall15] OnTOUCH
+[2016.01.14-21.18.24:026][ 60]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.18.24:026][ 60]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.18.24:130][ 64]LogBlueprintUserMessages: [BP_Wall15] NoTouch
+[2016.01.14-21.18.24:918][ 95]LogBlueprintUserMessages: [BP_Wall15] OnTOUCH
+[2016.01.14-21.18.24:918][ 95]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.18.24:918][ 95]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.18.25:098][102]LogBlueprintUserMessages: [BP_Wall15] NoTouch
+[2016.01.14-21.18.25:609][122]LogBlueprintUserMessages: [BP_Wall10] OnTOUCH
+[2016.01.14-21.18.25:609][122]LogBlueprintUserMessages: [BP_Wall10] NoTouch
+[2016.01.14-21.18.25:638][123]LogBlueprintUserMessages: [BP_Wall10] OnTOUCH
+[2016.01.14-21.18.25:638][123]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.18.25:638][123]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.18.27:246][184]LogBlueprintUserMessages: [BP_Wall10] NoTouch
+[2016.01.14-21.18.28:413][227]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] Dash
+[2016.01.14-21.18.28:654][236]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] En L'air
+[2016.01.14-21.18.30:712][312]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] Dash
+[2016.01.14-21.18.30:951][321]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] En L'air
+[2016.01.14-21.18.36:068][513]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] Dash
+[2016.01.14-21.18.36:308][522]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] En L'air
+[2016.01.14-21.18.37:561][569]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] Dash
+[2016.01.14-21.18.37:800][578]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] En L'air
+[2016.01.14-21.18.39:872][656]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] 2
+[2016.01.14-21.18.39:872][656]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] 3
+[2016.01.14-21.18.41:291][709]LogBlueprintUserMessages: [BP_Wall17] OnTOUCH
+[2016.01.14-21.18.42:471][753]LogBlueprintUserMessages: [BP_Wall17] NoTouch
+[2016.01.14-21.18.45:349][860]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] Dash
+[2016.01.14-21.18.45:589][869]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] En L'air
+[2016.01.14-21.18.51:914][107]LogBlueprintUserMessages: [BP_Wall3] OnTOUCH
+[2016.01.14-21.18.51:914][107]LogBlueprintUserMessages: [BP_Wall3] NoTouch
+[2016.01.14-21.18.51:944][108]LogBlueprintUserMessages: [BP_Wall3] OnTOUCH
+[2016.01.14-21.18.51:944][108]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.18.51:944][108]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.18.52:371][124]LogBlueprintUserMessages: [BP_Wall3] NoTouch
+[2016.01.14-21.18.52:867][143]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] Dash
+[2016.01.14-21.18.53:116][152]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] En L'air
+[2016.01.14-21.18.53:196][155]LogBlueprintUserMessages: [BP_Wall2] OnTOUCH
+[2016.01.14-21.18.53:196][155]LogBlueprintUserMessages: [BP_Wall2] NoTouch
+[2016.01.14-21.18.53:225][156]LogBlueprintUserMessages: [BP_Wall2] OnTOUCH
+[2016.01.14-21.18.53:225][156]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.18.53:225][156]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.18.53:651][172]LogBlueprintUserMessages: [BP_Wall2] NoTouch
+[2016.01.14-21.18.55:892][257]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] Dash
+[2016.01.14-21.18.56:120][266]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] En L'air
+[2016.01.14-21.19.00:309][425]LogBlueprintUserMessages: [BP_Wall23] OnTOUCH
+[2016.01.14-21.19.00:310][425]LogBlueprintUserMessages: [BP_Wall23] NoTouch
+[2016.01.14-21.19.01:137][456]LogBlueprintUserMessages: [BP_Wall23] OnTOUCH
+[2016.01.14-21.19.01:137][456]LogBlueprintUserMessages: [BP_Wall23] NoTouch
+[2016.01.14-21.19.01:157][457]LogBlueprintUserMessages: [BP_Wall23] OnTOUCH
+[2016.01.14-21.19.02:440][505]LogBlueprintUserMessages: [BP_Wall23] NoTouch
+[2016.01.14-21.19.08:076][718]LogBlueprintUserMessages: [BP_Wall23] OnTOUCH
+[2016.01.14-21.19.09:109][757]LogBlueprintUserMessages: [BP_Wall23] NoTouch
+[2016.01.14-21.19.16:114][ 20]LogBlueprintUserMessages: [BP_Wall23] OnTOUCH
+[2016.01.14-21.19.17:010][ 54]LogBlueprintUserMessages: [BP_Wall23] NoTouch
+[2016.01.14-21.19.17:330][ 66]LogBlueprintUserMessages: [BP_Wall23] OnTOUCH
+[2016.01.14-21.19.17:330][ 66]LogBlueprintUserMessages: [BP_Wall23] NoTouch
+[2016.01.14-21.19.17:361][ 67]LogBlueprintUserMessages: [BP_Wall23] OnTOUCH
+[2016.01.14-21.19.17:440][ 70]LogBlueprintUserMessages: [BP_Wall23] NoTouch
+[2016.01.14-21.19.17:759][ 82]LogBlueprintUserMessages: [BP_Wall23] OnTOUCH
+[2016.01.14-21.19.21:902][238]LogBlueprintUserMessages: [BP_Wall23] NoTouch
+[2016.01.14-21.19.28:265][477]LogBlueprintUserMessages: [BP_Wall3] OnTOUCH
+[2016.01.14-21.19.28:265][477]LogBlueprintUserMessages: [BP_Wall3] NoTouch
+[2016.01.14-21.19.28:295][478]LogBlueprintUserMessages: [BP_Wall3] OnTOUCH
+[2016.01.14-21.19.28:295][478]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.19.28:295][478]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.19.28:611][490]LogBlueprintUserMessages: [BP_Wall3] NoTouch
+[2016.01.14-21.19.29:116][509]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] Dash
+[2016.01.14-21.19.29:355][518]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] En L'air
+[2016.01.14-21.19.29:494][523]LogBlueprintUserMessages: [BP_Wall18] OnTOUCH
+[2016.01.14-21.19.29:494][523]LogBlueprintUserMessages: [BP_Wall18] NoTouch
+[2016.01.14-21.19.29:513][524]LogBlueprintUserMessages: [BP_Wall18] OnTOUCH
+[2016.01.14-21.19.29:513][524]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.19.29:513][524]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.19.29:811][535]LogBlueprintUserMessages: [BP_Wall18] NoTouch
+[2016.01.14-21.19.30:478][560]LogBlueprintUserMessages: [BP_Wall2] OnTOUCH
+[2016.01.14-21.19.30:478][560]LogBlueprintUserMessages: [BP_Wall2] NoTouch
+[2016.01.14-21.19.30:527][562]LogBlueprintUserMessages: [BP_Wall2] OnTOUCH
+[2016.01.14-21.19.30:527][562]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.19.30:527][562]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.19.30:794][572]LogBlueprintUserMessages: [BP_Wall2] NoTouch
+[2016.01.14-21.19.31:360][593]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] Dash
+[2016.01.14-21.19.31:520][599]LogBlueprintUserMessages: [BP_Wall21] OnTOUCH
+[2016.01.14-21.19.31:520][599]LogBlueprintUserMessages: [BP_Wall21] NoTouch
+[2016.01.14-21.19.31:539][600]LogBlueprintUserMessages: [BP_Wall21] OnTOUCH
+[2016.01.14-21.19.31:539][600]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.19.31:539][600]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.19.31:802][610]LogBlueprintUserMessages: [BP_Wall21] NoTouch
+[2016.01.14-21.19.32:596][640]LogBlueprintUserMessages: [BP_Wall_374] OnTOUCH
+[2016.01.14-21.19.32:596][640]LogBlueprintUserMessages: [BP_Wall_374] NoTouch
+[2016.01.14-21.19.32:616][641]LogBlueprintUserMessages: [BP_Wall_374] OnTOUCH
+[2016.01.14-21.19.32:616][641]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.19.32:616][641]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.19.32:942][653]LogBlueprintUserMessages: [BP_Wall_374] NoTouch
+[2016.01.14-21.19.33:526][675]LogBlueprintUserMessages: [BP_Wall21] OnTOUCH
+[2016.01.14-21.19.33:526][675]LogBlueprintUserMessages: [BP_Wall21] NoTouch
+[2016.01.14-21.19.33:556][676]LogBlueprintUserMessages: [BP_Wall21] OnTOUCH
+[2016.01.14-21.19.33:556][676]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.19.33:556][676]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.19.33:937][690]LogBlueprintUserMessages: [BP_Wall20] OnTOUCH
+[2016.01.14-21.19.33:937][690]LogBlueprintUserMessages: [BP_Wall21] NoTouch
+[2016.01.14-21.19.33:937][690]LogBlueprintUserMessages: [BP_Wall20] NoTouch
+[2016.01.14-21.19.33:957][691]LogBlueprintUserMessages: [BP_Wall20] OnTOUCH
+[2016.01.14-21.19.33:957][691]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.19.33:957][691]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.19.34:204][700]LogBlueprintUserMessages: [BP_Wall20] NoTouch
+[2016.01.14-21.19.34:671][718]LogBlueprintUserMessages: [BP_Wall20] OnTOUCH
+[2016.01.14-21.19.34:671][718]LogBlueprintUserMessages: [BP_Wall20] NoTouch
+[2016.01.14-21.19.34:700][719]LogBlueprintUserMessages: [BP_Wall20] OnTOUCH
+[2016.01.14-21.19.34:700][719]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.19.34:700][719]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.19.34:746][721]LogBlueprintUserMessages: [BP_Wall20] NoTouch
+[2016.01.14-21.19.35:204][739]LogBlueprintUserMessages: [BP_Wall20] OnTOUCH
+[2016.01.14-21.19.35:586][753]LogBlueprintUserMessages: [BP_Wall20] NoTouch
+[2016.01.14-21.19.35:667][756]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] Dash
+[2016.01.14-21.19.35:908][765]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] En L'air
+[2016.01.14-21.19.37:257][816]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] Dash
+[2016.01.14-21.19.37:921][841]LogBlueprintUserMessages: [BP_Wall_374] OnTOUCH
+[2016.01.14-21.19.37:921][841]LogBlueprintUserMessages: [BP_Wall_374] NoTouch
+[2016.01.14-21.19.38:112][848]LogBlueprintUserMessages: [BP_Wall_374] OnTOUCH
+[2016.01.14-21.19.38:142][849]LogBlueprintUserMessages: [BP_Wall_374] NoTouch
+[2016.01.14-21.19.38:293][855]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] Dash
+[2016.01.14-21.19.38:543][865]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] En L'air
+[2016.01.14-21.19.38:922][879]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] Dash
+[2016.01.14-21.19.39:160][888]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] En L'air
+[2016.01.14-21.19.39:397][897]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] Can't Dash
+[2016.01.14-21.19.40:382][935]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] Dash
+[2016.01.14-21.19.40:615][944]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] En L'air
+[2016.01.14-21.19.41:767][989]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] Dash
+[2016.01.14-21.19.42:002][998]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] En L'air
+[2016.01.14-21.19.43:996][ 74]LogBlueprintUserMessages: [BP_Wall3] OnTOUCH
+[2016.01.14-21.19.43:996][ 74]LogBlueprintUserMessages: [BP_Wall3] NoTouch
+[2016.01.14-21.19.44:026][ 75]LogBlueprintUserMessages: [BP_Wall3] OnTOUCH
+[2016.01.14-21.19.44:026][ 75]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.19.44:026][ 75]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.19.44:372][ 88]LogBlueprintUserMessages: [BP_Wall3] NoTouch
+[2016.01.14-21.19.44:777][103]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] Dash
+[2016.01.14-21.19.44:933][109]LogBlueprintUserMessages: [BP_Wall18] OnTOUCH
+[2016.01.14-21.19.44:933][109]LogBlueprintUserMessages: [BP_Wall18] NoTouch
+[2016.01.14-21.19.44:962][110]LogBlueprintUserMessages: [BP_Wall18] OnTOUCH
+[2016.01.14-21.19.44:962][110]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.19.44:962][110]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.19.45:540][133]LogBlueprintUserMessages: [BP_Wall18] NoTouch
+[2016.01.14-21.19.45:917][147]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] Dash
+[2016.01.14-21.19.46:128][155]LogBlueprintUserMessages: [BP_Wall2] OnTOUCH
+[2016.01.14-21.19.46:128][155]LogBlueprintUserMessages: [BP_Wall2] NoTouch
+[2016.01.14-21.19.46:157][156]LogBlueprintUserMessages: [BP_Wall2] OnTOUCH
+[2016.01.14-21.19.46:157][156]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.19.46:157][156]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.19.46:631][174]LogBlueprintUserMessages: [BP_Wall2] NoTouch
+[2016.01.14-21.19.47:265][198]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] Dash
+[2016.01.14-21.19.47:285][199]LogBlueprintUserMessages: [BP_Wall18] OnTOUCH
+[2016.01.14-21.19.47:285][199]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.19.47:285][199]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.19.47:315][200]LogBlueprintUserMessages: [BP_Wall21] OnTOUCH
+[2016.01.14-21.19.47:315][200]LogBlueprintUserMessages: [BP_Wall18] NoTouch
+[2016.01.14-21.19.47:315][200]LogBlueprintUserMessages: [BP_Wall21] NoTouch
+[2016.01.14-21.19.47:394][203]LogBlueprintUserMessages: [BP_Wall21] OnTOUCH
+[2016.01.14-21.19.47:394][203]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.19.47:394][203]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.19.47:851][220]LogBlueprintUserMessages: [BP_Wall21] NoTouch
+[2016.01.14-21.19.48:750][254]LogBlueprintUserMessages: [BP_Wall_374] OnTOUCH
+[2016.01.14-21.19.48:750][254]LogBlueprintUserMessages: [BP_Wall_374] NoTouch
+[2016.01.14-21.19.48:769][255]LogBlueprintUserMessages: [BP_Wall_374] OnTOUCH
+[2016.01.14-21.19.48:770][255]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.19.48:770][255]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.19.49:067][266]LogBlueprintUserMessages: [BP_Wall_374] NoTouch
+[2016.01.14-21.19.49:651][288]LogBlueprintUserMessages: [BP_Wall21] OnTOUCH
+[2016.01.14-21.19.49:651][288]LogBlueprintUserMessages: [BP_Wall21] NoTouch
+[2016.01.14-21.19.49:681][289]LogBlueprintUserMessages: [BP_Wall21] OnTOUCH
+[2016.01.14-21.19.49:681][289]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.19.49:681][289]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.19.49:785][293]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] Dash
+[2016.01.14-21.19.49:785][293]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.19.49:785][293]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.19.50:060][304]LogBlueprintUserMessages: [BP_Wall21] NoTouch
+[2016.01.14-21.19.50:504][321]LogBlueprintUserMessages: [BP_Wall20] OnTOUCH
+[2016.01.14-21.19.50:504][321]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.19.50:504][321]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.19.50:892][336]LogBlueprintUserMessages: [BP_Wall20] NoTouch
+[2016.01.14-21.19.55:826][520]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] 1
+[2016.01.14-21.19.55:826][520]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] 2
+[2016.01.14-21.19.58:532][621]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] Dash
+[2016.01.14-21.19.58:752][629]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] En L'air
+[2016.01.14-21.20.00:007][676]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] Dash
+[2016.01.14-21.20.00:248][685]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] En L'air
+[2016.01.14-21.20.04:316][838]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] 0
+[2016.01.14-21.20.04:316][838]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] 1
+[2016.01.14-21.20.07:442][954]LogScript:Warning: Accessed None 'CallFunc_Create_ReturnValue3'
+	FirstPersonCharacter_C /Game/FirstPersonBP/Maps/UEDPIE_0_Boss.Boss:PersistentLevel.FirstPersonCharacter_C_9
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:21B6
+[2016.01.14-21.20.07:442][954]PIE:Error: Error Accessed None 'CallFunc_Create_ReturnValue3' from node Remove from Parent in graph 'EventGraph' in blueprint FirstPersonCharacter
+[2016.01.14-21.20.07:442][954]LogScript:Warning: Accessed None 'CallFunc_Create_ReturnValue2'
+	FirstPersonCharacter_C /Game/FirstPersonBP/Maps/UEDPIE_0_Boss.Boss:PersistentLevel.FirstPersonCharacter_C_9
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:21DA
+[2016.01.14-21.20.07:442][954]PIE:Error: Error Accessed None 'CallFunc_Create_ReturnValue2' from node Remove from Parent in graph 'EventGraph' in blueprint FirstPersonCharacter
+[2016.01.14-21.20.12:422][143]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] Dash
+[2016.01.14-21.20.12:662][152]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] En L'air
+[2016.01.14-21.20.13:599][187]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] Dash
+[2016.01.14-21.20.14:010][202]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] Can't Dash
+[2016.01.14-21.20.23:562][562]LogBlueprintUserMessages: [BP_Wall19] OnTOUCH
+[2016.01.14-21.20.23:562][562]LogBlueprintUserMessages: [BP_Wall19] NoTouch
+[2016.01.14-21.20.23:590][563]LogBlueprintUserMessages: [BP_Wall19] OnTOUCH
+[2016.01.14-21.20.23:590][563]LogBlueprintUserMessages: [BP_Wall19] NoTouch
+[2016.01.14-21.20.23:619][564]LogBlueprintUserMessages: [BP_Wall19] OnTOUCH
+[2016.01.14-21.20.23:819][572]LogBlueprintUserMessages: [BP_Wall19] NoTouch
+[2016.01.14-21.20.26:402][670]LogBlueprintUserMessages: [BP_Wall3] OnTOUCH
+[2016.01.14-21.20.26:402][670]LogBlueprintUserMessages: [BP_Wall3] NoTouch
+[2016.01.14-21.20.26:431][671]LogBlueprintUserMessages: [BP_Wall3] OnTOUCH
+[2016.01.14-21.20.26:432][671]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.20.26:432][671]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.20.26:778][684]LogBlueprintUserMessages: [BP_Wall3] NoTouch
+[2016.01.14-21.20.27:736][720]LogBlueprintUserMessages: [BP_Wall18] OnTOUCH
+[2016.01.14-21.20.27:736][720]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.20.27:737][720]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.20.27:924][727]LogBlueprintUserMessages: [BP_Wall18] NoTouch
+[2016.01.14-21.20.28:424][746]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] Dash
+[2016.01.14-21.20.28:643][754]LogBlueprintUserMessages: [BP_Wall2] OnTOUCH
+[2016.01.14-21.20.28:643][754]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.20.28:643][754]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.20.29:148][773]LogBlueprintUserMessages: [BP_Wall2] NoTouch
+[2016.01.14-21.20.30:256][815]LogBlueprintUserMessages: [BP_Wall2] OnTOUCH
+[2016.01.14-21.20.30:256][815]LogBlueprintUserMessages: [BP_Wall2] NoTouch
+[2016.01.14-21.20.30:286][816]LogBlueprintUserMessages: [BP_Wall2] OnTOUCH
+[2016.01.14-21.20.30:287][816]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.20.30:287][816]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.20.30:632][829]LogBlueprintUserMessages: [BP_Wall2] NoTouch
+[2016.01.14-21.20.30:839][837]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] Dash
+[2016.01.14-21.20.31:076][846]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] En L'air
+[2016.01.14-21.20.31:106][847]LogBlueprintUserMessages: [BP_Wall18] OnTOUCH
+[2016.01.14-21.20.31:106][847]LogBlueprintUserMessages: [BP_Wall18] NoTouch
+[2016.01.14-21.20.31:135][848]LogBlueprintUserMessages: [BP_Wall18] OnTOUCH
+[2016.01.14-21.20.31:135][848]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.20.31:136][848]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.20.31:293][854]LogBlueprintUserMessages: [BP_Wall18] NoTouch
+[2016.01.14-21.20.31:651][867]LogBlueprintUserMessages: [BP_Wall21] OnTOUCH
+[2016.01.14-21.20.31:651][867]LogBlueprintUserMessages: [BP_Wall21] NoTouch
+[2016.01.14-21.20.31:671][868]LogBlueprintUserMessages: [BP_Wall21] OnTOUCH
+[2016.01.14-21.20.31:671][868]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.20.31:671][868]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.20.31:810][873]LogBlueprintUserMessages: [BP_Wall21] NoTouch
+[2016.01.14-21.20.32:233][889]LogBlueprintUserMessages: [BP_Wall18] OnTOUCH
+[2016.01.14-21.20.32:233][889]LogBlueprintUserMessages: [BP_Wall18] NoTouch
+[2016.01.14-21.20.32:253][890]LogBlueprintUserMessages: [BP_Wall18] OnTOUCH
+[2016.01.14-21.20.32:253][890]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.20.32:253][890]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.20.32:331][893]LogBlueprintUserMessages: [BP_Wall18] NoTouch
+[2016.01.14-21.20.32:731][908]LogBlueprintUserMessages: [BP_Wall21] OnTOUCH
+[2016.01.14-21.20.32:731][908]LogBlueprintUserMessages: [BP_Wall21] NoTouch
+[2016.01.14-21.20.32:751][909]LogBlueprintUserMessages: [BP_Wall21] OnTOUCH
+[2016.01.14-21.20.32:751][909]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.20.32:751][909]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.20.32:811][911]LogBlueprintUserMessages: [BP_Wall21] NoTouch
+[2016.01.14-21.20.33:290][929]LogBlueprintUserMessages: [BP_Wall21] OnTOUCH
+[2016.01.14-21.20.33:290][929]LogBlueprintUserMessages: [BP_Wall21] NoTouch
+[2016.01.14-21.20.33:320][930]LogBlueprintUserMessages: [BP_Wall21] OnTOUCH
+[2016.01.14-21.20.33:320][930]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.20.33:320][930]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.20.33:350][931]LogBlueprintUserMessages: [BP_Wall21] NoTouch
+[2016.01.14-21.20.33:751][946]LogBlueprintUserMessages: [BP_Wall18] OnTOUCH
+[2016.01.14-21.20.33:751][946]LogBlueprintUserMessages: [BP_Wall18] NoTouch
+[2016.01.14-21.20.33:781][947]LogBlueprintUserMessages: [BP_Wall18] OnTOUCH
+[2016.01.14-21.20.33:781][947]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.20.33:781][947]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.20.33:861][950]LogBlueprintUserMessages: [BP_Wall21] OnTOUCH
+[2016.01.14-21.20.33:880][951]LogBlueprintUserMessages: [BP_Wall18] NoTouch
+[2016.01.14-21.20.33:880][951]LogBlueprintUserMessages: [BP_Wall21] NoTouch
+[2016.01.14-21.20.34:200][963]LogBlueprintUserMessages: [BP_Wall21] OnTOUCH
+[2016.01.14-21.20.34:200][963]LogBlueprintUserMessages: [BP_Wall21] NoTouch
+[2016.01.14-21.20.34:230][964]LogBlueprintUserMessages: [BP_Wall21] OnTOUCH
+[2016.01.14-21.20.34:230][964]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.20.34:230][964]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.20.34:291][966]LogBlueprintUserMessages: [BP_Wall21] NoTouch
+[2016.01.14-21.20.34:762][984]LogBlueprintUserMessages: [BP_Wall21] OnTOUCH
+[2016.01.14-21.20.34:762][984]LogBlueprintUserMessages: [BP_Wall21] NoTouch
+[2016.01.14-21.20.34:783][985]LogBlueprintUserMessages: [BP_Wall21] OnTOUCH
+[2016.01.14-21.20.34:783][985]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.20.34:783][985]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.20.34:861][988]LogBlueprintUserMessages: [BP_Wall21] NoTouch
+[2016.01.14-21.20.35:337][  6]LogBlueprintUserMessages: [BP_Wall21] OnTOUCH
+[2016.01.14-21.20.35:337][  6]LogBlueprintUserMessages: [BP_Wall21] NoTouch
+[2016.01.14-21.20.35:355][  7]LogBlueprintUserMessages: [BP_Wall21] OnTOUCH
+[2016.01.14-21.20.35:355][  7]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.20.35:355][  7]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.20.35:520][ 13]LogBlueprintUserMessages: [BP_Wall21] NoTouch
+[2016.01.14-21.20.36:271][ 42]LogBlueprintUserMessages: [BP_Wall13] OnTOUCH
+[2016.01.14-21.20.36:271][ 42]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.20.36:271][ 42]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.20.36:328][ 44]LogBlueprintUserMessages: [BP_Wall13] NoTouch
+[2016.01.14-21.20.37:039][ 72]LogBlueprintUserMessages: [BP_Wall13] OnTOUCH
+[2016.01.14-21.20.37:039][ 72]LogBlueprintUserMessages: [BP_Wall13] NoTouch
+[2016.01.14-21.20.37:057][ 73]LogBlueprintUserMessages: [BP_Wall13] OnTOUCH
+[2016.01.14-21.20.37:057][ 73]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.20.37:057][ 73]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.20.38:159][116]LogBlueprintUserMessages: [BP_Wall12] OnTOUCH
+[2016.01.14-21.20.38:159][116]LogBlueprintUserMessages: [BP_Wall20] OnTOUCH
+[2016.01.14-21.20.38:159][116]LogBlueprintUserMessages: [BP_Wall13] NoTouch
+[2016.01.14-21.20.38:177][117]LogBlueprintUserMessages: [BP_Wall12] NoTouch
+[2016.01.14-21.20.41:257][234]LogBlueprintUserMessages: [BP_Wall20] NoTouch
+[2016.01.14-21.20.42:759][290]LogBlueprintUserMessages: [BP_Wall20] OnTOUCH
+[2016.01.14-21.20.42:759][290]LogBlueprintUserMessages: [BP_Wall20] NoTouch
+[2016.01.14-21.20.42:788][291]LogBlueprintUserMessages: [BP_Wall20] OnTOUCH
+[2016.01.14-21.20.42:788][291]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.20.42:788][291]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.20.42:939][297]LogBlueprintUserMessages: [BP_Wall20] NoTouch
+[2016.01.14-21.20.43:393][315]LogBlueprintUserMessages: [BP_Wall20] OnTOUCH
+[2016.01.14-21.20.43:393][315]LogBlueprintUserMessages: [BP_Wall20] NoTouch
+[2016.01.14-21.20.43:412][316]LogBlueprintUserMessages: [BP_Wall20] OnTOUCH
+[2016.01.14-21.20.43:412][316]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.20.43:412][316]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.20.43:488][319]LogBlueprintUserMessages: [BP_Wall20] NoTouch
+[2016.01.14-21.20.43:949][337]LogBlueprintUserMessages: [BP_Wall20] OnTOUCH
+[2016.01.14-21.20.43:949][337]LogBlueprintUserMessages: [BP_Wall20] NoTouch
+[2016.01.14-21.20.43:979][338]LogBlueprintUserMessages: [BP_Wall20] OnTOUCH
+[2016.01.14-21.20.43:979][338]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.20.43:979][338]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.20.44:137][344]LogBlueprintUserMessages: [BP_Wall20] NoTouch
+[2016.01.14-21.20.44:593][361]LogBlueprintUserMessages: [BP_Wall20] OnTOUCH
+[2016.01.14-21.20.44:593][361]LogBlueprintUserMessages: [BP_Wall20] NoTouch
+[2016.01.14-21.20.44:623][362]LogBlueprintUserMessages: [BP_Wall20] OnTOUCH
+[2016.01.14-21.20.44:623][362]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.20.44:623][362]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.20.44:832][370]LogBlueprintUserMessages: [BP_Wall20] NoTouch
+[2016.01.14-21.20.45:278][387]LogBlueprintUserMessages: [BP_Wall20] OnTOUCH
+[2016.01.14-21.20.45:278][387]LogBlueprintUserMessages: [BP_Wall20] NoTouch
+[2016.01.14-21.20.45:308][388]LogBlueprintUserMessages: [BP_Wall20] OnTOUCH
+[2016.01.14-21.20.45:308][388]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.20.45:308][388]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.20.45:358][390]LogBlueprintUserMessages: [BP_Wall20] NoTouch
+[2016.01.14-21.20.45:798][407]LogBlueprintUserMessages: [BP_Wall20] OnTOUCH
+[2016.01.14-21.20.45:799][407]LogBlueprintUserMessages: [BP_Wall20] NoTouch
+[2016.01.14-21.20.45:827][408]LogBlueprintUserMessages: [BP_Wall20] OnTOUCH
+[2016.01.14-21.20.45:827][408]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.20.45:828][408]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.20.45:932][412]LogBlueprintUserMessages: [BP_Wall20] NoTouch
+[2016.01.14-21.20.46:376][430]LogBlueprintUserMessages: [BP_Wall20] OnTOUCH
+[2016.01.14-21.20.46:376][430]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.20.46:376][430]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.20.46:405][431]LogBlueprintUserMessages: [BP_Wall20] NoTouch
+[2016.01.14-21.20.46:871][449]LogBlueprintUserMessages: [BP_Wall20] OnTOUCH
+[2016.01.14-21.20.46:871][449]LogBlueprintUserMessages: [BP_Wall20] NoTouch
+[2016.01.14-21.20.46:900][450]LogBlueprintUserMessages: [BP_Wall20] OnTOUCH
+[2016.01.14-21.20.46:900][450]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.20.46:900][450]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.20.46:994][454]LogBlueprintUserMessages: [BP_Wall20] NoTouch
+[2016.01.14-21.20.47:448][472]LogBlueprintUserMessages: [BP_Wall20] OnTOUCH
+[2016.01.14-21.20.47:448][472]LogBlueprintUserMessages: [BP_Wall20] NoTouch
+[2016.01.14-21.20.47:477][473]LogBlueprintUserMessages: [BP_Wall20] OnTOUCH
+[2016.01.14-21.20.47:477][473]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.20.47:477][473]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.20.47:506][474]LogBlueprintUserMessages: [BP_Wall20] NoTouch
+[2016.01.14-21.20.47:956][492]LogBlueprintUserMessages: [BP_Wall12] OnTOUCH
+[2016.01.14-21.20.47:956][492]LogBlueprintUserMessages: [BP_Wall12] NoTouch
+[2016.01.14-21.20.47:985][493]LogBlueprintUserMessages: [BP_Wall12] OnTOUCH
+[2016.01.14-21.20.47:985][493]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.20.47:985][493]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.20.48:060][496]LogBlueprintUserMessages: [BP_Wall12] NoTouch
+[2016.01.14-21.20.48:514][514]LogBlueprintUserMessages: [BP_Wall12] OnTOUCH
+[2016.01.14-21.20.48:514][514]LogBlueprintUserMessages: [BP_Wall12] NoTouch
+[2016.01.14-21.20.48:543][515]LogBlueprintUserMessages: [BP_Wall12] OnTOUCH
+[2016.01.14-21.20.48:543][515]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.20.48:543][515]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.20.48:590][517]LogBlueprintUserMessages: [BP_Wall12] NoTouch
+[2016.01.14-21.20.49:026][534]LogBlueprintUserMessages: [BP_Wall12] OnTOUCH
+[2016.01.14-21.20.49:026][534]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.20.49:026][534]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.20.49:206][541]LogBlueprintUserMessages: [BP_Wall12] NoTouch
+[2016.01.14-21.20.49:661][559]LogBlueprintUserMessages: [BP_Wall12] OnTOUCH
+[2016.01.14-21.20.49:661][559]LogBlueprintUserMessages: [BP_Wall12] NoTouch
+[2016.01.14-21.20.49:690][560]LogBlueprintUserMessages: [BP_Wall12] OnTOUCH
+[2016.01.14-21.20.49:690][560]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.20.49:690][560]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.20.49:784][564]LogBlueprintUserMessages: [BP_Wall12] NoTouch
+[2016.01.14-21.20.50:237][582]LogBlueprintUserMessages: [BP_Wall12] OnTOUCH
+[2016.01.14-21.20.50:237][582]LogBlueprintUserMessages: [BP_Wall12] NoTouch
+[2016.01.14-21.20.50:266][583]LogBlueprintUserMessages: [BP_Wall12] OnTOUCH
+[2016.01.14-21.20.50:266][583]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.20.50:266][583]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.20.50:417][589]LogBlueprintUserMessages: [BP_Wall12] NoTouch
+[2016.01.14-21.20.50:871][607]LogBlueprintUserMessages: [BP_Wall12] OnTOUCH
+[2016.01.14-21.20.50:871][607]LogBlueprintUserMessages: [BP_Wall12] NoTouch
+[2016.01.14-21.20.50:900][608]LogBlueprintUserMessages: [BP_Wall12] OnTOUCH
+[2016.01.14-21.20.50:900][608]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.20.50:900][608]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.20.51:023][613]LogBlueprintUserMessages: [BP_Wall12] NoTouch
+[2016.01.14-21.20.51:458][630]LogBlueprintUserMessages: [BP_Wall12] OnTOUCH
+[2016.01.14-21.20.51:458][630]LogBlueprintUserMessages: [BP_Wall12] NoTouch
+[2016.01.14-21.20.51:476][631]LogBlueprintUserMessages: [BP_Wall12] OnTOUCH
+[2016.01.14-21.20.51:477][631]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.20.51:477][631]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.20.53:936][728]LogBlueprintUserMessages: [BP_Wall12] NoTouch
+[2016.01.14-21.20.54:399][746]LogBlueprintUserMessages: [BP_Wall12] OnTOUCH
+[2016.01.14-21.20.54:399][746]LogBlueprintUserMessages: [BP_Wall12] NoTouch
+[2016.01.14-21.20.54:418][747]LogBlueprintUserMessages: [BP_Wall12] OnTOUCH
+[2016.01.14-21.20.54:684][757]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.20.54:684][757]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.20.54:807][762]LogBlueprintUserMessages: [BP_Wall12] NoTouch
+[2016.01.14-21.20.55:365][784]LogBlueprintUserMessages: [BP_Wall12] OnTOUCH
+[2016.01.14-21.20.55:365][784]LogBlueprintUserMessages: [BP_Wall12] NoTouch
+[2016.01.14-21.20.55:384][785]LogBlueprintUserMessages: [BP_Wall12] OnTOUCH
+[2016.01.14-21.20.55:518][790]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.20.55:518][790]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.20.55:917][806]LogBlueprintUserMessages: [BP_Wall16] OnTOUCH
+[2016.01.14-21.20.55:917][806]LogBlueprintUserMessages: [BP_Wall12] NoTouch
+[2016.01.14-21.20.55:917][806]LogBlueprintUserMessages: [BP_Wall16] NoTouch
+[2016.01.14-21.20.55:947][807]LogBlueprintUserMessages: [BP_Wall16] OnTOUCH
+[2016.01.14-21.20.56:872][842]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.20.56:872][842]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.20.57:024][848]LogBlueprintUserMessages: [BP_Wall16] NoTouch
+[2016.01.14-21.20.57:634][872]LogBlueprintUserMessages: [BP_Wall16] OnTOUCH
+[2016.01.14-21.20.57:825][879]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.20.57:825][879]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.20.57:921][883]LogBlueprintUserMessages: [BP_Wall16] NoTouch
+[2016.01.14-21.20.58:404][902]LogBlueprintUserMessages: [BP_Wall16] OnTOUCH
+[2016.01.14-21.20.58:404][902]LogBlueprintUserMessages: [BP_Wall16] NoTouch
+[2016.01.14-21.20.58:433][903]LogBlueprintUserMessages: [BP_Wall16] OnTOUCH
+[2016.01.14-21.20.58:532][907]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.20.58:532][907]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.20.58:695][913]LogBlueprintUserMessages: [BP_Wall16] NoTouch
+[2016.01.14-21.20.59:497][945]LogBlueprintUserMessages: [BP_Wall9_338] OnTOUCH
+[2016.01.14-21.20.59:498][945]LogBlueprintUserMessages: [BP_Wall9_338] NoTouch
+[2016.01.14-21.20.59:526][946]LogBlueprintUserMessages: [BP_Wall9_338] OnTOUCH
+[2016.01.14-21.20.59:526][946]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.20.59:526][946]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.20.59:630][950]LogBlueprintUserMessages: [BP_Wall9_338] NoTouch
+[2016.01.14-21.21.00:178][972]LogBlueprintUserMessages: [BP_Wall9_338] OnTOUCH
+[2016.01.14-21.21.00:178][972]LogBlueprintUserMessages: [BP_Wall9_338] NoTouch
+[2016.01.14-21.21.00:206][973]LogBlueprintUserMessages: [BP_Wall9_338] OnTOUCH
+[2016.01.14-21.21.00:207][973]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.21.00:207][973]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.21.00:434][982]LogBlueprintUserMessages: [BP_Wall9_338] NoTouch
+[2016.01.14-21.21.00:966][  3]LogBlueprintUserMessages: [BP_Wall9_338] OnTOUCH
+[2016.01.14-21.21.01:883][ 38]LogBlueprintUserMessages: [BP_Wall9_338] NoTouch
+[2016.01.14-21.21.02:663][ 67]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] Dash
+[2016.01.14-21.21.02:903][ 76]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] En L'air
+[2016.01.14-21.21.19:529][693]LogBlueprintUserMessages: [BP_Wall20] OnTOUCH
+[2016.01.14-21.21.19:529][693]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.21.19:529][693]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.21.19:558][694]LogBlueprintUserMessages: [BP_Wall20] NoTouch
+[2016.01.14-21.21.20:112][715]LogBlueprintUserMessages: [BP_Wall20] OnTOUCH
+[2016.01.14-21.21.20:112][715]LogBlueprintUserMessages: [BP_Wall20] NoTouch
+[2016.01.14-21.21.20:141][716]LogBlueprintUserMessages: [BP_Wall20] OnTOUCH
+[2016.01.14-21.21.20:141][716]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.21.20:142][716]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.21.20:250][720]LogBlueprintUserMessages: [BP_Wall20] NoTouch
+[2016.01.14-21.21.20:774][740]LogBlueprintUserMessages: [BP_Wall20] OnTOUCH
+[2016.01.14-21.21.20:774][740]LogBlueprintUserMessages: [BP_Wall20] NoTouch
+[2016.01.14-21.21.20:807][741]LogBlueprintUserMessages: [BP_Wall20] OnTOUCH
+[2016.01.14-21.21.20:807][741]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.21.20:807][741]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.21.20:973][746]LogBlueprintUserMessages: [BP_Wall20] NoTouch
+[2016.01.14-21.21.21:442][764]LogBlueprintUserMessages: [BP_Wall20] OnTOUCH
+[2016.01.14-21.21.21:442][764]LogBlueprintUserMessages: [BP_Wall20] NoTouch
+[2016.01.14-21.21.21:471][765]LogBlueprintUserMessages: [BP_Wall20] OnTOUCH
+[2016.01.14-21.21.21:471][765]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.21.21:471][765]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.21.21:546][768]LogBlueprintUserMessages: [BP_Wall20] NoTouch
+[2016.01.14-21.21.21:981][785]LogBlueprintUserMessages: [BP_Wall12] OnTOUCH
+[2016.01.14-21.21.21:981][785]LogBlueprintUserMessages: [BP_Wall12] NoTouch
+[2016.01.14-21.21.22:009][786]LogBlueprintUserMessages: [BP_Wall12] OnTOUCH
+[2016.01.14-21.21.22:009][786]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.21.22:009][786]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.21.22:566][808]LogBlueprintUserMessages: [BP_Wall12] NoTouch
+[2016.01.14-21.21.23:019][826]LogBlueprintUserMessages: [BP_Wall12] OnTOUCH
+[2016.01.14-21.21.23:019][826]LogBlueprintUserMessages: [BP_Wall12] NoTouch
+[2016.01.14-21.21.23:037][827]LogBlueprintUserMessages: [BP_Wall12] OnTOUCH
+[2016.01.14-21.21.23:037][827]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.21.23:037][827]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.21.23:302][837]LogBlueprintUserMessages: [BP_Wall12] NoTouch
+[2016.01.14-21.21.23:755][855]LogBlueprintUserMessages: [BP_Wall12] OnTOUCH
+[2016.01.14-21.21.23:755][855]LogBlueprintUserMessages: [BP_Wall12] NoTouch
+[2016.01.14-21.21.23:783][856]LogBlueprintUserMessages: [BP_Wall12] OnTOUCH
+[2016.01.14-21.21.23:783][856]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.21.23:783][856]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.21.24:132][870]LogBlueprintUserMessages: [BP_Wall12] NoTouch
+[2016.01.14-21.21.24:633][890]LogBlueprintUserMessages: [BP_Wall12] OnTOUCH
+[2016.01.14-21.21.24:633][890]LogBlueprintUserMessages: [BP_Wall12] NoTouch
+[2016.01.14-21.21.24:662][891]LogBlueprintUserMessages: [BP_Wall12] OnTOUCH
+[2016.01.14-21.21.24:662][891]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.21.24:662][891]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.21.25:212][913]LogBlueprintUserMessages: [BP_Wall12] NoTouch
+[2016.01.14-21.21.26:288][954]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] Dash
+[2016.01.14-21.21.26:542][963]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] En L'air
+[2016.01.14-21.21.26:625][966]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] Can't Dash
+[2016.01.14-21.21.30:173][ 99]LogBlueprintUserMessages: [BP_Wall24] OnTOUCH
+[2016.01.14-21.21.30:173][ 99]LogBlueprintUserMessages: [BP_Wall24] NoTouch
+[2016.01.14-21.21.30:202][100]LogBlueprintUserMessages: [BP_Wall24] OnTOUCH
+[2016.01.14-21.21.30:203][100]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.21.30:203][100]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.21.30:252][102]LogBlueprintUserMessages: [BP_Wall24] NoTouch
+[2016.01.14-21.21.30:707][119]LogBlueprintUserMessages: [BP_Wall24] OnTOUCH
+[2016.01.14-21.21.30:707][119]LogBlueprintUserMessages: [BP_Wall24] NoTouch
+[2016.01.14-21.21.30:737][120]LogBlueprintUserMessages: [BP_Wall24] OnTOUCH
+[2016.01.14-21.21.30:737][120]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.21.30:737][120]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.21.30:866][125]LogBlueprintUserMessages: [BP_Wall24] NoTouch
+[2016.01.14-21.21.31:312][142]LogBlueprintUserMessages: [BP_Wall24] OnTOUCH
+[2016.01.14-21.21.31:312][142]LogBlueprintUserMessages: [BP_Wall24] NoTouch
+[2016.01.14-21.21.31:342][143]LogBlueprintUserMessages: [BP_Wall24] OnTOUCH
+[2016.01.14-21.21.31:342][143]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.21.31:342][143]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.21.31:372][144]LogBlueprintUserMessages: [BP_Wall24] NoTouch
+[2016.01.14-21.21.31:822][161]LogBlueprintUserMessages: [BP_Wall24] OnTOUCH
+[2016.01.14-21.21.31:823][161]LogBlueprintUserMessages: [BP_Wall24] NoTouch
+[2016.01.14-21.21.31:853][162]LogBlueprintUserMessages: [BP_Wall24] OnTOUCH
+[2016.01.14-21.21.31:853][162]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.21.31:853][162]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.21.32:043][169]LogBlueprintUserMessages: [BP_Wall24] NoTouch
+[2016.01.14-21.21.32:491][186]LogBlueprintUserMessages: [BP_Wall24] OnTOUCH
+[2016.01.14-21.21.32:491][186]LogBlueprintUserMessages: [BP_Wall24] NoTouch
+[2016.01.14-21.21.32:521][187]LogBlueprintUserMessages: [BP_Wall24] OnTOUCH
+[2016.01.14-21.21.32:521][187]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.21.32:521][187]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.21.32:571][189]LogBlueprintUserMessages: [BP_Wall24] NoTouch
+[2016.01.14-21.21.33:020][206]LogBlueprintUserMessages: [BP_Wall24] OnTOUCH
+[2016.01.14-21.21.33:020][206]LogBlueprintUserMessages: [BP_Wall24] NoTouch
+[2016.01.14-21.21.33:050][207]LogBlueprintUserMessages: [BP_Wall24] OnTOUCH
+[2016.01.14-21.21.33:050][207]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.21.33:050][207]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.21.33:130][210]LogBlueprintUserMessages: [BP_Wall24] NoTouch
+[2016.01.14-21.21.33:578][227]LogBlueprintUserMessages: [BP_Wall24] OnTOUCH
+[2016.01.14-21.21.33:578][227]LogBlueprintUserMessages: [BP_Wall24] NoTouch
+[2016.01.14-21.21.33:607][228]LogBlueprintUserMessages: [BP_Wall24] OnTOUCH
+[2016.01.14-21.21.33:607][228]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.21.33:607][228]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.21.33:712][232]LogBlueprintUserMessages: [BP_Wall24] NoTouch
+[2016.01.14-21.21.34:154][249]LogBlueprintUserMessages: [BP_Wall24] OnTOUCH
+[2016.01.14-21.21.34:154][249]LogBlueprintUserMessages: [BP_Wall24] NoTouch
+[2016.01.14-21.21.34:173][250]LogBlueprintUserMessages: [BP_Wall24] OnTOUCH
+[2016.01.14-21.21.34:173][250]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.21.34:173][250]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.21.34:279][254]LogBlueprintUserMessages: [BP_Wall24] NoTouch
+[2016.01.14-21.21.34:738][272]LogBlueprintUserMessages: [BP_Wall24] OnTOUCH
+[2016.01.14-21.21.34:738][272]LogBlueprintUserMessages: [BP_Wall24] NoTouch
+[2016.01.14-21.21.34:766][273]LogBlueprintUserMessages: [BP_Wall24] OnTOUCH
+[2016.01.14-21.21.34:767][273]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.21.34:767][273]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.21.34:872][277]LogBlueprintUserMessages: [BP_Wall24] NoTouch
+[2016.01.14-21.21.35:327][295]LogBlueprintUserMessages: [BP_Wall16] OnTOUCH
+[2016.01.14-21.21.35:327][295]LogBlueprintUserMessages: [BP_Wall16] NoTouch
+[2016.01.14-21.21.35:356][296]LogBlueprintUserMessages: [BP_Wall16] OnTOUCH
+[2016.01.14-21.21.35:356][296]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.21.35:356][296]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.21.35:432][299]LogBlueprintUserMessages: [BP_Wall16] NoTouch
+[2016.01.14-21.21.35:886][317]LogBlueprintUserMessages: [BP_Wall16] OnTOUCH
+[2016.01.14-21.21.35:886][317]LogBlueprintUserMessages: [BP_Wall16] NoTouch
+[2016.01.14-21.21.35:905][318]LogBlueprintUserMessages: [BP_Wall16] OnTOUCH
+[2016.01.14-21.21.35:905][318]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.21.35:905][318]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.21.36:009][322]LogBlueprintUserMessages: [BP_Wall16] NoTouch
+[2016.01.14-21.21.36:464][340]LogBlueprintUserMessages: [BP_Wall16] OnTOUCH
+[2016.01.14-21.21.36:465][340]LogBlueprintUserMessages: [BP_Wall16] NoTouch
+[2016.01.14-21.21.36:493][341]LogBlueprintUserMessages: [BP_Wall16] OnTOUCH
+[2016.01.14-21.21.36:493][341]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.21.36:493][341]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.21.36:540][343]LogBlueprintUserMessages: [BP_Wall16] NoTouch
+[2016.01.14-21.21.36:995][361]LogBlueprintUserMessages: [BP_Wall16] OnTOUCH
+[2016.01.14-21.21.36:995][361]LogBlueprintUserMessages: [BP_Wall16] NoTouch
+[2016.01.14-21.21.37:023][362]LogBlueprintUserMessages: [BP_Wall16] OnTOUCH
+[2016.01.14-21.21.37:024][362]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.21.37:024][362]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.21.37:099][365]LogBlueprintUserMessages: [BP_Wall16] NoTouch
+[2016.01.14-21.21.37:535][382]LogBlueprintUserMessages: [BP_Wall16] OnTOUCH
+[2016.01.14-21.21.37:535][382]LogBlueprintUserMessages: [BP_Wall16] NoTouch
+[2016.01.14-21.21.37:553][383]LogBlueprintUserMessages: [BP_Wall16] OnTOUCH
+[2016.01.14-21.21.37:553][383]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.21.37:553][383]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.21.37:658][387]LogBlueprintUserMessages: [BP_Wall16] NoTouch
+[2016.01.14-21.21.38:113][405]LogBlueprintUserMessages: [BP_Wall16] OnTOUCH
+[2016.01.14-21.21.38:113][405]LogBlueprintUserMessages: [BP_Wall16] NoTouch
+[2016.01.14-21.21.38:141][406]LogBlueprintUserMessages: [BP_Wall16] OnTOUCH
+[2016.01.14-21.21.38:141][406]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.21.38:141][406]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.21.38:217][409]LogBlueprintUserMessages: [BP_Wall16] NoTouch
+[2016.01.14-21.21.38:671][427]LogBlueprintUserMessages: [BP_Wall16] OnTOUCH
+[2016.01.14-21.21.38:671][427]LogBlueprintUserMessages: [BP_Wall16] NoTouch
+[2016.01.14-21.21.38:700][428]LogBlueprintUserMessages: [BP_Wall16] OnTOUCH
+[2016.01.14-21.21.38:700][428]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.21.38:700][428]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.21.38:804][432]LogBlueprintUserMessages: [BP_Wall16] NoTouch
+[2016.01.14-21.21.39:268][450]LogBlueprintUserMessages: [BP_Wall16] OnTOUCH
+[2016.01.14-21.21.39:269][450]LogBlueprintUserMessages: [BP_Wall16] NoTouch
+[2016.01.14-21.21.39:287][451]LogBlueprintUserMessages: [BP_Wall16] OnTOUCH
+[2016.01.14-21.21.39:287][451]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.21.39:287][451]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.21.40:282][490]LogBlueprintUserMessages: [BP_Wall16] NoTouch
+[2016.01.14-21.21.40:957][516]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] Dash
+[2016.01.14-21.21.41:202][525]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] En L'air
+[2016.01.14-21.21.48:018][781]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] Dash
+[2016.01.14-21.21.48:256][790]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] En L'air
+[2016.01.14-21.21.50:691][882]LogBlueprintUserMessages: [BP_Wall3] OnTOUCH
+[2016.01.14-21.21.50:691][882]LogBlueprintUserMessages: [BP_Wall3] NoTouch
+[2016.01.14-21.21.50:720][883]LogBlueprintUserMessages: [BP_Wall3] OnTOUCH
+[2016.01.14-21.21.50:720][883]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.21.50:720][883]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.21.51:067][896]LogBlueprintUserMessages: [BP_Wall3] NoTouch
+[2016.01.14-21.21.51:414][909]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] Dash
+[2016.01.14-21.21.51:651][918]LogBlueprintUserMessages: [BP_Wall18] OnTOUCH
+[2016.01.14-21.21.51:651][918]LogBlueprintUserMessages: [BP_Wall18] NoTouch
+[2016.01.14-21.21.51:651][918]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] En L'air
+[2016.01.14-21.21.51:680][919]LogBlueprintUserMessages: [BP_Wall18] OnTOUCH
+[2016.01.14-21.21.51:680][919]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.21.51:680][919]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.21.52:194][939]LogBlueprintUserMessages: [BP_Wall18] NoTouch
+[2016.01.14-21.21.52:640][956]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] Dash
+[2016.01.14-21.21.52:779][961]LogBlueprintUserMessages: [BP_Wall2] OnTOUCH
+[2016.01.14-21.21.52:779][961]LogBlueprintUserMessages: [BP_Wall2] NoTouch
+[2016.01.14-21.21.52:799][962]LogBlueprintUserMessages: [BP_Wall2] OnTOUCH
+[2016.01.14-21.21.52:800][962]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] touchWall
+[2016.01.14-21.21.52:800][962]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] true
+[2016.01.14-21.21.53:224][978]LogBlueprintUserMessages: [BP_Wall2] NoTouch
+[2016.01.14-21.21.53:949][  5]LogBlueprintUserMessages: [BP_Wall18] OnTOUCH
+[2016.01.14-21.21.53:999][  7]LogBlueprintUserMessages: [BP_Wall21] OnTOUCH
+[2016.01.14-21.21.54:019][  8]LogBlueprintUserMessages: [BP_Wall18] NoTouch
+[2016.01.14-21.21.54:019][  8]LogBlueprintUserMessages: [BP_Wall21] NoTouch
+[2016.01.14-21.21.54:079][ 10]LogBlueprintUserMessages: [BP_Wall21] OnTOUCH
+[2016.01.14-21.21.54:160][ 13]LogBlueprintUserMessages: [BP_Wall21] NoTouch
+[2016.01.14-21.21.54:320][ 19]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] Dash
+[2016.01.14-21.21.54:550][ 28]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] En L'air
+[2016.01.14-21.21.55:547][ 65]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] Dash
+[2016.01.14-21.21.55:786][ 74]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] En L'air
+[2016.01.14-21.21.56:215][ 90]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] 0
+[2016.01.14-21.21.56:215][ 90]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] 0
+[2016.01.14-21.21.56:459][ 99]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] Dash
+[2016.01.14-21.21.56:459][ 99]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] NoTransPArrow
+[2016.01.14-21.21.56:693][108]LogBlueprintUserMessages: [FirstPersonCharacter_C_9] En L'air
+[2016.01.14-21.21.58:356][170]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Boss.Boss:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Boss.Boss:PersistentLevel.Boss' with GeneratedClass '/Game/FirstPersonBP/Maps/Boss.Boss_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Boss.Boss:PersistentLevel.Boss'
+[2016.01.14-21.21.58:452][170]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Boss.Boss:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Boss.Boss:PersistentLevel.Boss' with GeneratedClass '/Game/FirstPersonBP/Maps/Boss.Boss_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Boss.Boss:PersistentLevel.Boss'
+[2016.01.14-21.21.58:481][170]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000039EE2D4E0
+[2016.01.14-21.22.02:684][240]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Boss.Boss:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Boss.Boss:PersistentLevel.Boss' with GeneratedClass '/Game/FirstPersonBP/Maps/Boss.Boss_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Boss.Boss:PersistentLevel.Boss'
+[2016.01.14-21.22.02:684][240]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.14-21.22.02:685][240]PIE: New page: PIE session: Boss (Jan 14, 2016, 11:22:02 AM)
+[2016.01.14-21.22.02:685][240]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Boss
+[2016.01.14-21.22.02:764][240]LogPlayLevel: PIE: StaticDuplicateObject took: (0.078976s)
+[2016.01.14-21.22.02:764][240]LogAIModule: Creating AISystem for world Boss
+[2016.01.14-21.22.02:764][240]LogPlayLevel: PIE: World Init took: (0.000677s)
+[2016.01.14-21.22.02:764][240]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Boss.Boss to /Game/FirstPersonBP/Maps/UEDPIE_0_Boss.Boss (0.079885s)
+[2016.01.14-21.22.02:803][240]LogInit: XAudio2 using 'Haut-parleurs (Périphérique High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.01.14-21.22.02:809][240]LogInit: FAudioDevice initialized.
+[2016.01.14-21.22.02:842][240]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.01.14-21.22.02:864][240]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Boss.Boss up for play (max tick rate 60) at 2016.01.14-16.22.02
+[2016.01.14-21.22.02:864][240]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_Boss.Boss:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.14-21.22.02:864][240]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_Boss.Boss:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.14-21.22.02:866][240]LogWorld: Bringing up level for play took: 0.022526
+[2016.01.14-21.22.02:871][240]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Boss 0.075
+[2016.01.14-21.22.02:872][240]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Boss.Boss:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Boss.Boss:PersistentLevel.Boss' with GeneratedClass '/Game/FirstPersonBP/Maps/Boss.Boss_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Boss.Boss:PersistentLevel.Boss'
+[2016.01.14-21.22.04:131][281]Cmd: LevelEditor.ToggleImmersive
+[2016.01.14-21.22.18:696][816]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] 2
+[2016.01.14-21.22.18:696][816]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] 3
+[2016.01.14-21.22.24:210][  4]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] 1
+[2016.01.14-21.22.24:210][  4]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] 2
+[2016.01.14-21.22.35:109][389]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] 4
+[2016.01.14-21.22.35:109][389]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] 5
+[2016.01.14-21.22.41:686][625]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] 3
+[2016.01.14-21.22.41:686][625]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] 4
+[2016.01.14-21.22.43:731][699]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] Dash
+[2016.01.14-21.22.43:972][708]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] En L'air
+[2016.01.14-21.22.52:423][  8]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] 3
+[2016.01.14-21.22.52:423][  8]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] 4
+[2016.01.14-21.22.56:448][159]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] Dash
+[2016.01.14-21.22.56:705][169]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] En L'air
+[2016.01.14-21.23.00:354][311]LogBlueprintUserMessages: [BP_Wall3] OnTOUCH
+[2016.01.14-21.23.00:354][311]LogBlueprintUserMessages: [BP_Wall3] NoTouch
+[2016.01.14-21.23.00:384][312]LogBlueprintUserMessages: [BP_Wall3] OnTOUCH
+[2016.01.14-21.23.00:384][312]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] touchWall
+[2016.01.14-21.23.00:384][312]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] true
+[2016.01.14-21.23.00:908][332]LogBlueprintUserMessages: [BP_Wall3] NoTouch
+[2016.01.14-21.23.01:530][356]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] Dash
+[2016.01.14-21.23.01:587][358]LogBlueprintUserMessages: [BP_Wall18] OnTOUCH
+[2016.01.14-21.23.01:587][358]LogBlueprintUserMessages: [BP_Wall18] NoTouch
+[2016.01.14-21.23.01:605][359]LogBlueprintUserMessages: [BP_Wall18] OnTOUCH
+[2016.01.14-21.23.01:605][359]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] touchWall
+[2016.01.14-21.23.01:605][359]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] true
+[2016.01.14-21.23.02:079][377]LogBlueprintUserMessages: [BP_Wall18] NoTouch
+[2016.01.14-21.23.02:748][402]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] Dash
+[2016.01.14-21.23.02:847][406]LogBlueprintUserMessages: [BP_Wall2] OnTOUCH
+[2016.01.14-21.23.02:847][406]LogBlueprintUserMessages: [BP_Wall2] NoTouch
+[2016.01.14-21.23.02:877][407]LogBlueprintUserMessages: [BP_Wall2] OnTOUCH
+[2016.01.14-21.23.02:877][407]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] touchWall
+[2016.01.14-21.23.02:877][407]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] true
+[2016.01.14-21.23.03:411][427]LogBlueprintUserMessages: [BP_Wall2] NoTouch
+[2016.01.14-21.23.04:185][456]LogBlueprintUserMessages: [BP_Wall21] OnTOUCH
+[2016.01.14-21.23.04:185][456]LogBlueprintUserMessages: [BP_Wall21] NoTouch
+[2016.01.14-21.23.04:215][457]LogBlueprintUserMessages: [BP_Wall21] OnTOUCH
+[2016.01.14-21.23.04:215][457]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] touchWall
+[2016.01.14-21.23.04:215][457]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] true
+[2016.01.14-21.23.04:630][473]LogBlueprintUserMessages: [BP_Wall21] NoTouch
+[2016.01.14-21.23.05:446][504]LogBlueprintUserMessages: [BP_Wall_374] OnTOUCH
+[2016.01.14-21.23.05:446][504]LogBlueprintUserMessages: [BP_Wall_374] NoTouch
+[2016.01.14-21.23.05:476][505]LogBlueprintUserMessages: [BP_Wall_374] OnTOUCH
+[2016.01.14-21.23.05:476][505]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] touchWall
+[2016.01.14-21.23.05:476][505]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] true
+[2016.01.14-21.23.05:853][519]LogBlueprintUserMessages: [BP_Wall_374] NoTouch
+[2016.01.14-21.23.06:290][536]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] Dash
+[2016.01.14-21.23.06:366][539]LogBlueprintUserMessages: [BP_Wall21] OnTOUCH
+[2016.01.14-21.23.06:366][539]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] touchWall
+[2016.01.14-21.23.06:366][539]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] true
+[2016.01.14-21.23.06:660][550]LogBlueprintUserMessages: [BP_Wall20] OnTOUCH
+[2016.01.14-21.23.06:660][550]LogBlueprintUserMessages: [BP_Wall21] NoTouch
+[2016.01.14-21.23.06:660][550]LogBlueprintUserMessages: [BP_Wall20] NoTouch
+[2016.01.14-21.23.06:688][551]LogBlueprintUserMessages: [BP_Wall20] OnTOUCH
+[2016.01.14-21.23.06:689][551]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] touchWall
+[2016.01.14-21.23.06:689][551]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] true
+[2016.01.14-21.23.06:765][554]LogBlueprintUserMessages: [BP_Wall20] NoTouch
+[2016.01.14-21.23.07:532][583]LogBlueprintUserMessages: [BP_Wall20] OnTOUCH
+[2016.01.14-21.23.07:532][583]LogBlueprintUserMessages: [BP_Wall20] NoTouch
+[2016.01.14-21.23.07:562][584]LogBlueprintUserMessages: [BP_Wall20] OnTOUCH
+[2016.01.14-21.23.07:562][584]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] touchWall
+[2016.01.14-21.23.07:562][584]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] true
+[2016.01.14-21.23.07:750][591]LogBlueprintUserMessages: [BP_Wall20] NoTouch
+[2016.01.14-21.23.14:938][861]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] 2
+[2016.01.14-21.23.14:938][861]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] 3
+[2016.01.14-21.23.26:915][304]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] 1
+[2016.01.14-21.23.26:915][304]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] 2
+[2016.01.14-21.23.33:284][541]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] Dash
+[2016.01.14-21.23.33:525][550]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] En L'air
+[2016.01.14-21.23.34:766][597]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] Dash
+[2016.01.14-21.23.35:005][606]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] En L'air
+[2016.01.14-21.23.38:793][748]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] 0
+[2016.01.14-21.23.38:793][748]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] 1
+[2016.01.14-21.23.42:817][898]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] Dash
+[2016.01.14-21.23.43:055][907]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] En L'air
+[2016.01.14-21.23.43:766][934]LogBlueprintUserMessages: [BP_Wall21] OnTOUCH
+[2016.01.14-21.23.43:766][934]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] touchWall
+[2016.01.14-21.23.43:766][934]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] true
+[2016.01.14-21.23.43:826][936]LogBlueprintUserMessages: [BP_Wall21] NoTouch
+[2016.01.14-21.23.44:305][954]LogBlueprintUserMessages: [BP_Wall21] OnTOUCH
+[2016.01.14-21.23.44:305][954]LogBlueprintUserMessages: [BP_Wall21] NoTouch
+[2016.01.14-21.23.44:335][955]LogBlueprintUserMessages: [BP_Wall21] OnTOUCH
+[2016.01.14-21.23.44:335][955]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] touchWall
+[2016.01.14-21.23.44:335][955]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] true
+[2016.01.14-21.23.44:494][961]LogBlueprintUserMessages: [BP_Wall21] NoTouch
+[2016.01.14-21.23.45:035][981]LogBlueprintUserMessages: [BP_Wall21] OnTOUCH
+[2016.01.14-21.23.45:035][981]LogBlueprintUserMessages: [BP_Wall21] NoTouch
+[2016.01.14-21.23.45:065][982]LogBlueprintUserMessages: [BP_Wall21] OnTOUCH
+[2016.01.14-21.23.45:065][982]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] touchWall
+[2016.01.14-21.23.45:065][982]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] true
+[2016.01.14-21.23.45:225][988]LogBlueprintUserMessages: [BP_Wall21] NoTouch
+[2016.01.14-21.23.46:192][ 25]LogBlueprintUserMessages: [BP_Wall20] OnTOUCH
+[2016.01.14-21.23.46:192][ 25]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] touchWall
+[2016.01.14-21.23.46:192][ 25]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] true
+[2016.01.14-21.23.46:315][ 30]LogBlueprintUserMessages: [BP_Wall20] NoTouch
+[2016.01.14-21.23.46:974][ 55]LogBlueprintUserMessages: [BP_Wall20] OnTOUCH
+[2016.01.14-21.23.46:974][ 55]LogBlueprintUserMessages: [BP_Wall12] OnTOUCH
+[2016.01.14-21.23.47:155][ 62]LogBlueprintUserMessages: [BP_Wall12] NoTouch
+[2016.01.14-21.23.47:205][ 64]LogBlueprintUserMessages: [BP_Wall20] NoTouch
+[2016.01.14-21.23.47:265][ 66]LogBlueprintUserMessages: [BP_Wall20] OnTOUCH
+[2016.01.14-21.23.47:315][ 68]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] touchWall
+[2016.01.14-21.23.47:315][ 68]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] true
+[2016.01.14-21.23.47:345][ 69]LogBlueprintUserMessages: [BP_Wall20] NoTouch
+[2016.01.14-21.23.47:817][ 87]LogBlueprintUserMessages: [BP_Wall12] OnTOUCH
+[2016.01.14-21.23.47:817][ 87]LogBlueprintUserMessages: [BP_Wall12] NoTouch
+[2016.01.14-21.23.47:845][ 88]LogBlueprintUserMessages: [BP_Wall12] OnTOUCH
+[2016.01.14-21.23.48:131][ 99]LogBlueprintUserMessages: [BP_Wall20] OnTOUCH
+[2016.01.14-21.23.48:254][104]LogBlueprintUserMessages: [BP_Wall12] NoTouch
+[2016.01.14-21.23.49:896][167]LogBlueprintUserMessages: [BP_Wall24] OnTOUCH
+[2016.01.14-21.23.49:896][167]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] touchWall
+[2016.01.14-21.23.49:896][167]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] true
+[2016.01.14-21.23.49:926][168]LogBlueprintUserMessages: [BP_Wall20] NoTouch
+[2016.01.14-21.23.52:265][257]LogBlueprintUserMessages: [BP_Wall17] OnTOUCH
+[2016.01.14-21.23.52:265][257]LogBlueprintUserMessages: [BP_Wall24] NoTouch
+[2016.01.14-21.23.52:265][257]LogBlueprintUserMessages: [BP_Wall17] NoTouch
+[2016.01.14-21.23.52:285][258]LogBlueprintUserMessages: [BP_Wall17] OnTOUCH
+[2016.01.14-21.23.52:315][259]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] touchWall
+[2016.01.14-21.23.52:315][259]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] true
+[2016.01.14-21.23.52:472][265]LogBlueprintUserMessages: [BP_Wall17] NoTouch
+[2016.01.14-21.23.53:088][288]LogBlueprintUserMessages: [BP_Wall17] OnTOUCH
+[2016.01.14-21.23.53:088][288]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] touchWall
+[2016.01.14-21.23.53:088][288]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] true
+[2016.01.14-21.23.53:138][290]LogBlueprintUserMessages: [BP_Wall17] NoTouch
+[2016.01.14-21.23.53:724][312]LogBlueprintUserMessages: [BP_Wall17] OnTOUCH
+[2016.01.14-21.23.53:724][312]LogBlueprintUserMessages: [BP_Wall17] NoTouch
+[2016.01.14-21.23.53:743][313]LogBlueprintUserMessages: [BP_Wall17] OnTOUCH
+[2016.01.14-21.23.53:743][313]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] touchWall
+[2016.01.14-21.23.53:744][313]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] true
+[2016.01.14-21.23.53:803][315]LogBlueprintUserMessages: [BP_Wall17] NoTouch
+[2016.01.14-21.23.54:390][337]LogBlueprintUserMessages: [BP_Wall17] OnTOUCH
+[2016.01.14-21.23.54:390][337]LogBlueprintUserMessages: [BP_Wall17] NoTouch
+[2016.01.14-21.23.54:420][338]LogBlueprintUserMessages: [BP_Wall17] OnTOUCH
+[2016.01.14-21.23.54:420][338]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] touchWall
+[2016.01.14-21.23.54:420][338]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] true
+[2016.01.14-21.23.54:440][339]LogBlueprintUserMessages: [BP_Wall17] NoTouch
+[2016.01.14-21.23.54:977][359]LogBlueprintUserMessages: [BP_Wall17] OnTOUCH
+[2016.01.14-21.23.54:977][359]LogBlueprintUserMessages: [BP_Wall17] NoTouch
+[2016.01.14-21.23.55:007][360]LogBlueprintUserMessages: [BP_Wall17] OnTOUCH
+[2016.01.14-21.23.55:327][372]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] touchWall
+[2016.01.14-21.23.55:327][372]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] true
+[2016.01.14-21.23.55:426][376]LogBlueprintUserMessages: [BP_Wall17] NoTouch
+[2016.01.14-21.23.55:884][393]LogBlueprintUserMessages: [BP_Wall17] OnTOUCH
+[2016.01.14-21.23.55:884][393]LogBlueprintUserMessages: [BP_Wall17] NoTouch
+[2016.01.14-21.23.55:914][394]LogBlueprintUserMessages: [BP_Wall17] OnTOUCH
+[2016.01.14-21.23.55:914][394]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] touchWall
+[2016.01.14-21.23.55:914][394]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] true
+[2016.01.14-21.23.55:943][395]LogBlueprintUserMessages: [BP_Wall17] NoTouch
+[2016.01.14-21.23.56:410][413]LogBlueprintUserMessages: [BP_Wall17] OnTOUCH
+[2016.01.14-21.23.56:410][413]LogBlueprintUserMessages: [BP_Wall17] NoTouch
+[2016.01.14-21.23.56:439][414]LogBlueprintUserMessages: [BP_Wall17] OnTOUCH
+[2016.01.14-21.23.56:439][414]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] touchWall
+[2016.01.14-21.23.56:439][414]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] true
+[2016.01.14-21.23.56:619][421]LogBlueprintUserMessages: [BP_Wall17] NoTouch
+[2016.01.14-21.23.57:076][439]LogBlueprintUserMessages: [BP_Wall17] OnTOUCH
+[2016.01.14-21.23.57:076][439]LogBlueprintUserMessages: [BP_Wall17] NoTouch
+[2016.01.14-21.23.57:104][440]LogBlueprintUserMessages: [BP_Wall17] OnTOUCH
+[2016.01.14-21.23.57:105][440]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] touchWall
+[2016.01.14-21.23.57:105][440]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] true
+[2016.01.14-21.23.57:228][445]LogBlueprintUserMessages: [BP_Wall17] NoTouch
+[2016.01.14-21.23.57:683][463]LogBlueprintUserMessages: [BP_Wall17] OnTOUCH
+[2016.01.14-21.23.57:683][463]LogBlueprintUserMessages: [BP_Wall17] NoTouch
+[2016.01.14-21.23.57:712][464]LogBlueprintUserMessages: [BP_Wall17] OnTOUCH
+[2016.01.14-21.23.57:712][464]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] touchWall
+[2016.01.14-21.23.57:712][464]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] true
+[2016.01.14-21.23.57:863][470]LogBlueprintUserMessages: [BP_Wall17] NoTouch
+[2016.01.14-21.23.58:348][489]LogBlueprintUserMessages: [BP_Wall17] OnTOUCH
+[2016.01.14-21.23.58:348][489]LogBlueprintUserMessages: [BP_Wall17] NoTouch
+[2016.01.14-21.23.58:377][490]LogBlueprintUserMessages: [BP_Wall17] OnTOUCH
+[2016.01.14-21.23.58:377][490]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] touchWall
+[2016.01.14-21.23.58:377][490]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] true
+[2016.01.14-21.23.59:637][538]LogBlueprintUserMessages: [BP_Wall17] NoTouch
+[2016.01.14-21.24.00:216][561]LogBlueprintUserMessages: [BP_Wall9_338] OnTOUCH
+[2016.01.14-21.24.00:216][561]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] touchWall
+[2016.01.14-21.24.00:216][561]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] true
+[2016.01.14-21.24.00:421][569]LogBlueprintUserMessages: [BP_Wall9_338] NoTouch
+[2016.01.14-21.24.00:951][590]LogBlueprintUserMessages: [BP_Wall16] OnTOUCH
+[2016.01.14-21.24.00:952][590]LogBlueprintUserMessages: [BP_Wall16] NoTouch
+[2016.01.14-21.24.00:980][591]LogBlueprintUserMessages: [BP_Wall16] OnTOUCH
+[2016.01.14-21.24.00:980][591]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] touchWall
+[2016.01.14-21.24.00:980][591]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] true
+[2016.01.14-21.24.01:027][593]LogBlueprintUserMessages: [BP_Wall16] NoTouch
+[2016.01.14-21.24.01:968][630]LogBlueprintUserMessages: [BP_Wall16] OnTOUCH
+[2016.01.14-21.24.01:968][630]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] touchWall
+[2016.01.14-21.24.01:968][630]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] true
+[2016.01.14-21.24.02:072][634]LogBlueprintUserMessages: [BP_Wall16] NoTouch
+[2016.01.14-21.24.02:554][653]LogBlueprintUserMessages: [BP_Wall16] OnTOUCH
+[2016.01.14-21.24.02:554][653]LogBlueprintUserMessages: [BP_Wall16] NoTouch
+[2016.01.14-21.24.02:582][654]LogBlueprintUserMessages: [BP_Wall16] OnTOUCH
+[2016.01.14-21.24.02:994][670]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] touchWall
+[2016.01.14-21.24.02:994][670]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] true
+[2016.01.14-21.24.03:960][707]LogBlueprintUserMessages: [BP_Wall12] OnTOUCH
+[2016.01.14-21.24.03:960][707]LogBlueprintUserMessages: [BP_Wall16] NoTouch
+[2016.01.14-21.24.03:960][707]LogBlueprintUserMessages: [BP_Wall12] NoTouch
+[2016.01.14-21.24.03:979][708]LogBlueprintUserMessages: [BP_Wall12] OnTOUCH
+[2016.01.14-21.24.03:979][708]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] touchWall
+[2016.01.14-21.24.03:979][708]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] true
+[2016.01.14-21.24.05:262][756]LogBlueprintUserMessages: [BP_Wall12] NoTouch
+[2016.01.14-21.24.06:335][796]LogBlueprintUserMessages: [BP_Wall21] OnTOUCH
+[2016.01.14-21.24.06:335][796]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] touchWall
+[2016.01.14-21.24.06:335][796]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] true
+[2016.01.14-21.24.06:493][802]LogBlueprintUserMessages: [BP_Wall21] NoTouch
+[2016.01.14-21.24.06:999][821]LogBlueprintUserMessages: [BP_Wall21] OnTOUCH
+[2016.01.14-21.24.06:999][821]LogBlueprintUserMessages: [BP_Wall21] NoTouch
+[2016.01.14-21.24.07:029][822]LogBlueprintUserMessages: [BP_Wall21] OnTOUCH
+[2016.01.14-21.24.07:029][822]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] touchWall
+[2016.01.14-21.24.07:029][822]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] true
+[2016.01.14-21.24.07:108][825]LogBlueprintUserMessages: [BP_Wall21] NoTouch
+[2016.01.14-21.24.07:739][849]LogBlueprintUserMessages: [BP_Wall21] OnTOUCH
+[2016.01.14-21.24.07:739][849]LogBlueprintUserMessages: [BP_Wall21] NoTouch
+[2016.01.14-21.24.07:759][850]LogBlueprintUserMessages: [BP_Wall21] OnTOUCH
+[2016.01.14-21.24.07:759][850]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] touchWall
+[2016.01.14-21.24.07:759][850]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] true
+[2016.01.14-21.24.07:789][851]LogBlueprintUserMessages: [BP_Wall21] NoTouch
+[2016.01.14-21.24.08:279][869]LogBlueprintUserMessages: [BP_Wall21] OnTOUCH
+[2016.01.14-21.24.08:279][869]LogBlueprintUserMessages: [BP_Wall21] NoTouch
+[2016.01.14-21.24.08:298][870]LogBlueprintUserMessages: [BP_Wall21] OnTOUCH
+[2016.01.14-21.24.08:298][870]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] touchWall
+[2016.01.14-21.24.08:298][870]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] true
+[2016.01.14-21.24.08:327][871]LogBlueprintUserMessages: [BP_Wall21] NoTouch
+[2016.01.14-21.24.08:800][889]LogBlueprintUserMessages: [BP_Wall21] OnTOUCH
+[2016.01.14-21.24.08:800][889]LogBlueprintUserMessages: [BP_Wall21] NoTouch
+[2016.01.14-21.24.08:830][890]LogBlueprintUserMessages: [BP_Wall21] OnTOUCH
+[2016.01.14-21.24.08:830][890]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] touchWall
+[2016.01.14-21.24.08:830][890]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] true
+[2016.01.14-21.24.08:860][891]LogBlueprintUserMessages: [BP_Wall21] NoTouch
+[2016.01.14-21.24.09:344][909]LogBlueprintUserMessages: [BP_Wall21] OnTOUCH
+[2016.01.14-21.24.09:344][909]LogBlueprintUserMessages: [BP_Wall21] NoTouch
+[2016.01.14-21.24.09:374][910]LogBlueprintUserMessages: [BP_Wall21] OnTOUCH
+[2016.01.14-21.24.09:374][910]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] touchWall
+[2016.01.14-21.24.09:374][910]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] true
+[2016.01.14-21.24.09:535][916]LogBlueprintUserMessages: [BP_Wall21] NoTouch
+[2016.01.14-21.24.10:007][934]LogBlueprintUserMessages: [BP_Wall21] OnTOUCH
+[2016.01.14-21.24.10:007][934]LogBlueprintUserMessages: [BP_Wall21] NoTouch
+[2016.01.14-21.24.10:026][935]LogBlueprintUserMessages: [BP_Wall21] OnTOUCH
+[2016.01.14-21.24.10:026][935]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] touchWall
+[2016.01.14-21.24.10:026][935]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] true
+[2016.01.14-21.24.10:085][937]LogBlueprintUserMessages: [BP_Wall21] NoTouch
+[2016.01.14-21.24.10:573][956]LogBlueprintUserMessages: [BP_Wall21] OnTOUCH
+[2016.01.14-21.24.10:573][956]LogBlueprintUserMessages: [BP_Wall21] NoTouch
+[2016.01.14-21.24.10:601][957]LogBlueprintUserMessages: [BP_Wall21] OnTOUCH
+[2016.01.14-21.24.10:602][957]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] touchWall
+[2016.01.14-21.24.10:602][957]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] true
+[2016.01.14-21.24.10:649][959]LogBlueprintUserMessages: [BP_Wall21] NoTouch
+[2016.01.14-21.24.11:029][974]LogBlueprintUserMessages: [BP_Wall10] OnTOUCH
+[2016.01.14-21.24.11:029][974]LogBlueprintUserMessages: [BP_Wall10] NoTouch
+[2016.01.14-21.24.11:058][975]LogBlueprintUserMessages: [BP_Wall10] OnTOUCH
+[2016.01.14-21.24.11:058][975]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] touchWall
+[2016.01.14-21.24.11:058][975]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] true
+[2016.01.14-21.24.11:331][986]LogBlueprintUserMessages: [BP_Wall13] OnTOUCH
+[2016.01.14-21.24.11:331][986]LogBlueprintUserMessages: [BP_Wall10] NoTouch
+[2016.01.14-21.24.11:418][989]LogBlueprintUserMessages: [BP_Wall10] OnTOUCH
+[2016.01.14-21.24.11:418][989]LogBlueprintUserMessages: [BP_Wall13] NoTouch
+[2016.01.14-21.24.11:843][  6]LogBlueprintUserMessages: [BP_Wall10] NoTouch
+[2016.01.14-21.24.11:871][  7]LogBlueprintUserMessages: [BP_Wall18] OnTOUCH
+[2016.01.14-21.24.11:871][  7]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] touchWall
+[2016.01.14-21.24.11:871][  7]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] true
+[2016.01.14-21.24.13:799][ 81]LogBlueprintUserMessages: [BP_Wall23] OnTOUCH
+[2016.01.14-21.24.13:799][ 81]LogBlueprintUserMessages: [BP_Wall18] NoTouch
+[2016.01.14-21.24.13:799][ 81]LogBlueprintUserMessages: [BP_Wall23] NoTouch
+[2016.01.14-21.24.13:819][ 82]LogBlueprintUserMessages: [BP_Wall23] OnTOUCH
+[2016.01.14-21.24.13:819][ 82]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] touchWall
+[2016.01.14-21.24.13:819][ 82]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] true
+[2016.01.14-21.24.15:460][143]LogBlueprintUserMessages: [BP_Wall19] OnTOUCH
+[2016.01.14-21.24.15:460][143]LogBlueprintUserMessages: [BP_Wall23] NoTouch
+[2016.01.14-21.24.15:460][143]LogBlueprintUserMessages: [BP_Wall19] NoTouch
+[2016.01.14-21.24.15:584][148]LogBlueprintUserMessages: [BP_Wall19] OnTOUCH
+[2016.01.14-21.24.15:584][148]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] touchWall
+[2016.01.14-21.24.15:584][148]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] true
+[2016.01.14-21.24.17:978][239]LogBlueprintUserMessages: [BP_Wall19] NoTouch
+[2016.01.14-21.24.18:636][264]LogBlueprintUserMessages: [BP_Wall11] OnTOUCH
+[2016.01.14-21.24.18:636][264]LogBlueprintUserMessages: [BP_Wall11] NoTouch
+[2016.01.14-21.24.18:654][265]LogBlueprintUserMessages: [BP_Wall11] OnTOUCH
+[2016.01.14-21.24.18:654][265]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] touchWall
+[2016.01.14-21.24.18:654][265]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] true
+[2016.01.14-21.24.18:729][268]LogBlueprintUserMessages: [BP_Wall11] NoTouch
+[2016.01.14-21.24.19:211][287]LogBlueprintUserMessages: [BP_Wall11] OnTOUCH
+[2016.01.14-21.24.19:211][287]LogBlueprintUserMessages: [BP_Wall11] NoTouch
+[2016.01.14-21.24.19:240][288]LogBlueprintUserMessages: [BP_Wall11] OnTOUCH
+[2016.01.14-21.24.19:240][288]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] touchWall
+[2016.01.14-21.24.19:240][288]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] true
+[2016.01.14-21.24.19:362][293]LogBlueprintUserMessages: [BP_Wall11] NoTouch
+[2016.01.14-21.24.19:798][310]LogBlueprintUserMessages: [BP_Wall11] OnTOUCH
+[2016.01.14-21.24.19:798][310]LogBlueprintUserMessages: [BP_Wall11] NoTouch
+[2016.01.14-21.24.19:817][311]LogBlueprintUserMessages: [BP_Wall11] OnTOUCH
+[2016.01.14-21.24.19:817][311]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] touchWall
+[2016.01.14-21.24.19:817][311]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] true
+[2016.01.14-21.24.19:845][312]LogBlueprintUserMessages: [BP_Wall11] NoTouch
+[2016.01.14-21.24.20:309][330]LogBlueprintUserMessages: [BP_Wall11] OnTOUCH
+[2016.01.14-21.24.20:309][330]LogBlueprintUserMessages: [BP_Wall11] NoTouch
+[2016.01.14-21.24.20:338][331]LogBlueprintUserMessages: [BP_Wall11] OnTOUCH
+[2016.01.14-21.24.20:338][331]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] touchWall
+[2016.01.14-21.24.20:338][331]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] true
+[2016.01.14-21.24.20:461][336]LogBlueprintUserMessages: [BP_Wall11] NoTouch
+[2016.01.14-21.24.20:925][354]LogBlueprintUserMessages: [BP_Wall11] OnTOUCH
+[2016.01.14-21.24.20:925][354]LogBlueprintUserMessages: [BP_Wall11] NoTouch
+[2016.01.14-21.24.20:943][355]LogBlueprintUserMessages: [BP_Wall11] OnTOUCH
+[2016.01.14-21.24.20:943][355]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] touchWall
+[2016.01.14-21.24.20:943][355]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] true
+[2016.01.14-21.24.26:349][563]LogBlueprintUserMessages: [BP_Wall11] NoTouch
+[2016.01.14-21.24.26:915][584]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] Dash
+[2016.01.14-21.24.27:164][593]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] En L'air
+[2016.01.14-21.24.31:454][753]LogBlueprintUserMessages: [BP_Wall23] OnTOUCH
+[2016.01.14-21.24.31:454][753]LogBlueprintUserMessages: [BP_Wall23] NoTouch
+[2016.01.14-21.24.31:473][754]LogBlueprintUserMessages: [BP_Wall23] OnTOUCH
+[2016.01.14-21.24.31:473][754]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] touchWall
+[2016.01.14-21.24.31:473][754]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] true
+[2016.01.14-21.24.31:710][763]LogBlueprintUserMessages: [BP_Wall23] NoTouch
+[2016.01.14-21.24.32:038][775]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] Dash
+[2016.01.14-21.24.32:087][777]LogBlueprintUserMessages: [BP_Wall23] OnTOUCH
+[2016.01.14-21.24.32:087][777]LogBlueprintUserMessages: [BP_Wall23] NoTouch
+[2016.01.14-21.24.32:117][778]LogBlueprintUserMessages: [BP_Wall23] OnTOUCH
+[2016.01.14-21.24.32:117][778]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] touchWall
+[2016.01.14-21.24.32:117][778]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] true
+[2016.01.14-21.24.32:226][782]LogBlueprintUserMessages: [BP_Wall23] NoTouch
+[2016.01.14-21.24.32:276][784]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] En L'air
+[2016.01.14-21.24.32:544][794]LogBlueprintUserMessages: [BP_Wall23] OnTOUCH
+[2016.01.14-21.24.32:544][794]LogBlueprintUserMessages: [BP_Wall23] NoTouch
+[2016.01.14-21.24.32:574][795]LogBlueprintUserMessages: [BP_Wall23] OnTOUCH
+[2016.01.14-21.24.32:574][795]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] touchWall
+[2016.01.14-21.24.32:574][795]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] true
+[2016.01.14-21.24.32:653][798]LogBlueprintUserMessages: [BP_Wall23] NoTouch
+[2016.01.14-21.24.33:130][816]LogBlueprintUserMessages: [BP_Wall23] OnTOUCH
+[2016.01.14-21.24.33:130][816]LogBlueprintUserMessages: [BP_Wall23] NoTouch
+[2016.01.14-21.24.33:150][817]LogBlueprintUserMessages: [BP_Wall23] OnTOUCH
+[2016.01.14-21.24.33:150][817]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] touchWall
+[2016.01.14-21.24.33:150][817]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] true
+[2016.01.14-21.24.33:259][821]LogBlueprintUserMessages: [BP_Wall23] NoTouch
+[2016.01.14-21.24.33:718][838]LogBlueprintUserMessages: [BP_Wall23] OnTOUCH
+[2016.01.14-21.24.33:718][838]LogBlueprintUserMessages: [BP_Wall23] NoTouch
+[2016.01.14-21.24.33:747][839]LogBlueprintUserMessages: [BP_Wall23] OnTOUCH
+[2016.01.14-21.24.33:748][839]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] touchWall
+[2016.01.14-21.24.33:748][839]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] true
+[2016.01.14-21.24.33:874][844]LogBlueprintUserMessages: [BP_Wall23] NoTouch
+[2016.01.14-21.24.34:347][862]LogBlueprintUserMessages: [BP_Wall23] OnTOUCH
+[2016.01.14-21.24.34:347][862]LogBlueprintUserMessages: [BP_Wall23] NoTouch
+[2016.01.14-21.24.34:377][863]LogBlueprintUserMessages: [BP_Wall23] OnTOUCH
+[2016.01.14-21.24.34:377][863]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] touchWall
+[2016.01.14-21.24.34:377][863]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] true
+[2016.01.14-21.24.34:427][865]LogBlueprintUserMessages: [BP_Wall23] NoTouch
+[2016.01.14-21.24.34:884][882]LogBlueprintUserMessages: [BP_Wall23] OnTOUCH
+[2016.01.14-21.24.34:884][882]LogBlueprintUserMessages: [BP_Wall23] NoTouch
+[2016.01.14-21.24.34:903][883]LogBlueprintUserMessages: [BP_Wall23] OnTOUCH
+[2016.01.14-21.24.34:903][883]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] touchWall
+[2016.01.14-21.24.34:904][883]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] true
+[2016.01.14-21.24.34:933][884]LogBlueprintUserMessages: [BP_Wall23] NoTouch
+[2016.01.14-21.24.35:479][905]LogBlueprintUserMessages: [BP_Wall23] OnTOUCH
+[2016.01.14-21.24.35:479][905]LogBlueprintUserMessages: [BP_Wall23] NoTouch
+[2016.01.14-21.24.35:508][906]LogBlueprintUserMessages: [BP_Wall23] OnTOUCH
+[2016.01.14-21.24.35:508][906]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] touchWall
+[2016.01.14-21.24.35:508][906]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] true
+[2016.01.14-21.24.35:584][909]LogBlueprintUserMessages: [BP_Wall23] NoTouch
+[2016.01.14-21.24.36:116][930]LogBlueprintUserMessages: [BP_Wall23] OnTOUCH
+[2016.01.14-21.24.36:116][930]LogBlueprintUserMessages: [BP_Wall23] NoTouch
+[2016.01.14-21.24.36:145][931]LogBlueprintUserMessages: [BP_Wall23] OnTOUCH
+[2016.01.14-21.24.36:145][931]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] touchWall
+[2016.01.14-21.24.36:145][931]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] true
+[2016.01.14-21.24.36:220][934]LogBlueprintUserMessages: [BP_Wall23] NoTouch
+[2016.01.14-21.24.36:707][953]LogBlueprintUserMessages: [BP_Wall15] OnTOUCH
+[2016.01.14-21.24.36:707][953]LogBlueprintUserMessages: [BP_Wall15] NoTouch
+[2016.01.14-21.24.36:725][954]LogBlueprintUserMessages: [BP_Wall15] OnTOUCH
+[2016.01.14-21.24.36:725][954]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] touchWall
+[2016.01.14-21.24.36:725][954]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] true
+[2016.01.14-21.24.36:877][960]LogBlueprintUserMessages: [BP_Wall15] NoTouch
+[2016.01.14-21.24.37:342][978]LogBlueprintUserMessages: [BP_Wall15] OnTOUCH
+[2016.01.14-21.24.37:342][978]LogBlueprintUserMessages: [BP_Wall15] NoTouch
+[2016.01.14-21.24.37:361][979]LogBlueprintUserMessages: [BP_Wall15] OnTOUCH
+[2016.01.14-21.24.37:361][979]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] touchWall
+[2016.01.14-21.24.37:361][979]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] true
+[2016.01.14-21.24.37:523][985]LogBlueprintUserMessages: [BP_Wall15] NoTouch
+[2016.01.14-21.24.37:979][  3]LogBlueprintUserMessages: [BP_Wall15] OnTOUCH
+[2016.01.14-21.24.37:979][  3]LogBlueprintUserMessages: [BP_Wall15] NoTouch
+[2016.01.14-21.24.38:008][  4]LogBlueprintUserMessages: [BP_Wall15] OnTOUCH
+[2016.01.14-21.24.38:008][  4]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] touchWall
+[2016.01.14-21.24.38:008][  4]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] true
+[2016.01.14-21.24.38:206][ 12]LogBlueprintUserMessages: [BP_Wall15] NoTouch
+[2016.01.14-21.24.38:661][ 30]LogBlueprintUserMessages: [BP_Wall15] OnTOUCH
+[2016.01.14-21.24.38:661][ 30]LogBlueprintUserMessages: [BP_Wall15] NoTouch
+[2016.01.14-21.24.38:689][ 31]LogBlueprintUserMessages: [BP_Wall15] OnTOUCH
+[2016.01.14-21.24.38:690][ 31]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] touchWall
+[2016.01.14-21.24.38:690][ 31]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] true
+[2016.01.14-21.24.38:898][ 39]LogBlueprintUserMessages: [BP_Wall15] NoTouch
+[2016.01.14-21.24.39:352][ 57]LogBlueprintUserMessages: [BP_Wall15] OnTOUCH
+[2016.01.14-21.24.39:352][ 57]LogBlueprintUserMessages: [BP_Wall15] NoTouch
+[2016.01.14-21.24.39:381][ 58]LogBlueprintUserMessages: [BP_Wall15] OnTOUCH
+[2016.01.14-21.24.39:381][ 58]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] touchWall
+[2016.01.14-21.24.39:381][ 58]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] true
+[2016.01.14-21.24.39:429][ 60]LogBlueprintUserMessages: [BP_Wall15] NoTouch
+[2016.01.14-21.24.39:882][ 78]LogBlueprintUserMessages: [BP_Wall15] OnTOUCH
+[2016.01.14-21.24.39:882][ 78]LogBlueprintUserMessages: [BP_Wall15] NoTouch
+[2016.01.14-21.24.39:911][ 79]LogBlueprintUserMessages: [BP_Wall15] OnTOUCH
+[2016.01.14-21.24.39:911][ 79]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] touchWall
+[2016.01.14-21.24.39:911][ 79]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] true
+[2016.01.14-21.24.43:075][199]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] 0
+[2016.01.14-21.24.43:075][199]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] 1
+[2016.01.14-21.24.45:160][276]LogBlueprintUserMessages: [BP_Wall15] NoTouch
+[2016.01.14-21.24.45:888][303]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] Dash
+[2016.01.14-21.24.46:131][312]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] En L'air
+[2016.01.14-21.24.50:185][464]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] Dash
+[2016.01.14-21.24.50:405][472]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] En L'air
+[2016.01.14-21.24.53:645][594]LogBlueprintUserMessages: [BP_Wall17] OnTOUCH
+[2016.01.14-21.24.53:645][594]LogBlueprintUserMessages: [BP_Wall17] NoTouch
+[2016.01.14-21.24.53:675][595]LogBlueprintUserMessages: [BP_Wall17] OnTOUCH
+[2016.01.14-21.24.53:675][595]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] touchWall
+[2016.01.14-21.24.53:675][595]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] true
+[2016.01.14-21.24.53:784][599]LogBlueprintUserMessages: [BP_Wall17] NoTouch
+[2016.01.14-21.24.54:251][617]LogBlueprintUserMessages: [BP_Wall17] OnTOUCH
+[2016.01.14-21.24.54:251][617]LogBlueprintUserMessages: [BP_Wall17] NoTouch
+[2016.01.14-21.24.54:280][618]LogBlueprintUserMessages: [BP_Wall17] OnTOUCH
+[2016.01.14-21.24.54:281][618]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] touchWall
+[2016.01.14-21.24.54:281][618]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] true
+[2016.01.14-21.24.54:409][623]LogBlueprintUserMessages: [BP_Wall17] NoTouch
+[2016.01.14-21.24.54:865][640]LogBlueprintUserMessages: [BP_Wall17] OnTOUCH
+[2016.01.14-21.24.54:865][640]LogBlueprintUserMessages: [BP_Wall17] NoTouch
+[2016.01.14-21.24.54:893][641]LogBlueprintUserMessages: [BP_Wall17] OnTOUCH
+[2016.01.14-21.24.54:894][641]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] touchWall
+[2016.01.14-21.24.54:894][641]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] true
+[2016.01.14-21.24.54:912][642]LogBlueprintUserMessages: [BP_Wall17] NoTouch
+[2016.01.14-21.24.55:348][659]LogBlueprintUserMessages: [BP_Wall17] OnTOUCH
+[2016.01.14-21.24.55:348][659]LogBlueprintUserMessages: [BP_Wall17] NoTouch
+[2016.01.14-21.24.55:377][660]LogBlueprintUserMessages: [BP_Wall17] OnTOUCH
+[2016.01.14-21.24.55:377][660]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] touchWall
+[2016.01.14-21.24.55:377][660]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] true
+[2016.01.14-21.24.55:405][661]LogBlueprintUserMessages: [BP_Wall17] NoTouch
+[2016.01.14-21.24.55:858][679]LogBlueprintUserMessages: [BP_Wall17] OnTOUCH
+[2016.01.14-21.24.55:858][679]LogBlueprintUserMessages: [BP_Wall17] NoTouch
+[2016.01.14-21.24.55:888][680]LogBlueprintUserMessages: [BP_Wall17] OnTOUCH
+[2016.01.14-21.24.55:888][680]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] touchWall
+[2016.01.14-21.24.55:888][680]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] true
+[2016.01.14-21.24.55:918][681]LogBlueprintUserMessages: [BP_Wall17] NoTouch
+[2016.01.14-21.24.56:395][699]LogBlueprintUserMessages: [BP_Wall17] OnTOUCH
+[2016.01.14-21.24.56:395][699]LogBlueprintUserMessages: [BP_Wall17] NoTouch
+[2016.01.14-21.24.56:424][700]LogBlueprintUserMessages: [BP_Wall17] OnTOUCH
+[2016.01.14-21.24.56:425][700]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] touchWall
+[2016.01.14-21.24.56:425][700]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] true
+[2016.01.14-21.24.56:583][706]LogBlueprintUserMessages: [BP_Wall17] NoTouch
+[2016.01.14-21.24.57:029][723]LogBlueprintUserMessages: [BP_Wall17] OnTOUCH
+[2016.01.14-21.24.57:029][723]LogBlueprintUserMessages: [BP_Wall17] NoTouch
+[2016.01.14-21.24.57:058][724]LogBlueprintUserMessages: [BP_Wall17] OnTOUCH
+[2016.01.14-21.24.57:058][724]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] touchWall
+[2016.01.14-21.24.57:059][724]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] true
+[2016.01.14-21.24.57:138][727]LogBlueprintUserMessages: [BP_Wall17] NoTouch
+[2016.01.14-21.24.57:592][744]LogBlueprintUserMessages: [BP_Wall17] OnTOUCH
+[2016.01.14-21.24.57:592][744]LogBlueprintUserMessages: [BP_Wall17] NoTouch
+[2016.01.14-21.24.57:611][745]LogBlueprintUserMessages: [BP_Wall17] OnTOUCH
+[2016.01.14-21.24.57:611][745]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] touchWall
+[2016.01.14-21.24.57:611][745]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] true
+[2016.01.14-21.24.57:686][748]LogBlueprintUserMessages: [BP_Wall17] NoTouch
+[2016.01.14-21.24.58:123][765]LogBlueprintUserMessages: [BP_Wall17] OnTOUCH
+[2016.01.14-21.24.58:123][765]LogBlueprintUserMessages: [BP_Wall17] NoTouch
+[2016.01.14-21.24.58:152][766]LogBlueprintUserMessages: [BP_Wall17] OnTOUCH
+[2016.01.14-21.24.58:152][766]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] touchWall
+[2016.01.14-21.24.58:152][766]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] true
+[2016.01.14-21.24.58:256][770]LogBlueprintUserMessages: [BP_Wall17] NoTouch
+[2016.01.14-21.24.58:710][788]LogBlueprintUserMessages: [BP_Wall9_338] OnTOUCH
+[2016.01.14-21.24.58:710][788]LogBlueprintUserMessages: [BP_Wall9_338] NoTouch
+[2016.01.14-21.24.58:738][789]LogBlueprintUserMessages: [BP_Wall9_338] OnTOUCH
+[2016.01.14-21.24.58:738][789]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] touchWall
+[2016.01.14-21.24.58:738][789]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] true
+[2016.01.14-21.24.58:908][796]LogBlueprintUserMessages: [BP_Wall9_338] NoTouch
+[2016.01.14-21.24.59:344][813]LogBlueprintUserMessages: [BP_Wall9_338] OnTOUCH
+[2016.01.14-21.24.59:344][813]LogBlueprintUserMessages: [BP_Wall9_338] NoTouch
+[2016.01.14-21.24.59:373][814]LogBlueprintUserMessages: [BP_Wall9_338] OnTOUCH
+[2016.01.14-21.24.59:373][814]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] touchWall
+[2016.01.14-21.24.59:373][814]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] true
+[2016.01.14-21.25.02:828][944]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] 0
+[2016.01.14-21.25.02:828][944]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] 1
+[2016.01.14-21.25.07:398][ 98]LogBlueprintUserMessages: [BP_Wall9_338] NoTouch
+[2016.01.14-21.25.07:488][100]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Boss.Boss:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Boss.Boss:PersistentLevel.Boss' with GeneratedClass '/Game/FirstPersonBP/Maps/Boss.Boss_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Boss.Boss:PersistentLevel.Boss'
+[2016.01.14-21.25.07:576][100]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Boss.Boss:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Boss.Boss:PersistentLevel.Boss' with GeneratedClass '/Game/FirstPersonBP/Maps/Boss.Boss_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Boss.Boss:PersistentLevel.Boss'
+[2016.01.14-21.25.07:622][100]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000382FA6FC0
+[2016.01.14-21.25.16:763][257]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sol)
+[2016.01.14-21.29.57:925][ 50]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.01.14-21.29.57:925][ 50]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_4) Not registered. Aborting.
+[2016.01.14-21.29.57:925][ 50]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_5) Not registered. Aborting.
+[2016.01.14-21.29.57:925][ 50]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.14-21.29.57:925][ 50]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2016.01.14-21.29.58:162][ 50]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.01.14-21.29.58:210][ 50]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.01.14-21.29.58:492][ 51]Cmd: QUIT_EDITOR
+[2016.01.14-21.29.59:057][ 51]LogExit: Preparing to exit.
+[2016.01.14-21.30.00:037][ 51]LogExit: Editor shut down
+[2016.01.14-21.30.00:037][ 51]LogExit: Transaction tracking system shut down
+[2016.01.14-21.30.00:043][ 51]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000038E3FF880
+[2016.01.14-21.30.00:043][ 51]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000038E285620
+[2016.01.14-21.30.00:043][ 51]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000397276700
+[2016.01.14-21.30.00:044][ 51]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000038E284220
+[2016.01.14-21.30.00:046][ 51]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000382EA4A40
+[2016.01.14-21.30.00:047][ 51]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000382F21300
+[2016.01.14-21.30.00:234][ 51]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000038C95C540
+[2016.01.14-21.30.00:234][ 51]LogExit: Object subsystem successfully closed.
+[2016.01.14-21.30.00:250][ 51]LogD3D11RHI: Shutdown
+[2016.01.14-21.30.00:250][ 51]LogD3D11RHI: CleanupD3DDevice
+[2016.01.14-21.30.00:291][ 51]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.01.14-21.30.00:313][ 51]LogModuleManager: Shutting down and abandoning module BlueprintGraph (198)
+[2016.01.14-21.30.00:313][ 51]LogModuleManager: Shutting down and abandoning module CrashTracker (197)
+[2016.01.14-21.30.00:313][ 51]LogModuleManager: Shutting down and abandoning module SceneOutliner (196)
+[2016.01.14-21.30.00:313][ 51]LogModuleManager: Shutting down and abandoning module SuperSearch (195)
+[2016.01.14-21.30.00:313][ 51]LogModuleManager: Shutting down and abandoning module WidgetCarousel (194)
+[2016.01.14-21.30.00:313][ 51]LogModuleManager: Shutting down and abandoning module AddContentDialog (193)
+[2016.01.14-21.30.00:314][ 51]LogModuleManager: Shutting down and abandoning module EditorWidgets (192)
+[2016.01.14-21.30.00:314][ 51]LogModuleManager: Shutting down and abandoning module CollectionManager (191)
+[2016.01.14-21.30.00:315][ 51]LogModuleManager: Shutting down and abandoning module StatsViewer (190)
+[2016.01.14-21.30.00:315][ 51]LogModuleManager: Shutting down and abandoning module FoliageEdit (189)
+[2016.01.14-21.30.00:315][ 51]LogModuleManager: Shutting down and abandoning module LandscapeEditor (188)
+[2016.01.14-21.30.00:315][ 51]LogModuleManager: Shutting down and abandoning module ActorPickerMode (187)
+[2016.01.14-21.30.00:315][ 51]LogModuleManager: Shutting down and abandoning module GeometryMode (186)
+[2016.01.14-21.30.00:315][ 51]LogModuleManager: Shutting down and abandoning module TextureAlignMode (185)
+[2016.01.14-21.30.00:315][ 51]LogModuleManager: Shutting down and abandoning module BspMode (184)
+[2016.01.14-21.30.00:315][ 51]LogModuleManager: Shutting down and abandoning module PlacementMode (183)
+[2016.01.14-21.30.00:315][ 51]LogModuleManager: Shutting down and abandoning module AutomationWorker (182)
+[2016.01.14-21.30.00:315][ 51]LogModuleManager: Shutting down and abandoning module CharacterAI (181)
+[2016.01.14-21.30.00:315][ 51]LogModuleManager: Shutting down and abandoning module SmartSnapping (180)
+[2016.01.14-21.30.00:315][ 51]LogModuleManager: Shutting down and abandoning module ViewportSnapping (179)
+[2016.01.14-21.30.00:315][ 51]LogModuleManager: Shutting down and abandoning module LogVisualizer (178)
+[2016.01.14-21.30.00:315][ 51]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (177)
+[2016.01.14-21.30.00:315][ 51]LogModuleManager: Shutting down and abandoning module IntroTutorials (176)
+[2016.01.14-21.30.00:315][ 51]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (175)
+[2016.01.14-21.30.00:315][ 51]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (174)
+[2016.01.14-21.30.00:315][ 51]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (173)
+[2016.01.14-21.30.00:315][ 51]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
+[2016.01.14-21.30.01:009][ 51]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (171)
+[2016.01.14-21.30.01:009][ 51]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (170)
+[2016.01.14-21.30.01:009][ 51]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (169)
+[2016.01.14-21.30.01:009][ 51]LogModuleManager: Shutting down and abandoning module MergeActors (168)
+[2016.01.14-21.30.01:009][ 51]LogModuleManager: Shutting down and abandoning module SizeMap (167)
+[2016.01.14-21.30.01:009][ 51]LogModuleManager: Shutting down and abandoning module TreeMap (166)
+[2016.01.14-21.30.01:009][ 51]LogModuleManager: Shutting down and abandoning module ReferenceViewer (165)
+[2016.01.14-21.30.01:009][ 51]LogModuleManager: Shutting down and abandoning module LocalizationService (164)
+[2016.01.14-21.30.01:009][ 51]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (163)
+[2016.01.14-21.30.01:009][ 51]LogModuleManager: Shutting down and abandoning module HardwareTargeting (162)
+[2016.01.14-21.30.01:009][ 51]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (161)
+[2016.01.14-21.30.01:009][ 51]LogModuleManager: Shutting down and abandoning module UndoHistory (160)
+[2016.01.14-21.30.01:009][ 51]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (159)
+[2016.01.14-21.30.01:009][ 51]LogModuleManager: Shutting down and abandoning module UserFeedback (158)
+[2016.01.14-21.30.01:009][ 51]LogModuleManager: Shutting down and abandoning module XmlParser (157)
+[2016.01.14-21.30.01:009][ 51]LogModuleManager: Shutting down and abandoning module Blutility (156)
+[2016.01.14-21.30.01:009][ 51]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (155)
+[2016.01.14-21.30.01:009][ 51]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (154)
+[2016.01.14-21.30.01:009][ 51]LogModuleManager: Shutting down and abandoning module InputBindingEditor (153)
+[2016.01.14-21.30.01:009][ 51]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (152)
+[2016.01.14-21.30.01:009][ 51]LogModuleManager: Shutting down and abandoning module SettingsEditor (151)
+[2016.01.14-21.30.01:009][ 51]LogModuleManager: Shutting down and abandoning module ProjectLauncher (150)
+[2016.01.14-21.30.01:009][ 51]LogModuleManager: Shutting down and abandoning module SessionFrontend (149)
+[2016.01.14-21.30.01:009][ 51]LogModuleManager: Shutting down and abandoning module ProfilerClient (148)
+[2016.01.14-21.30.01:009][ 51]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (147)
+[2016.01.14-21.30.01:009][ 51]LogModuleManager: Shutting down and abandoning module DeviceManager (146)
+[2016.01.14-21.30.01:010][ 51]LogModuleManager: Shutting down and abandoning module AutomationController (145)
+[2016.01.14-21.30.01:010][ 51]LogModuleManager: Shutting down and abandoning module AutomationWindow (144)
+[2016.01.14-21.30.01:010][ 51]LogModuleManager: Shutting down and abandoning module Layers (143)
+[2016.01.14-21.30.01:010][ 51]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (142)
+[2016.01.14-21.30.01:010][ 51]LogModuleManager: Shutting down and abandoning module DetailCustomizations (141)
+[2016.01.14-21.30.01:010][ 51]LogModuleManager: Shutting down and abandoning module PackagesDialog (140)
+[2016.01.14-21.30.01:010][ 51]LogModuleManager: Shutting down and abandoning module Persona (139)
+[2016.01.14-21.30.01:010][ 51]LogModuleManager: Shutting down and abandoning module Kismet (138)
+[2016.01.14-21.30.01:010][ 51]LogModuleManager: Shutting down and abandoning module GraphEditor (137)
+[2016.01.14-21.30.01:010][ 51]LogModuleManager: Shutting down and abandoning module ClassViewer (136)
+[2016.01.14-21.30.01:010][ 51]LogModuleManager: Shutting down and abandoning module Toolbox (135)
+[2016.01.14-21.30.01:010][ 51]LogModuleManager: Shutting down and abandoning module ModuleUI (134)
+[2016.01.14-21.30.01:010][ 51]LogModuleManager: Shutting down and abandoning module MovieSceneTools (133)
+[2016.01.14-21.30.01:010][ 51]LogModuleManager: Shutting down and abandoning module OutputLog (132)
+[2016.01.14-21.30.01:010][ 51]LogModuleManager: Shutting down and abandoning module GammaUI (131)
+[2016.01.14-21.30.01:010][ 51]LogModuleManager: Shutting down and abandoning module Documentation (130)
+[2016.01.14-21.30.01:010][ 51]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (129)
+[2016.01.14-21.30.01:010][ 51]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (128)
+[2016.01.14-21.30.01:010][ 51]LogModuleManager: Shutting down and abandoning module AnalyticsET (127)
+[2016.01.14-21.30.01:010][ 51]LogModuleManager: Shutting down and abandoning module Analytics (126)
+[2016.01.14-21.30.01:010][ 51]LogModuleManager: Shutting down and abandoning module AITestSuite (125)
+[2016.01.14-21.30.01:010][ 51]LogModuleManager: Shutting down and abandoning module GameplayDebugger (124)
+[2016.01.14-21.30.01:010][ 51]LogModuleManager: Shutting down and abandoning module AIModule (123)
+[2016.01.14-21.30.01:010][ 51]LogModuleManager: Shutting down and abandoning module ProfilerService (122)
+[2016.01.14-21.30.01:111][ 51]LogModuleManager: Shutting down and abandoning module TaskGraph (121)
+[2016.01.14-21.30.01:111][ 51]LogModuleManager: Shutting down and abandoning module SlateRemote (120)
+[2016.01.14-21.30.01:111][ 51]LogModuleManager: Shutting down and abandoning module SteamVRController (119)
+[2016.01.14-21.30.01:111][ 51]LogModuleManager: Shutting down and abandoning module SteamVR (118)
+[2016.01.14-21.30.01:111][ 51]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (117)
+[2016.01.14-21.30.01:111][ 51]LogModuleManager: Shutting down and abandoning module OculusRift (116)
+[2016.01.14-21.30.01:111][ 51]LogModuleManager: Shutting down and abandoning module OculusLibrary (115)
+[2016.01.14-21.30.01:111][ 51]LogModuleManager: Shutting down and abandoning module LeapMotionController (114)
+[2016.01.14-21.30.01:128][ 51]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (113)
+[2016.01.14-21.30.01:128][ 51]LogModuleManager: Shutting down and abandoning module CableComponent (112)
+[2016.01.14-21.30.01:128][ 51]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (111)
+[2016.01.14-21.30.01:128][ 51]LogModuleManager: Shutting down and abandoning module MessagingDebugger (110)
+[2016.01.14-21.30.01:128][ 51]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (109)
+[2016.01.14-21.30.01:128][ 51]LogModuleManager: Shutting down and abandoning module HTML5Networking (108)
+[2016.01.14-21.30.01:128][ 51]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (107)
+[2016.01.14-21.30.01:128][ 51]LogModuleManager: Shutting down and abandoning module PluginBrowser (106)
+[2016.01.14-21.30.01:128][ 51]LogModuleManager: Shutting down and abandoning module EpicSurvey (105)
+[2016.01.14-21.30.01:128][ 51]LogModuleManager: Shutting down and abandoning module DesktopPlatform (104)
+[2016.01.14-21.30.01:128][ 51]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (103)
+[2016.01.14-21.30.01:128][ 51]LogModuleManager: Shutting down and abandoning module UObjectPlugin (102)
+[2016.01.14-21.30.01:128][ 51]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (101)
+[2016.01.14-21.30.01:128][ 51]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (100)
+[2016.01.14-21.30.01:128][ 51]LogModuleManager: Shutting down and abandoning module SourceControl (99)
+[2016.01.14-21.30.01:128][ 51]LogModuleManager: Shutting down and abandoning module GitSourceControl (98)
+[2016.01.14-21.30.01:128][ 51]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (97)
+[2016.01.14-21.30.01:128][ 51]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (96)
+[2016.01.14-21.30.01:128][ 51]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (95)
+[2016.01.14-21.30.01:128][ 51]LogModuleManager: Shutting down and abandoning module MeshPaint (94)
+[2016.01.14-21.30.01:128][ 51]LogModuleManager: Shutting down and abandoning module SlateReflector (93)
+[2016.01.14-21.30.01:128][ 51]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2016.01.14-21.30.01:128][ 51]LogModuleManager: Shutting down and abandoning module MainFrame (91)
+[2016.01.14-21.30.01:128][ 51]LogModuleManager: Shutting down and abandoning module LevelEditor (90)
+[2016.01.14-21.30.01:130][ 51]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (89)
+[2016.01.14-21.30.01:130][ 51]LogModuleManager: Shutting down and abandoning module AssetRegistry (88)
+[2016.01.14-21.30.01:185][ 51]LogModuleManager: Shutting down and abandoning module ContentBrowser (87)
+[2016.01.14-21.30.01:186][ 51]LogModuleManager: Shutting down and abandoning module Paper2DEditor (86)
+[2016.01.14-21.30.01:186][ 51]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
+[2016.01.14-21.30.01:287][ 51]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2016.01.14-21.30.01:287][ 51]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2016.01.14-21.30.01:287][ 51]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2016.01.14-21.30.01:290][ 51]LogModuleManager: Shutting down and abandoning module Media (81)
+[2016.01.14-21.30.01:290][ 51]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2016.01.14-21.30.01:290][ 51]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2016.01.14-21.30.01:290][ 51]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2016.01.14-21.30.01:290][ 51]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2016.01.14-21.30.01:290][ 51]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2016.01.14-21.30.01:290][ 51]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2016.01.14-21.30.01:290][ 51]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2016.01.14-21.30.01:290][ 51]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2016.01.14-21.30.01:290][ 51]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2016.01.14-21.30.01:290][ 51]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2016.01.14-21.30.01:290][ 51]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2016.01.14-21.30.01:290][ 51]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2016.01.14-21.30.01:290][ 51]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2016.01.14-21.30.01:290][ 51]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2016.01.14-21.30.01:290][ 51]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2016.01.14-21.30.01:292][ 51]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2016.01.14-21.30.01:292][ 51]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2016.01.14-21.30.01:292][ 51]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2016.01.14-21.30.01:292][ 51]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2016.01.14-21.30.01:292][ 51]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2016.01.14-21.30.01:292][ 51]LogModuleManager: Shutting down and abandoning module Core (59)
+[2016.01.14-21.30.01:292][ 51]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2016.01.14-21.30.01:292][ 51]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2016.01.14-21.30.01:292][ 51]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2016.01.14-21.30.01:292][ 51]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2016.01.14-21.30.01:293][ 51]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2016.01.14-21.30.01:330][ 51]LogDerivedDataCache: Shutdown
+[2016.01.14-21.30.01:330][ 51]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2016.01.14-21.30.01:330][ 51]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2016.01.14-21.30.01:330][ 51]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2016.01.14-21.30.01:330][ 51]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2016.01.14-21.30.01:330][ 51]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2016.01.14-21.30.01:330][ 51]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2016.01.14-21.30.01:330][ 51]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2016.01.14-21.30.01:330][ 51]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2016.01.14-21.30.01:330][ 51]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2016.01.14-21.30.01:330][ 51]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2016.01.14-21.30.01:330][ 51]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2016.01.14-21.30.01:330][ 51]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2016.01.14-21.30.01:330][ 51]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2016.01.14-21.30.01:330][ 51]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2016.01.14-21.30.01:330][ 51]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2016.01.14-21.30.01:330][ 51]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2016.01.14-21.30.01:330][ 51]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2016.01.14-21.30.01:330][ 51]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2016.01.14-21.30.01:330][ 51]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2016.01.14-21.30.01:330][ 51]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2016.01.14-21.30.01:330][ 51]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2016.01.14-21.30.01:330][ 51]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2016.01.14-21.30.01:330][ 51]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2016.01.14-21.30.01:330][ 51]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2016.01.14-21.30.01:330][ 51]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2016.01.14-21.30.01:330][ 51]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2016.01.14-21.30.01:330][ 51]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2016.01.14-21.30.01:330][ 51]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2016.01.14-21.30.01:330][ 51]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2016.01.14-21.30.01:330][ 51]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2016.01.14-21.30.01:330][ 51]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2016.01.14-21.30.01:330][ 51]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2016.01.14-21.30.01:330][ 51]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2016.01.14-21.30.01:330][ 51]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2016.01.14-21.30.01:330][ 51]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2016.01.14-21.30.01:330][ 51]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2016.01.14-21.30.03:333][ 51]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2016.01.14-21.30.03:333][ 51]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.01.14-21.30.03:333][ 51]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.01.14-21.30.03:333][ 51]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.01.14-21.30.03:333][ 51]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.01.14-21.30.03:333][ 51]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.01.14-21.30.03:336][ 51]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.01.14-21.30.03:336][ 51]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.01.14-21.30.03:336][ 51]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.01.14-21.30.03:336][ 51]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.01.14-21.30.03:336][ 51]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.01.14-21.30.03:336][ 51]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.01.14-21.30.03:336][ 51]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.01.14-21.30.03:336][ 51]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.01.14-21.30.03:336][ 51]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.01.14-21.30.03:336][ 51]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.01.14-21.30.03:337][ 51]LogExit: Exiting.
+[2016.01.14-21.30.03:338][ 51]Log file closed, 01/14/16 16:30:03

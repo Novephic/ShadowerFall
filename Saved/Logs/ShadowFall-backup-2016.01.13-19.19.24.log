@@ -1,0 +1,735 @@
+﻿[2016.01.14-00.17.09:248][  0]Log file open, 01/13/16 19:17:09
+[2016.01.14-00.17.09:248][  0]LogInit:Display: Running engine for game: ShadowFall
+[2016.01.14-00.17.09:248][  0]LogInit:Display: RandInit(389242406) SRandInit(389242407).
+[2016.01.14-00.17.09:248][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.01.14-00.17.09:248][  0]LogStats: Stats thread started at 0.082468
+[2016.01.14-00.17.09:248][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.01.14-00.17.09:248][  0]LogInit: API Version: 2672455
+[2016.01.14-00.17.09:248][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2016.01.14-00.17.09:248][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2016.01.14-00.17.09:248][  0]LogInit: Build Configuration: Development
+[2016.01.14-00.17.09:248][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2016.01.14-00.17.09:248][  0]LogInit: Command line:  
+[2016.01.14-00.17.09:248][  0]LogInit: Base directory: D:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2016.01.14-00.17.09:248][  0]LogInit: Rocket: 1
+[2016.01.14-00.17.09:258][  0]LogInit: Using libcurl 7.41.0
+[2016.01.14-00.17.09:258][  0]LogInit:  - built for x86_64-pc-win32
+[2016.01.14-00.17.09:258][  0]LogInit:  - supports SSL with WinSSL
+[2016.01.14-00.17.09:258][  0]LogInit:  - other features:
+[2016.01.14-00.17.09:258][  0]LogInit:      CURL_VERSION_SSL
+[2016.01.14-00.17.09:258][  0]LogInit:      CURL_VERSION_IPV6
+[2016.01.14-00.17.09:258][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.01.14-00.17.09:258][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.01.14-00.17.09:258][  0]LogInit:      CURL_VERSION_IDN
+[2016.01.14-00.17.09:258][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.01.14-00.17.09:258][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.01.14-00.17.09:258][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.01.14-00.17.09:258][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.01.14-00.17.09:258][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.01.14-00.17.09:267][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.01.14-00.17.09:275][  0]LogInit: Object subsystem initialized
+[2016.01.14-00.17.09:276][  0]LogInit: Selected Device Profile: [Windows]
+[2016.01.14-00.17.09:276][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.01.14-00.17.09:284][  0]LogInit: Computer: PCMAXIME
+[2016.01.14-00.17.09:284][  0]LogInit: User: Maxime
+[2016.01.14-00.17.09:284][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.01.14-00.17.09:285][  0]LogInit: High frequency timer resolution =2.338448 MHz
+[2016.01.14-00.17.09:285][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.01.14-00.17.09:285][  0]LogMemory: Platform Memory Stats for Windows
+[2016.01.14-00.17.09:285][  0]LogMemory: Process Physical Memory: 55.99 MB used, 55.99 MB peak
+[2016.01.14-00.17.09:285][  0]LogMemory: Process Virtual Memory: 57.07 MB used, 57.07 MB peak
+[2016.01.14-00.17.09:285][  0]LogMemory: Physical Memory: 3490.94 MB used, 8123.55 MB total
+[2016.01.14-00.17.09:285][  0]LogMemory: Virtual Memory: 351.98 MB used, 134217728.00 MB total
+[2016.01.14-00.17.09:323][  0]LogTextLocalizationManager: No translations for ('fr-FR') exist, falling back to 'en' for localization and internationalization data.
+[2016.01.14-00.17.10:142][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon HD 7570M (Feature Level 11_0)
+[2016.01.14-00.17.10:142][  0]LogD3D11RHI: Adapter has 1004MB of dedicated video memory, 0MB of dedicated system memory, and 3840MB of shared system memory, 1 output[s]
+[2016.01.14-00.17.10:143][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.01.14-00.17.10:143][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4061MB of shared system memory, 0 output[s]
+[2016.01.14-00.17.10:143][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.01.14-00.17.10:147][  0]LogD3D11RHI: !Direct3DDevice
+[2016.01.14-00.17.10:147][  0]LogRHI: Texture pool is 702 MB (70% of 1004 MB)
+[2016.01.14-00.17.10:156][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2016.01.14-00.17.10:167][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Bibliothèques/Documents/Unreal Projects/ShadowerFall/Intermediate/Shaders/WorkingDirectory/9928/).
+[2016.01.14-00.17.10:167][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Bibliothèques/Documents/Unreal Projects/ShadowerFall/Intermediate/Shaders/tmp/6323554D48E5E8AE53377ABEBA91D688/'.
+[2016.01.14-00.17.10:167][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.01.14-00.17.11:296][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.01.14-00.17.11:301][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.01.14-00.17.11:307][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.01.14-00.17.11:313][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.01.14-00.17.11:319][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.01.14-00.17.11:323][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.01.14-00.17.11:327][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.01.14-00.17.11:330][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.01.14-00.17.11:334][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.01.14-00.17.11:339][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.01.14-00.17.11:343][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.01.14-00.17.11:347][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.01.14-00.17.11:348][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.01.14-00.17.11:366][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.01.14-00.17.11:369][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.01.14-00.17.11:373][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.01.14-00.17.11:378][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.01.14-00.17.11:378][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.01.14-00.17.11:485][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.01.14-00.17.11:528][  0]LogDerivedDataCache: Loaded boot cache 0.04s 41MB C:/Users/Maxime/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.01.14-00.17.11:528][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Maxime/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2016.01.14-00.17.11:529][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Bibliothèques/Documents/Unreal Projects/ShadowerFall/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.01.14-00.17.11:529][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.01.14-00.17.11:529][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Bibliothèques/Documents/Unreal Projects/ShadowerFall/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.01.14-00.17.11:529][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.01.14-00.17.11:686][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.01.14-00.17.11:698][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Maxime/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.01.14-00.17.11:921][  0]LogInit: Selected Device Profile: [Windows]
+[2016.01.14-00.17.11:924][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.01.14-00.17.12:062][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.01.14-00.17.12:062][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.01.14-00.17.12:341][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.01.14-00.17.13:139][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.01.14-00.17.13:243][  0]LogAssetRegistry: FAssetRegistry took 0.0109 seconds to start up
+[2016.01.14-00.17.13:435][  0]SourceControl: Info Source control is disabled
+[2016.01.14-00.17.13:437][  0]SourceControl: Info Source control is disabled
+[2016.01.14-00.17.13:452][  0]SourceControl: Info Source control is disabled
+[2016.01.14-00.17.13:470][  0]SourceControl: Info Source control is disabled
+[2016.01.14-00.17.13:679][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.14-00.17.13:785][  0]LogObj: 28361 objects as part of root set at end of initial load.
+[2016.01.14-00.17.13:785][  0]LogUObjectAllocator: 6038864 out of 0 bytes used by permanent object pool.
+[2016.01.14-00.17.13:847][  0]LogEngine: Initializing Engine...
+[2016.01.14-00.17.13:850][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2016.01.14-00.17.13:851][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.01.14-00.17.13:980][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.01.14-00.17.13:985][  0]LogInit: XAudio2 using 'Haut-parleurs (Périphérique High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.01.14-00.17.13:999][  0]LogInit: FAudioDevice initialized.
+[2016.01.14-00.17.14:022][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/Maxime/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.01.14-00.17.14:025][  0]LogInit: Texture streaming: Enabled
+[2016.01.14-00.17.14:031][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.01.14-00.17.14:031][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.01.14-00.17.14:031][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 9a9effe84c4b08c90696e581cd7488a3|06ed4f6a0f4048debc1b07e05a99303a|05176c3f-19e8-4dc1-8202-ec95daad005f
+[2016.01.14-00.17.14:031][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.01.14-00.17.14:069][  0]LogInit: Transaction tracking system initialized
+[2016.01.14-00.17.14:108][  0]BlueprintLog: New page: Editor Load
+[2016.01.14-00.17.14:210][  0]LocalizationService: Info Localization service is disabled
+[2016.01.14-00.17.14:435][  0]LogConsoleResponse:Display: 
+[2016.01.14-00.17.14:571][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.01.14-00.17.14:650][  0]LogFileCache: Scanning file cache for directory 'D:/Bibliothèques/Documents/Unreal Projects/ShadowerFall/Content/' took 0.02s
+[2016.01.14-00.17.14:650][  0]SourceControl: Info Source control is disabled
+[2016.01.14-00.17.14:650][  0]Cmd: MAP LOAD FILE="../../../../../../Bibliothèques/Documents/Unreal Projects/ShadowerFall/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.01.14-00.17.14:650][  0]LightingResults: New page: Lighting Build
+[2016.01.14-00.17.14:654][  0]MapCheck: New page: Map Check
+[2016.01.14-00.17.14:654][  0]LightingResults: New page: Lighting Build
+[2016.01.14-00.17.14:667][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007120A24400
+[2016.01.14-00.17.14:671][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/AI/CustomAICharacter'
+[2016.01.14-00.17.14:671][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/AI/CustomAICharacter' while loading ../../../../../../Bibliothèques/Documents/Unreal Projects/ShadowerFall/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap.
+[2016.01.14-00.17.14:671][  0]LoadErrors:Error: Error /Game/FirstPersonBP/Maps/FirstPersonExampleMap : Can't find file for asset. /Game/FirstPersonBP/Blueprints/AI/CustomAICharacter
+[2016.01.14-00.17.14:884][  0]LogLinker:Warning: Asset '../../../../../../Bibliothèques/Documents/Unreal Projects/ShadowerFall/Content/FirstPerson/Meshes/FirstPersonProjectileMesh.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.14-00.17.15:720][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/AI/CustomAICharacter'
+[2016.01.14-00.17.15:720][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/AI/CustomAICharacter' while loading ../../../../../../Bibliothèques/Documents/Unreal Projects/ShadowerFall/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap.
+[2016.01.14-00.17.15:720][  0]LoadErrors:Error: Error /Game/FirstPersonBP/Maps/FirstPersonExampleMap : Can't find file for asset. /Game/FirstPersonBP/Blueprints/AI/CustomAICharacter
+[2016.01.14-00.17.15:789][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/AI/CustomAICharacter'
+[2016.01.14-00.17.15:790][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/AI/CustomAICharacter' while loading ../../../../../../Bibliothèques/Documents/Unreal Projects/ShadowerFall/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap.
+[2016.01.14-00.17.15:790][  0]LoadErrors:Error: Error /Game/FirstPersonBP/Maps/FirstPersonExampleMap : Can't find file for asset. /Game/FirstPersonBP/Blueprints/AI/CustomAICharacter
+[2016.01.14-00.17.15:790][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/AI/CustomAICharacter'
+[2016.01.14-00.17.15:790][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/AI/CustomAICharacter' while loading ../../../../../../Bibliothèques/Documents/Unreal Projects/ShadowerFall/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap.
+[2016.01.14-00.17.15:790][  0]LoadErrors:Error: Error /Game/FirstPersonBP/Maps/FirstPersonExampleMap : Can't find file for asset. /Game/FirstPersonBP/Blueprints/AI/CustomAICharacter
+[2016.01.14-00.17.15:791][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/AI/CustomAICharacter'
+[2016.01.14-00.17.15:791][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/AI/CustomAICharacter' while loading ../../../../../../Bibliothèques/Documents/Unreal Projects/ShadowerFall/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap.
+[2016.01.14-00.17.15:791][  0]LoadErrors:Error: Error /Game/FirstPersonBP/Maps/FirstPersonExampleMap : Can't find file for asset. /Game/FirstPersonBP/Blueprints/AI/CustomAICharacter
+[2016.01.14-00.17.15:793][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/AI/CustomAICharacter'
+[2016.01.14-00.17.15:793][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/AI/CustomAICharacter' while loading ../../../../../../Bibliothèques/Documents/Unreal Projects/ShadowerFall/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap.
+[2016.01.14-00.17.15:793][  0]LoadErrors:Error: Error /Game/FirstPersonBP/Maps/FirstPersonExampleMap : Can't find file for asset. /Game/FirstPersonBP/Blueprints/AI/CustomAICharacter
+[2016.01.14-00.17.15:798][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/AI/CustomAICharacter'
+[2016.01.14-00.17.15:799][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/AI/CustomAICharacter' while loading ../../../../../../Bibliothèques/Documents/Unreal Projects/ShadowerFall/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap.
+[2016.01.14-00.17.15:799][  0]LoadErrors:Error: Error /Game/FirstPersonBP/Maps/FirstPersonExampleMap : Can't find file for asset. /Game/FirstPersonBP/Blueprints/AI/CustomAICharacter
+[2016.01.14-00.17.15:803][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/AI/CustomAICharacter'
+[2016.01.14-00.17.15:803][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/AI/CustomAICharacter' while loading ../../../../../../Bibliothèques/Documents/Unreal Projects/ShadowerFall/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap.
+[2016.01.14-00.17.15:804][  0]LoadErrors:Error: Error /Game/FirstPersonBP/Maps/FirstPersonExampleMap : Can't find file for asset. /Game/FirstPersonBP/Blueprints/AI/CustomAICharacter
+[2016.01.14-00.17.15:804][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/AI/CustomAICharacter'
+[2016.01.14-00.17.15:804][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/AI/CustomAICharacter' while loading ../../../../../../Bibliothèques/Documents/Unreal Projects/ShadowerFall/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap.
+[2016.01.14-00.17.15:804][  0]LoadErrors:Error: Error /Game/FirstPersonBP/Maps/FirstPersonExampleMap : Can't find file for asset. /Game/FirstPersonBP/Blueprints/AI/CustomAICharacter
+[2016.01.14-00.17.15:805][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/AI/CustomAICharacter'
+[2016.01.14-00.17.15:805][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/AI/CustomAICharacter' while loading ../../../../../../Bibliothèques/Documents/Unreal Projects/ShadowerFall/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap.
+[2016.01.14-00.17.15:805][  0]LoadErrors:Error: Error /Game/FirstPersonBP/Maps/FirstPersonExampleMap : Can't find file for asset. /Game/FirstPersonBP/Blueprints/AI/CustomAICharacter
+[2016.01.14-00.17.15:807][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/AI/CustomAICharacter'
+[2016.01.14-00.17.15:807][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/AI/CustomAICharacter' while loading NULL.
+[2016.01.14-00.17.15:807][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/AI/CustomAICharacter'
+[2016.01.14-00.17.15:807][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/AI/CustomAICharacter' while loading NULL.
+[2016.01.14-00.17.15:808][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/AI/CustomAICharacter'
+[2016.01.14-00.17.15:808][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/AI/CustomAICharacter' while loading NULL.
+[2016.01.14-00.17.15:808][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/AI/CustomAICharacter'
+[2016.01.14-00.17.15:808][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/AI/CustomAICharacter' while loading NULL.
+[2016.01.14-00.17.15:808][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/AI/CustomAICharacter'
+[2016.01.14-00.17.15:809][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/AI/CustomAICharacter' while loading NULL.
+[2016.01.14-00.17.15:809][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/AI/CustomAICharacter'
+[2016.01.14-00.17.15:809][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/AI/CustomAICharacter' while loading NULL.
+[2016.01.14-00.17.15:809][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/AI/CustomAICharacter'
+[2016.01.14-00.17.15:809][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/AI/CustomAICharacter' while loading NULL.
+[2016.01.14-00.17.15:810][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/AI/CustomAICharacter'
+[2016.01.14-00.17.15:810][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/AI/CustomAICharacter' while loading NULL.
+[2016.01.14-00.17.15:810][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/AI/CustomAICharacter'
+[2016.01.14-00.17.15:810][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/AI/CustomAICharacter' while loading NULL.
+[2016.01.14-00.17.15:811][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/AI/CustomAICharacter'
+[2016.01.14-00.17.15:811][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/AI/CustomAICharacter' while loading NULL.
+[2016.01.14-00.17.15:812][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/AI/CustomAICharacter'
+[2016.01.14-00.17.15:812][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/AI/CustomAICharacter' while loading NULL.
+[2016.01.14-00.17.15:813][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/AI/CustomAICharacter'
+[2016.01.14-00.17.15:813][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/AI/CustomAICharacter' while loading NULL.
+[2016.01.14-00.17.15:821][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/AI/CustomAICharacter'
+[2016.01.14-00.17.15:822][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/AI/CustomAICharacter' while loading NULL.
+[2016.01.14-00.17.15:822][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/AI/CustomAICharacter'
+[2016.01.14-00.17.15:822][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/AI/CustomAICharacter' while loading NULL.
+[2016.01.14-00.17.15:822][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/AI/CustomAICharacter'
+[2016.01.14-00.17.15:822][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/AI/CustomAICharacter' while loading NULL.
+[2016.01.14-00.17.15:823][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/AI/CustomAICharacter'
+[2016.01.14-00.17.15:823][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/AI/CustomAICharacter' while loading NULL.
+[2016.01.14-00.17.15:823][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/AI/CustomAICharacter'
+[2016.01.14-00.17.15:823][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/AI/CustomAICharacter' while loading NULL.
+[2016.01.14-00.17.15:824][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/AI/CustomAICharacter'
+[2016.01.14-00.17.15:824][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/AI/CustomAICharacter' while loading NULL.
+[2016.01.14-00.17.15:826][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/AI/CustomAICharacter'
+[2016.01.14-00.17.15:827][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/AI/CustomAICharacter' while loading NULL.
+[2016.01.14-00.17.15:827][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/AI/CustomAICharacter'
+[2016.01.14-00.17.15:827][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/AI/CustomAICharacter' while loading NULL.
+[2016.01.14-00.17.15:830][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/AI/CustomAICharacter'
+[2016.01.14-00.17.15:830][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/AI/CustomAICharacter' while loading NULL.
+[2016.01.14-00.17.15:831][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/AI/CustomAICharacter'
+[2016.01.14-00.17.15:831][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/AI/CustomAICharacter' while loading NULL.
+[2016.01.14-00.17.15:834][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/AI/CustomAICharacter'
+[2016.01.14-00.17.15:835][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/AI/CustomAICharacter' while loading NULL.
+[2016.01.14-00.17.15:835][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/AI/CustomAICharacter'
+[2016.01.14-00.17.15:835][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/AI/CustomAICharacter' while loading NULL.
+[2016.01.14-00.17.15:837][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/AI/CustomAICharacter'
+[2016.01.14-00.17.15:837][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/AI/CustomAICharacter' while loading NULL.
+[2016.01.14-00.17.15:837][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/AI/CustomAICharacter'
+[2016.01.14-00.17.15:837][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/AI/CustomAICharacter' while loading NULL.
+[2016.01.14-00.17.15:860][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/AI/CustomAICharacter'
+[2016.01.14-00.17.15:860][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/AI/CustomAICharacter' while loading NULL.
+[2016.01.14-00.17.15:860][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/AI/CustomAICharacter'
+[2016.01.14-00.17.15:860][  0]LoadErrors: Info Failed to load /Game/FirstPersonBP/Blueprints/AI/CustomAICharacter.CustomAICharacter_C Referenced by PersistentLevel
+[2016.01.14-00.17.15:861][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/AI/CustomAICharacter' while loading NULL.
+[2016.01.14-00.17.15:861][  0]LoadErrors: Info Failed to load /Game/FirstPersonBP/Blueprints/AI/CustomAICharacter.CustomAICharacter_C Referenced by PersistentLevel
+[2016.01.14-00.17.16:125][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.01.14-00.17.16:148][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.01.14-00.17.16:149][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.01.14-00.17.16:246][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 97.392ms to complete.
+[2016.01.14-00.17.16:246][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 1.596
+[2016.01.14-00.17.16:358][  0]LogCollectionManager: Loaded 0 collections in 0.002594 seconds
+[2016.01.14-00.17.16:403][  0]LogFileCache: Scanning file cache for directory 'D:/Bibliothèques/Documents/Unreal Projects/ShadowerFall/Saved/Collections/' took 0.01s
+[2016.01.14-00.17.16:403][  0]LogFileCache: Scanning file cache for directory 'D:/Bibliothèques/Documents/Unreal Projects/ShadowerFall/Content/Developers/Maxime/Collections/' took 0.01s
+[2016.01.14-00.17.16:403][  0]LogFileCache: Scanning file cache for directory 'D:/Bibliothèques/Documents/Unreal Projects/ShadowerFall/Content/Collections/' took 0.01s
+[2016.01.14-00.17.16:403][  0]LogContentBrowser: Native class hierarchy populated in 0.0083 seconds. Added 1867 classes and 333 folders.
+[2016.01.14-00.17.16:408][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2016.01.14-00.17.16:416][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2016.01.14-00.17.16:479][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2016.01.14-00.17.16:485][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2016.01.14-00.17.16:562][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.01.14-00.17.16:565][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.01.14-00.17.16:588][  0]LogLoad: Full Startup: 7.93 seconds (BP compile: 0.53 seconds)
+[2016.01.14-00.17.16:605][  0]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'Arrow': CustomAICharacter_C /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.CustomAICharacter_C_1
+[2016.01.14-00.17.16:606][  0]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'CollisionCylinder': CustomAICharacter_C /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.CustomAICharacter_C_1
+[2016.01.14-00.17.16:606][  0]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'ExplosionCol': CustomAICharacter_C /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.CustomAICharacter_C_1
+[2016.01.14-00.17.16:606][  0]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'CharMoveComp': CustomAICharacter_C /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.CustomAICharacter_C_1
+[2016.01.14-00.17.16:606][  0]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'PawnSensing': CustomAICharacter_C /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.CustomAICharacter_C_1
+[2016.01.14-00.17.16:606][  0]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'CharacterMesh0': CustomAICharacter_C /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.CustomAICharacter_C_1
+[2016.01.14-00.17.16:606][  0]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'StaticMesh': CustomAICharacter_C /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.CustomAICharacter_C_1
+[2016.01.14-00.17.16:678][  0]LogContentStreaming: Texture pool size now 200 MB
+[2016.01.14-00.17.16:845][  0]LogRenderer: Reallocating scene render targets to support 1252x668 (Frame:2).
+[2016.01.14-00.17.17:385][  6]LogAssetRegistry: Asset discovery search completed in 4.1526 seconds
+[2016.01.14-00.17.17:385][  6]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.01.14-00.17.17:385][  6]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000029 seconds (updated 0 objects)
+[2016.01.14-00.17.40:173][480]LogAIModule: Creating AISystem for world Level2
+[2016.01.14-00.17.40:287][480]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.01.14-00.17.40:288][480]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_0) Not registered. Aborting.
+[2016.01.14-00.17.40:288][480]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
+[2016.01.14-00.17.40:288][480]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.14-00.17.40:344][480]Cmd: MAP LOAD FILE="../../../../../../Bibliothèques/Documents/Unreal Projects/ShadowerFall/Content/FirstPersonBP/Maps/Level2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.01.14-00.17.40:344][480]LightingResults: New page: Lighting Build
+[2016.01.14-00.17.40:367][480]LoadErrors: New page: Loading map: Level2.umap
+[2016.01.14-00.17.40:369][480]MapCheck: New page: Map Check
+[2016.01.14-00.17.40:369][480]LightingResults: New page: Lighting Build
+[2016.01.14-00.17.40:382][480]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007120B305E0
+[2016.01.14-00.17.40:505][480]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.01.14-00.17.40:546][480]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.01.14-00.17.40:635][480]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 89.293ms to complete.
+[2016.01.14-00.17.40:635][480]LogFileHelpers: Loading map 'Level2' took 0.292
+[2016.01.14-00.17.41:754][502]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/FirstPersonBP/Maps/Level2.Level2_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Level2.Level2:PersistentLevel.Level2'
+[2016.01.14-00.17.41:754][502]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.14-00.17.41:755][502]PIE: New page: PIE session: Level2 (Jan 13, 2016, 2:17:41 PM)
+[2016.01.14-00.17.41:755][502]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Level2
+[2016.01.14-00.17.41:813][502]LogPlayLevel: PIE: StaticDuplicateObject took: (0.058417s)
+[2016.01.14-00.17.41:814][502]LogAIModule: Creating AISystem for world Level2
+[2016.01.14-00.17.41:814][502]LogPlayLevel: PIE: World Init took: (0.000709s)
+[2016.01.14-00.17.41:814][502]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Level2.Level2 to /Game/FirstPersonBP/Maps/UEDPIE_0_Level2.Level2 (0.059366s)
+[2016.01.14-00.17.41:814][502]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.01.14-00.17.41:814][502]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_2) Not registered. Aborting.
+[2016.01.14-00.17.41:814][502]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_3) Not registered. Aborting.
+[2016.01.14-00.17.41:832][502]LogInit: XAudio2 using 'Haut-parleurs (Périphérique High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.01.14-00.17.41:839][502]LogInit: FAudioDevice initialized.
+[2016.01.14-00.17.41:888][502]LogLinker:Warning: Asset '../../../../../../Bibliothèques/Documents/Unreal Projects/ShadowerFall/Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.14-00.17.41:921][502]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.01.14-00.17.42:021][502]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2016.01.14-00.17.42:021][502]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Level2.Level2 up for play (max tick rate 60) at 2016.01.13-19.17.42
+[2016.01.14-00.17.42:021][502]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_Level2.Level2:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.14-00.17.42:021][502]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_Level2.Level2:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.14-00.17.42:027][502]LogWorld: Bringing up level for play took: 0.044007
+[2016.01.14-00.17.42:048][502]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Level2 -0.45
+[2016.01.14-00.17.42:049][502]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/FirstPersonBP/Maps/Level2.Level2_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Level2.Level2:PersistentLevel.Level2'
+[2016.01.14-00.17.42:103][503]LogBlueprintUserMessages: [Move_C_0] X=340282346638528860000000000000000000000.000 Y=340282346638528860000000000000000000000.000 Z=340282346638528860000000000000000000000.000
+[2016.01.14-00.17.42:104][503]LogBlueprintUserMessages: [Move_C_0] X=8172.640 Y=-5167.328 Z=549.557
+[2016.01.14-00.17.42:215][507]LogBlueprintUserMessages: [Move_C_0] X=340282346638528860000000000000000000000.000 Y=340282346638528860000000000000000000000.000 Z=340282346638528860000000000000000000000.000
+[2016.01.14-00.17.42:215][507]LogBlueprintUserMessages: [Move_C_0] X=8765.301 Y=-8224.585 Z=670.000
+[2016.01.14-00.17.42:329][511]LogBlueprintUserMessages: [Move_C_0] X=340282346638528860000000000000000000000.000 Y=340282346638528860000000000000000000000.000 Z=340282346638528860000000000000000000000.000
+[2016.01.14-00.17.42:329][511]LogBlueprintUserMessages: [Move_C_0] X=9494.149 Y=-7925.925 Z=670.000
+[2016.01.14-00.17.42:433][515]LogBlueprintUserMessages: [Move_C_0] X=340282346638528860000000000000000000000.000 Y=340282346638528860000000000000000000000.000 Z=340282346638528860000000000000000000000.000
+[2016.01.14-00.17.42:433][515]LogBlueprintUserMessages: [Move_C_0] X=8147.851 Y=-7922.697 Z=670.000
+[2016.01.14-00.17.42:546][519]LogBlueprintUserMessages: [Move_C_0] X=340282346638528860000000000000000000000.000 Y=340282346638528860000000000000000000000.000 Z=340282346638528860000000000000000000000.000
+[2016.01.14-00.17.42:546][519]LogBlueprintUserMessages: [Move_C_0] X=8161.322 Y=-8509.593 Z=670.000
+[2016.01.14-00.17.42:654][523]LogBlueprintUserMessages: [Move_C_0] X=340282346638528860000000000000000000000.000 Y=340282346638528860000000000000000000000.000 Z=340282346638528860000000000000000000000.000
+[2016.01.14-00.17.42:654][523]LogBlueprintUserMessages: [Move_C_0] X=7501.311 Y=-6299.748 Z=670.000
+[2016.01.14-00.17.42:754][527]LogBlueprintUserMessages: [Move_C_0] X=340282346638528860000000000000000000000.000 Y=340282346638528860000000000000000000000.000 Z=340282346638528860000000000000000000000.000
+[2016.01.14-00.17.42:754][527]LogBlueprintUserMessages: [Move_C_0] X=8866.689 Y=-6533.360 Z=670.000
+[2016.01.14-00.17.42:852][531]LogBlueprintUserMessages: [Move_C_0] X=340282346638528860000000000000000000000.000 Y=340282346638528860000000000000000000000.000 Z=340282346638528860000000000000000000000.000
+[2016.01.14-00.17.42:852][531]LogBlueprintUserMessages: [Move_C_0] X=10124.023 Y=-6789.567 Z=70.000
+[2016.01.14-00.17.42:967][535]LogBlueprintUserMessages: [Move_C_0] X=340282346638528860000000000000000000000.000 Y=340282346638528860000000000000000000000.000 Z=340282346638528860000000000000000000000.000
+[2016.01.14-00.17.42:967][535]LogBlueprintUserMessages: [Move_C_0] X=8782.019 Y=-8315.398 Z=670.000
+[2016.01.14-00.17.43:077][539]LogBlueprintUserMessages: [Move_C_0] X=340282346638528860000000000000000000000.000 Y=340282346638528860000000000000000000000.000 Z=340282346638528860000000000000000000000.000
+[2016.01.14-00.17.43:077][539]LogBlueprintUserMessages: [Move_C_0] X=9430.250 Y=-6738.630 Z=670.000
+[2016.01.14-00.17.43:184][543]LogBlueprintUserMessages: [Move_C_0] X=340282346638528860000000000000000000000.000 Y=340282346638528860000000000000000000000.000 Z=340282346638528860000000000000000000000.000
+[2016.01.14-00.17.43:184][543]LogBlueprintUserMessages: [Move_C_0] X=10056.597 Y=-8136.298 Z=70.000
+[2016.01.14-00.17.43:290][547]LogBlueprintUserMessages: [Move_C_0] X=340282346638528860000000000000000000000.000 Y=340282346638528860000000000000000000000.000 Z=340282346638528860000000000000000000000.000
+[2016.01.14-00.17.43:290][547]LogBlueprintUserMessages: [Move_C_0] X=8248.105 Y=-7397.854 Z=670.000
+[2016.01.14-00.17.43:321][548]LogBlueprintUserMessages: [FirstPersonCharacter] 2
+[2016.01.14-00.17.43:321][548]LogBlueprintUserMessages: [FirstPersonCharacter] 3
+[2016.01.14-00.17.43:403][551]LogBlueprintUserMessages: [Move_C_0] X=340282346638528860000000000000000000000.000 Y=340282346638528860000000000000000000000.000 Z=340282346638528860000000000000000000000.000
+[2016.01.14-00.17.43:403][551]LogBlueprintUserMessages: [Move_C_0] X=8359.111 Y=-7888.721 Z=670.000
+[2016.01.14-00.17.43:513][555]LogBlueprintUserMessages: [Move_C_0] X=340282346638528860000000000000000000000.000 Y=340282346638528860000000000000000000000.000 Z=340282346638528860000000000000000000000.000
+[2016.01.14-00.17.43:513][555]LogBlueprintUserMessages: [Move_C_0] X=7544.640 Y=-6305.861 Z=670.000
+[2016.01.14-00.17.43:629][559]LogBlueprintUserMessages: [Move_C_0] X=340282346638528860000000000000000000000.000 Y=340282346638528860000000000000000000000.000 Z=340282346638528860000000000000000000000.000
+[2016.01.14-00.17.43:629][559]LogBlueprintUserMessages: [Move_C_0] X=8325.088 Y=-6543.741 Z=670.000
+[2016.01.14-00.17.43:744][563]LogBlueprintUserMessages: [Move_C_0] X=340282346638528860000000000000000000000.000 Y=340282346638528860000000000000000000000.000 Z=340282346638528860000000000000000000000.000
+[2016.01.14-00.17.43:744][563]LogBlueprintUserMessages: [Move_C_0] X=6783.060 Y=-7851.403 Z=670.000
+[2016.01.14-00.17.43:863][567]LogBlueprintUserMessages: [Move_C_0] X=340282346638528860000000000000000000000.000 Y=340282346638528860000000000000000000000.000 Z=340282346638528860000000000000000000000.000
+[2016.01.14-00.17.43:863][567]LogBlueprintUserMessages: [Move_C_0] X=6667.611 Y=-7552.217 Z=670.000
+[2016.01.14-00.17.43:984][571]LogBlueprintUserMessages: [Move_C_0] X=340282346638528860000000000000000000000.000 Y=340282346638528860000000000000000000000.000 Z=340282346638528860000000000000000000000.000
+[2016.01.14-00.17.43:984][571]LogBlueprintUserMessages: [Move_C_0] X=10144.525 Y=-6399.666 Z=70.000
+[2016.01.14-00.17.44:099][575]LogBlueprintUserMessages: [Move_C_0] X=340282346638528860000000000000000000000.000 Y=340282346638528860000000000000000000000.000 Z=340282346638528860000000000000000000000.000
+[2016.01.14-00.17.44:099][575]LogBlueprintUserMessages: [Move_C_0] X=8809.398 Y=-8032.077 Z=670.000
+[2016.01.14-00.17.44:214][579]LogBlueprintUserMessages: [Move_C_0] X=340282346638528860000000000000000000000.000 Y=340282346638528860000000000000000000000.000 Z=340282346638528860000000000000000000000.000
+[2016.01.14-00.17.44:214][579]LogBlueprintUserMessages: [Move_C_0] X=8919.628 Y=-8185.187 Z=670.000
+[2016.01.14-00.17.44:329][583]LogBlueprintUserMessages: [Move_C_0] X=340282346638528860000000000000000000000.000 Y=340282346638528860000000000000000000000.000 Z=340282346638528860000000000000000000000.000
+[2016.01.14-00.17.44:330][583]LogBlueprintUserMessages: [Move_C_0] X=8948.989 Y=-7234.525 Z=670.000
+[2016.01.14-00.17.44:440][587]LogBlueprintUserMessages: [Move_C_0] X=340282346638528860000000000000000000000.000 Y=340282346638528860000000000000000000000.000 Z=340282346638528860000000000000000000000.000
+[2016.01.14-00.17.44:440][587]LogBlueprintUserMessages: [Move_C_0] X=7501.258 Y=-8373.918 Z=670.000
+[2016.01.14-00.17.44:557][591]LogBlueprintUserMessages: [Move_C_0] X=340282346638528860000000000000000000000.000 Y=340282346638528860000000000000000000000.000 Z=340282346638528860000000000000000000000.000
+[2016.01.14-00.17.44:557][591]LogBlueprintUserMessages: [Move_C_0] X=9432.281 Y=-5674.479 Z=70.000
+[2016.01.14-00.17.44:681][595]LogBlueprintUserMessages: [Move_C_0] X=340282346638528860000000000000000000000.000 Y=340282346638528860000000000000000000000.000 Z=340282346638528860000000000000000000000.000
+[2016.01.14-00.17.44:681][595]LogBlueprintUserMessages: [Move_C_0] X=8738.707 Y=-6716.984 Z=670.000
+[2016.01.14-00.17.44:800][599]LogBlueprintUserMessages: [Move_C_0] X=340282346638528860000000000000000000000.000 Y=340282346638528860000000000000000000000.000 Z=340282346638528860000000000000000000000.000
+[2016.01.14-00.17.44:801][599]LogBlueprintUserMessages: [Move_C_0] X=7737.831 Y=-6154.709 Z=97.967
+[2016.01.14-00.17.44:920][603]LogBlueprintUserMessages: [Move_C_0] X=340282346638528860000000000000000000000.000 Y=340282346638528860000000000000000000000.000 Z=340282346638528860000000000000000000000.000
+[2016.01.14-00.17.44:920][603]LogBlueprintUserMessages: [Move_C_0] X=7657.494 Y=-8881.871 Z=670.000
+[2016.01.14-00.17.45:039][607]LogBlueprintUserMessages: [Move_C_0] X=340282346638528860000000000000000000000.000 Y=340282346638528860000000000000000000000.000 Z=340282346638528860000000000000000000000.000
+[2016.01.14-00.17.45:039][607]LogBlueprintUserMessages: [Move_C_0] X=8977.108 Y=-8089.140 Z=670.000
+[2016.01.14-00.17.45:165][611]LogBlueprintUserMessages: [Move_C_0] X=340282346638528860000000000000000000000.000 Y=340282346638528860000000000000000000000.000 Z=340282346638528860000000000000000000000.000
+[2016.01.14-00.17.45:165][611]LogBlueprintUserMessages: [Move_C_0] X=10242.809 Y=-7340.986 Z=70.000
+[2016.01.14-00.17.45:284][615]LogBlueprintUserMessages: [Move_C_0] X=340282346638528860000000000000000000000.000 Y=340282346638528860000000000000000000000.000 Z=340282346638528860000000000000000000000.000
+[2016.01.14-00.17.45:284][615]LogBlueprintUserMessages: [Move_C_0] X=6460.479 Y=-6916.663 Z=70.000
+[2016.01.14-00.17.45:401][619]LogBlueprintUserMessages: [Move_C_0] X=340282346638528860000000000000000000000.000 Y=340282346638528860000000000000000000000.000 Z=340282346638528860000000000000000000000.000
+[2016.01.14-00.17.45:401][619]LogBlueprintUserMessages: [Move_C_0] X=9372.017 Y=-5807.482 Z=70.000
+[2016.01.14-00.17.45:517][623]LogBlueprintUserMessages: [Move_C_0] X=340282346638528860000000000000000000000.000 Y=340282346638528860000000000000000000000.000 Z=340282346638528860000000000000000000000.000
+[2016.01.14-00.17.45:517][623]LogBlueprintUserMessages: [Move_C_0] X=6896.329 Y=-7576.832 Z=670.000
+[2016.01.14-00.17.45:633][627]LogBlueprintUserMessages: [Move_C_0] X=340282346638528860000000000000000000000.000 Y=340282346638528860000000000000000000000.000 Z=340282346638528860000000000000000000000.000
+[2016.01.14-00.17.45:633][627]LogBlueprintUserMessages: [Move_C_0] X=8933.521 Y=-5715.417 Z=70.000
+[2016.01.14-00.17.45:742][631]LogBlueprintUserMessages: [FirstPersonCharacter] Dash
+[2016.01.14-00.17.45:743][631]LogBlueprintUserMessages: [Move_C_0] X=340282346638528860000000000000000000000.000 Y=340282346638528860000000000000000000000.000 Z=340282346638528860000000000000000000000.000
+[2016.01.14-00.17.45:743][631]LogBlueprintUserMessages: [Move_C_0] X=8382.902 Y=-5631.289 Z=70.000
+[2016.01.14-00.17.45:858][635]LogBlueprintUserMessages: [Move_C_0] X=340282346638528860000000000000000000000.000 Y=340282346638528860000000000000000000000.000 Z=340282346638528860000000000000000000000.000
+[2016.01.14-00.17.45:858][635]LogBlueprintUserMessages: [Move_C_0] X=9184.100 Y=-7690.070 Z=670.000
+[2016.01.14-00.17.45:968][639]LogBlueprintUserMessages: [FirstPersonCharacter] En L'air
+[2016.01.14-00.17.45:969][639]LogBlueprintUserMessages: [Move_C_0] X=340282346638528860000000000000000000000.000 Y=340282346638528860000000000000000000000.000 Z=340282346638528860000000000000000000000.000
+[2016.01.14-00.17.45:969][639]LogBlueprintUserMessages: [Move_C_0] X=7118.856 Y=-6255.310 Z=670.000
+[2016.01.14-00.17.46:091][643]LogBlueprintUserMessages: [Move_C_0] X=340282346638528860000000000000000000000.000 Y=340282346638528860000000000000000000000.000 Z=340282346638528860000000000000000000000.000
+[2016.01.14-00.17.46:091][643]LogBlueprintUserMessages: [Move_C_0] X=9009.256 Y=-5926.486 Z=70.000
+[2016.01.14-00.17.46:190][647]LogBlueprintUserMessages: [Move_C_0] X=340282346638528860000000000000000000000.000 Y=340282346638528860000000000000000000000.000 Z=340282346638528860000000000000000000000.000
+[2016.01.14-00.17.46:190][647]LogBlueprintUserMessages: [Move_C_0] X=6650.000 Y=-6517.475 Z=670.000
+[2016.01.14-00.17.46:300][651]LogBlueprintUserMessages: [Move_C_0] X=340282346638528860000000000000000000000.000 Y=340282346638528860000000000000000000000.000 Z=340282346638528860000000000000000000000.000
+[2016.01.14-00.17.46:300][651]LogBlueprintUserMessages: [Move_C_0] X=7178.326 Y=-7175.296 Z=670.000
+[2016.01.14-00.17.46:390][655]LogBlueprintUserMessages: [Move_C_0] X=340282346638528860000000000000000000000.000 Y=340282346638528860000000000000000000000.000 Z=340282346638528860000000000000000000000.000
+[2016.01.14-00.17.46:391][655]LogBlueprintUserMessages: [Move_C_0] X=7462.865 Y=-5501.476 Z=70.000
+[2016.01.14-00.17.46:508][659]LogBlueprintUserMessages: [Move_C_0] X=340282346638528860000000000000000000000.000 Y=340282346638528860000000000000000000000.000 Z=340282346638528860000000000000000000000.000
+[2016.01.14-00.17.46:508][659]LogBlueprintUserMessages: [Move_C_0] X=7501.070 Y=-8663.132 Z=670.000
+[2016.01.14-00.17.46:622][663]LogBlueprintUserMessages: [Move_C_0] X=340282346638528860000000000000000000000.000 Y=340282346638528860000000000000000000000.000 Z=340282346638528860000000000000000000000.000
+[2016.01.14-00.17.46:622][663]LogBlueprintUserMessages: [Move_C_0] X=7830.989 Y=-5752.580 Z=265.224
+[2016.01.14-00.17.46:751][667]LogBlueprintUserMessages: [Move_C_0] X=8665.818 Y=-6743.670 Z=670.000
+[2016.01.14-00.17.46:844][671]LogBlueprintUserMessages: [Move_C_0] X=8151.795 Y=-8169.930 Z=670.000
+[2016.01.14-00.17.46:958][675]LogBlueprintUserMessages: [Move_C_0] X=9848.927 Y=-7474.943 Z=70.000
+[2016.01.14-00.17.47:072][679]LogBlueprintUserMessages: [Move_C_0] X=8489.492 Y=-6385.582 Z=670.000
+[2016.01.14-00.17.47:180][683]LogBlueprintUserMessages: [Move_C_0] X=8953.144 Y=-7766.640 Z=670.000
+[2016.01.14-00.17.47:293][687]LogBlueprintUserMessages: [Move_C_0] X=9484.488 Y=-6061.000 Z=70.000
+[2016.01.14-00.17.47:405][691]LogBlueprintUserMessages: [Move_C_0] X=9674.121 Y=-6627.031 Z=70.000
+[2016.01.14-00.17.47:488][694]LogBlueprintUserMessages: [FirstPersonCharacter] Dash
+[2016.01.14-00.17.47:513][695]LogBlueprintUserMessages: [Move_C_0] X=6849.014 Y=-7751.372 Z=670.000
+[2016.01.14-00.17.47:571][697]LogBlueprintUserMessages: [BP_Wall2_2030] OnTOUCH
+[2016.01.14-00.17.47:571][697]LogBlueprintUserMessages: [BP_Wall2_2030] NoTouch
+[2016.01.14-00.17.47:625][699]LogBlueprintUserMessages: [Move_C_0] X=7358.469 Y=-6505.680 Z=670.000
+[2016.01.14-00.17.47:710][702]LogBlueprintUserMessages: [FirstPersonCharacter] En L'air
+[2016.01.14-00.17.47:742][703]LogBlueprintUserMessages: [Move_C_0] X=6995.776 Y=-6398.958 Z=670.000
+[2016.01.14-00.17.47:858][707]LogBlueprintUserMessages: [Move_C_0] X=6922.027 Y=-7381.881 Z=670.000
+[2016.01.14-00.17.47:983][711]LogBlueprintUserMessages: [Move_C_0] X=9210.496 Y=-8215.158 Z=670.000
+[2016.01.14-00.17.48:110][715]LogBlueprintUserMessages: [Move_C_0] X=8251.673 Y=-7003.170 Z=670.000
+[2016.01.14-00.17.48:234][719]LogBlueprintUserMessages: [Move_C_0] X=7447.154 Y=-5626.004 Z=70.000
+[2016.01.14-00.17.48:358][723]LogBlueprintUserMessages: [Move_C_0] X=7581.170 Y=-6894.722 Z=670.000
+[2016.01.14-00.17.48:475][727]LogBlueprintUserMessages: [Move_C_0] X=6697.490 Y=-6604.492 Z=670.000
+[2016.01.14-00.17.48:596][731]LogBlueprintUserMessages: [Move_C_0] X=9475.677 Y=-7403.449 Z=670.000
+[2016.01.14-00.17.48:717][735]LogBlueprintUserMessages: [Move_C_0] X=10194.111 Y=-6538.866 Z=70.000
+[2016.01.14-00.17.48:844][739]LogBlueprintUserMessages: [Move_C_0] X=10000.582 Y=-7898.083 Z=70.000
+[2016.01.14-00.17.48:876][740]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/FirstPersonBP/Maps/Level2.Level2_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Level2.Level2:PersistentLevel.Level2'
+[2016.01.14-00.17.48:934][740]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/FirstPersonBP/Maps/Level2.Level2_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Level2.Level2:PersistentLevel.Level2'
+[2016.01.14-00.17.48:951][740]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000714FB967A0
+[2016.01.14-00.17.52:527][811]LogEditorViewport: Clicking on Actor (LMB): Kamikaze_C (Kamikaze)
+[2016.01.14-00.17.53:622][829]Cmd: DELETE
+[2016.01.14-00.17.53:622][829]Cmd: ACTOR DELETE
+[2016.01.14-00.17.53:625][829]LogEditorActor: Deleted Actor: Kamikaze_C
+[2016.01.14-00.17.53:676][829]LogEditorActor: Deleted 1 Actors (0.054 secs)
+[2016.01.14-00.17.55:491][867]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/FirstPersonBP/Maps/Level2.Level2_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Level2.Level2:PersistentLevel.Level2'
+[2016.01.14-00.17.55:491][867]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.14-00.17.55:491][867]PIE: New page: PIE session: Level2 (Jan 13, 2016, 2:17:55 PM)
+[2016.01.14-00.17.55:491][867]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Level2
+[2016.01.14-00.17.55:553][867]LogPlayLevel: PIE: StaticDuplicateObject took: (0.062093s)
+[2016.01.14-00.17.55:554][867]LogAIModule: Creating AISystem for world Level2
+[2016.01.14-00.17.55:554][867]LogPlayLevel: PIE: World Init took: (0.000649s)
+[2016.01.14-00.17.55:554][867]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Level2.Level2 to /Game/FirstPersonBP/Maps/UEDPIE_0_Level2.Level2 (0.062973s)
+[2016.01.14-00.17.55:571][867]LogInit: XAudio2 using 'Haut-parleurs (Périphérique High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.01.14-00.17.55:577][867]LogInit: FAudioDevice initialized.
+[2016.01.14-00.17.55:612][867]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.01.14-00.17.55:652][867]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2016.01.14-00.17.55:652][867]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Level2.Level2 up for play (max tick rate 60) at 2016.01.13-19.17.55
+[2016.01.14-00.17.55:652][867]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_Level2.Level2:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.14-00.17.55:652][867]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_Level2.Level2:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.14-00.17.55:657][867]LogWorld: Bringing up level for play took: 0.043462
+[2016.01.14-00.17.55:660][867]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Level2 1.162
+[2016.01.14-00.17.55:660][867]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/FirstPersonBP/Maps/Level2.Level2_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Level2.Level2:PersistentLevel.Level2'
+[2016.01.14-00.17.55:679][868]LogBlueprintUserMessages: [Move_C_1] X=8973.902 Y=-5491.942 Z=70.000
+[2016.01.14-00.17.55:775][872]LogBlueprintUserMessages: [Move_C_1] X=9504.151 Y=-7533.687 Z=670.000
+[2016.01.14-00.17.55:879][876]LogBlueprintUserMessages: [Move_C_1] X=8287.315 Y=-6625.369 Z=670.000
+[2016.01.14-00.17.55:987][880]LogBlueprintUserMessages: [Move_C_1] X=6751.921 Y=-6484.898 Z=670.000
+[2016.01.14-00.17.56:089][884]LogBlueprintUserMessages: [Move_C_1] X=8727.174 Y=-8956.934 Z=670.000
+[2016.01.14-00.17.56:192][888]LogBlueprintUserMessages: [Move_C_1] X=7482.455 Y=-8128.404 Z=670.000
+[2016.01.14-00.17.56:302][892]LogBlueprintUserMessages: [FirstPersonCharacter] 2
+[2016.01.14-00.17.56:302][892]LogBlueprintUserMessages: [FirstPersonCharacter] 3
+[2016.01.14-00.17.56:303][892]LogBlueprintUserMessages: [Move_C_1] X=7868.928 Y=-8430.972 Z=670.000
+[2016.01.14-00.17.56:404][896]LogBlueprintUserMessages: [Move_C_1] X=9151.483 Y=-8870.217 Z=670.000
+[2016.01.14-00.17.56:518][900]LogBlueprintUserMessages: [Move_C_1] X=8257.456 Y=-5978.243 Z=161.820
+[2016.01.14-00.17.56:617][904]LogBlueprintUserMessages: [Move_C_1] X=9330.529 Y=-7328.837 Z=670.000
+[2016.01.14-00.17.56:732][908]LogBlueprintUserMessages: [Move_C_1] X=6997.710 Y=-6594.275 Z=670.000
+[2016.01.14-00.17.56:832][912]LogBlueprintUserMessages: [Move_C_1] X=8229.412 Y=-7793.319 Z=670.000
+[2016.01.14-00.17.56:944][916]LogBlueprintUserMessages: [Move_C_1] X=8977.057 Y=-8017.365 Z=670.000
+[2016.01.14-00.17.57:064][920]LogBlueprintUserMessages: [Move_C_1] X=9282.464 Y=-6998.592 Z=670.000
+[2016.01.14-00.17.57:185][924]LogBlueprintUserMessages: [Move_C_1] X=7310.185 Y=-5538.976 Z=70.000
+[2016.01.14-00.17.57:309][928]LogBlueprintUserMessages: [Move_C_1] X=8562.773 Y=-8193.560 Z=670.000
+[2016.01.14-00.17.57:427][932]LogBlueprintUserMessages: [Move_C_1] X=7170.107 Y=-5893.184 Z=70.000
+[2016.01.14-00.17.57:545][936]LogBlueprintUserMessages: [Move_C_1] X=7936.708 Y=-8890.763 Z=670.000
+[2016.01.14-00.17.57:663][940]LogBlueprintUserMessages: [Move_C_1] X=9431.130 Y=-7544.011 Z=670.000
+[2016.01.14-00.17.57:783][944]LogBlueprintUserMessages: [Move_C_1] X=9127.903 Y=-7441.740 Z=670.000
+[2016.01.14-00.17.57:902][948]LogBlueprintUserMessages: [Move_C_1] X=7716.486 Y=-8098.812 Z=670.000
+[2016.01.14-00.17.58:021][952]LogBlueprintUserMessages: [Move_C_1] X=7009.867 Y=-7742.490 Z=670.000
+[2016.01.14-00.17.58:146][956]LogBlueprintUserMessages: [Move_C_1] X=8485.827 Y=-7040.397 Z=670.000
+[2016.01.14-00.17.58:265][960]LogBlueprintUserMessages: [Move_C_1] X=7699.284 Y=-7833.817 Z=670.000
+[2016.01.14-00.17.58:385][964]LogBlueprintUserMessages: [Move_C_1] X=6585.171 Y=-7419.522 Z=670.000
+[2016.01.14-00.17.58:504][968]LogBlueprintUserMessages: [Move_C_1] X=9738.367 Y=-7295.083 Z=70.000
+[2016.01.14-00.17.58:630][972]LogBlueprintUserMessages: [Move_C_1] X=6771.919 Y=-7144.176 Z=670.000
+[2016.01.14-00.17.58:751][976]LogBlueprintUserMessages: [Move_C_1] X=7426.809 Y=-5496.174 Z=70.000
+[2016.01.14-00.17.58:872][980]LogBlueprintUserMessages: [Move_C_1] X=6771.739 Y=-6270.291 Z=670.000
+[2016.01.14-00.17.58:990][984]LogBlueprintUserMessages: [Move_C_1] X=6918.043 Y=-7112.852 Z=670.000
+[2016.01.14-00.17.59:114][988]LogBlueprintUserMessages: [Move_C_1] X=6969.055 Y=-7327.201 Z=670.000
+[2016.01.14-00.17.59:231][992]LogBlueprintUserMessages: [Move_C_1] X=9336.404 Y=-8885.322 Z=670.000
+[2016.01.14-00.17.59:349][996]LogBlueprintUserMessages: [Move_C_1] X=7477.631 Y=-8421.908 Z=670.000
+[2016.01.14-00.17.59:464][  0]LogBlueprintUserMessages: [Move_C_1] X=6468.335 Y=-6962.531 Z=70.000
+[2016.01.14-00.17.59:574][  4]LogBlueprintUserMessages: [Move_C_1] X=7839.596 Y=-8826.390 Z=670.000
+[2016.01.14-00.17.59:688][  8]LogBlueprintUserMessages: [Move_C_1] X=7166.524 Y=-5768.573 Z=70.000
+[2016.01.14-00.17.59:800][ 12]LogBlueprintUserMessages: [Move_C_1] X=9722.104 Y=-7737.325 Z=70.000
+[2016.01.14-00.17.59:913][ 16]LogBlueprintUserMessages: [Move_C_1] X=8374.751 Y=-6851.599 Z=670.000
+[2016.01.14-00.18.00:025][ 20]LogBlueprintUserMessages: [Move_C_1] X=7539.917 Y=-7360.753 Z=670.000
+[2016.01.14-00.18.00:137][ 24]LogBlueprintUserMessages: [Move_C_1] X=7537.882 Y=-6406.828 Z=670.000
+[2016.01.14-00.18.00:242][ 28]LogBlueprintUserMessages: [Move_C_1] X=9436.464 Y=-5745.234 Z=70.000
+[2016.01.14-00.18.00:351][ 32]LogBlueprintUserMessages: [Move_C_1] X=7304.103 Y=-8425.922 Z=670.000
+[2016.01.14-00.18.00:455][ 36]LogBlueprintUserMessages: [Move_C_1] X=8460.169 Y=-8118.715 Z=670.000
+[2016.01.14-00.18.00:566][ 40]LogBlueprintUserMessages: [Move_C_1] X=8879.488 Y=-6739.534 Z=670.000
+[2016.01.14-00.18.00:673][ 44]LogBlueprintUserMessages: [Move_C_1] X=9254.463 Y=-6410.939 Z=670.000
+[2016.01.14-00.18.00:786][ 48]LogBlueprintUserMessages: [Move_C_1] X=9672.955 Y=-8287.743 Z=70.000
+[2016.01.14-00.18.00:893][ 52]LogBlueprintUserMessages: [Move_C_1] X=7878.137 Y=-5516.613 Z=379.864
+[2016.01.14-00.18.01:005][ 56]LogBlueprintUserMessages: [Move_C_1] X=7436.924 Y=-6999.269 Z=670.000
+[2016.01.14-00.18.01:111][ 60]LogBlueprintUserMessages: [Move_C_1] X=7251.677 Y=-6829.280 Z=670.000
+[2016.01.14-00.18.01:221][ 64]LogBlueprintUserMessages: [Move_C_1] X=9235.958 Y=-8544.526 Z=670.000
+[2016.01.14-00.18.01:324][ 68]LogBlueprintUserMessages: [Move_C_1] X=7334.818 Y=-5502.734 Z=70.000
+[2016.01.14-00.18.01:433][ 72]LogBlueprintUserMessages: [Move_C_1] X=8475.862 Y=-8326.014 Z=670.000
+[2016.01.14-00.18.01:544][ 76]LogBlueprintUserMessages: [Move_C_1] X=7491.611 Y=-8764.413 Z=670.000
+[2016.01.14-00.18.01:655][ 80]LogBlueprintUserMessages: [Move_C_1] X=7477.872 Y=-8308.206 Z=670.000
+[2016.01.14-00.18.01:776][ 84]LogBlueprintUserMessages: [Move_C_1] X=9327.111 Y=-6353.094 Z=670.000
+[2016.01.14-00.18.01:897][ 88]LogBlueprintUserMessages: [Move_C_1] X=8524.791 Y=-8485.828 Z=670.000
+[2016.01.14-00.18.02:019][ 92]LogBlueprintUserMessages: [Move_C_1] X=8824.736 Y=-8960.881 Z=670.000
+[2016.01.14-00.18.02:142][ 96]LogBlueprintUserMessages: [Move_C_1] X=9813.139 Y=-7196.168 Z=70.000
+[2016.01.14-00.18.02:261][100]LogBlueprintUserMessages: [Move_C_1] X=8142.206 Y=-7692.210 Z=670.000
+[2016.01.14-00.18.02:390][104]LogBlueprintUserMessages: [Move_C_1] X=6759.602 Y=-6816.192 Z=670.000
+[2016.01.14-00.18.02:510][108]LogBlueprintUserMessages: [Move_C_1] X=9462.201 Y=-5902.238 Z=70.000
+[2016.01.14-00.18.02:627][112]LogBlueprintUserMessages: [Move_C_1] X=9952.805 Y=-8255.046 Z=70.000
+[2016.01.14-00.18.02:755][116]LogBlueprintUserMessages: [FirstPersonCharacter] Dash
+[2016.01.14-00.18.02:756][116]LogBlueprintUserMessages: [Move_C_1] X=8125.516 Y=-5296.482 Z=486.810
+[2016.01.14-00.18.02:875][120]LogBlueprintUserMessages: [Move_C_1] X=9284.910 Y=-8343.784 Z=670.000
+[2016.01.14-00.18.02:998][124]LogBlueprintUserMessages: [FirstPersonCharacter] En L'air
+[2016.01.14-00.18.02:998][124]LogBlueprintUserMessages: [Move_C_1] X=7446.942 Y=-8356.201 Z=670.000
+[2016.01.14-00.18.03:116][128]LogBlueprintUserMessages: [Move_C_1] X=7848.383 Y=-7179.119 Z=670.000
+[2016.01.14-00.18.03:234][132]LogBlueprintUserMessages: [Move_C_1] X=7549.984 Y=-8188.107 Z=670.000
+[2016.01.14-00.18.03:350][136]LogBlueprintUserMessages: [Move_C_1] X=7988.401 Y=-7188.956 Z=670.000
+[2016.01.14-00.18.03:473][140]LogBlueprintUserMessages: [Move_C_1] X=9082.357 Y=-6413.388 Z=670.000
+[2016.01.14-00.18.03:592][144]LogBlueprintUserMessages: [Move_C_1] X=9191.767 Y=-8138.624 Z=670.000
+[2016.01.14-00.18.03:711][148]LogBlueprintUserMessages: [Move_C_1] X=6757.980 Y=-7491.141 Z=670.000
+[2016.01.14-00.18.03:831][152]LogBlueprintUserMessages: [Move_C_1] X=7875.736 Y=-7796.613 Z=670.000
+[2016.01.14-00.18.03:950][156]LogBlueprintUserMessages: [Move_C_1] X=8555.088 Y=-7032.563 Z=670.000
+[2016.01.14-00.18.04:069][160]LogBlueprintUserMessages: [Move_C_1] X=8445.110 Y=-5462.131 Z=70.000
+[2016.01.14-00.18.04:193][164]LogBlueprintUserMessages: [Move_C_1] X=6823.944 Y=-7619.938 Z=670.000
+[2016.01.14-00.18.04:312][168]LogBlueprintUserMessages: [Move_C_1] X=8298.416 Y=-7090.259 Z=670.000
+[2016.01.14-00.18.04:431][172]LogBlueprintUserMessages: [Move_C_1] X=7303.759 Y=-7055.131 Z=670.000
+[2016.01.14-00.18.04:550][176]LogBlueprintUserMessages: [Move_C_1] X=6659.435 Y=-6605.498 Z=670.000
+[2016.01.14-00.18.04:669][180]LogBlueprintUserMessages: [Move_C_1] X=9462.000 Y=-6768.262 Z=670.000
+[2016.01.14-00.18.04:794][184]LogBlueprintUserMessages: [Move_C_1] X=7810.924 Y=-8298.512 Z=670.000
+[2016.01.14-00.18.04:914][188]LogBlueprintUserMessages: [Move_C_1] X=9193.193 Y=-8663.368 Z=670.000
+[2016.01.14-00.18.05:034][192]LogBlueprintUserMessages: [Move_C_1] X=8801.520 Y=-7870.083 Z=670.000
+[2016.01.14-00.18.05:160][196]LogBlueprintUserMessages: [Move_C_1] X=10112.171 Y=-7213.901 Z=70.000
+[2016.01.14-00.18.05:282][200]LogBlueprintUserMessages: [Move_C_1] X=8641.481 Y=-5866.894 Z=70.000
+[2016.01.14-00.18.05:405][204]LogBlueprintUserMessages: [Move_C_1] X=8200.055 Y=-6810.192 Z=670.000
+[2016.01.14-00.18.05:532][208]LogBlueprintUserMessages: [Move_C_1] X=9330.576 Y=-6804.517 Z=670.000
+[2016.01.14-00.18.05:653][212]LogBlueprintUserMessages: [Move_C_1] X=9005.693 Y=-6631.981 Z=670.000
+[2016.01.14-00.18.05:715][214]LogBlueprintUserMessages: [FirstPersonCharacter] Dash
+[2016.01.14-00.18.05:772][216]LogBlueprintUserMessages: [Move_C_1] X=8356.463 Y=-8377.380 Z=670.000
+[2016.01.14-00.18.05:897][220]LogBlueprintUserMessages: [Move_C_1] X=6853.855 Y=-6896.791 Z=670.000
+[2016.01.14-00.18.05:953][222]LogBlueprintUserMessages: [FirstPersonCharacter] En L'air
+[2016.01.14-00.18.06:016][224]LogBlueprintUserMessages: [Move_C_1] X=8052.610 Y=-6960.891 Z=670.000
+[2016.01.14-00.18.06:131][228]LogBlueprintUserMessages: [Move_C_1] X=7235.062 Y=-6889.744 Z=670.000
+[2016.01.14-00.18.06:239][232]LogBlueprintUserMessages: [Move_C_1] X=8691.846 Y=-7737.051 Z=670.000
+[2016.01.14-00.18.06:351][236]LogBlueprintUserMessages: [Move_C_1] X=7910.509 Y=-7739.106 Z=670.000
+[2016.01.14-00.18.06:463][240]LogBlueprintUserMessages: [Move_C_1] X=8510.025 Y=-6987.170 Z=670.000
+[2016.01.14-00.18.06:569][244]LogBlueprintUserMessages: [Move_C_1] X=10045.463 Y=-6716.271 Z=70.000
+[2016.01.14-00.18.06:683][248]LogBlueprintUserMessages: [Move_C_1] X=7785.590 Y=-7119.821 Z=670.000
+[2016.01.14-00.18.06:798][252]LogBlueprintUserMessages: [Move_C_1] X=8115.481 Y=-8129.179 Z=670.000
+[2016.01.14-00.18.06:921][256]LogBlueprintUserMessages: [Move_C_1] X=7162.281 Y=-5819.389 Z=70.000
+[2016.01.14-00.18.07:040][260]LogBlueprintUserMessages: [Move_C_1] X=8678.266 Y=-6635.889 Z=670.000
+[2016.01.14-00.18.07:170][264]LogBlueprintUserMessages: [Move_C_1] X=8967.606 Y=-7606.306 Z=670.000
+[2016.01.14-00.18.07:302][268]LogBlueprintUserMessages: [Move_C_1] X=10051.102 Y=-7244.286 Z=70.000
+[2016.01.14-00.18.07:433][272]LogBlueprintUserMessages: [Move_C_1] X=10194.722 Y=-7192.414 Z=70.000
+[2016.01.14-00.18.07:554][276]LogBlueprintUserMessages: [Move_C_1] X=8170.768 Y=-7251.129 Z=670.000
+[2016.01.14-00.18.07:684][280]LogBlueprintUserMessages: [Move_C_1] X=7296.730 Y=-6080.000 Z=70.000
+[2016.01.14-00.18.07:805][284]LogBlueprintUserMessages: [Move_C_1] X=9256.235 Y=-8798.290 Z=670.000
+[2016.01.14-00.18.07:904][287]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/FirstPersonBP/Maps/Level2.Level2_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Level2.Level2:PersistentLevel.Level2'
+[2016.01.14-00.18.07:959][287]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/FirstPersonBP/Maps/Level2.Level2_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Level2.Level2:PersistentLevel.Level2'
+[2016.01.14-00.18.07:975][287]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000710FC72E80
+[2016.01.14-00.18.58:955][890]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.14-00.19.00:753][890]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.01.14-00.19.01:030][891]Cmd: QUIT_EDITOR
+[2016.01.14-00.19.02:023][891]LogExit: Preparing to exit.
+[2016.01.14-00.19.02:334][891]LogExit: Editor shut down
+[2016.01.14-00.19.02:335][891]LogExit: Transaction tracking system shut down
+[2016.01.14-00.19.02:336][891]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000712C8B7880
+[2016.01.14-00.19.02:336][891]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000712D7C1E40
+[2016.01.14-00.19.02:337][891]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007135DF98A0
+[2016.01.14-00.19.02:338][891]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000712D7C0180
+[2016.01.14-00.19.02:489][891]LogExit: Object subsystem successfully closed.
+[2016.01.14-00.19.02:502][891]LogD3D11RHI: Shutdown
+[2016.01.14-00.19.02:502][891]LogD3D11RHI: CleanupD3DDevice
+[2016.01.14-00.19.03:835][891]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.01.14-00.19.03:858][891]LogModuleManager: Shutting down and abandoning module CrashTracker (197)
+[2016.01.14-00.19.03:858][891]LogModuleManager: Shutting down and abandoning module SceneOutliner (196)
+[2016.01.14-00.19.03:858][891]LogModuleManager: Shutting down and abandoning module SuperSearch (195)
+[2016.01.14-00.19.03:858][891]LogModuleManager: Shutting down and abandoning module WidgetCarousel (194)
+[2016.01.14-00.19.03:858][891]LogModuleManager: Shutting down and abandoning module AddContentDialog (193)
+[2016.01.14-00.19.03:859][891]LogModuleManager: Shutting down and abandoning module EditorWidgets (192)
+[2016.01.14-00.19.03:859][891]LogModuleManager: Shutting down and abandoning module CollectionManager (191)
+[2016.01.14-00.19.03:859][891]LogModuleManager: Shutting down and abandoning module StatsViewer (190)
+[2016.01.14-00.19.03:859][891]LogModuleManager: Shutting down and abandoning module FoliageEdit (189)
+[2016.01.14-00.19.03:859][891]LogModuleManager: Shutting down and abandoning module LandscapeEditor (188)
+[2016.01.14-00.19.03:860][891]LogModuleManager: Shutting down and abandoning module ActorPickerMode (187)
+[2016.01.14-00.19.03:860][891]LogModuleManager: Shutting down and abandoning module GeometryMode (186)
+[2016.01.14-00.19.03:860][891]LogModuleManager: Shutting down and abandoning module TextureAlignMode (185)
+[2016.01.14-00.19.03:860][891]LogModuleManager: Shutting down and abandoning module BspMode (184)
+[2016.01.14-00.19.03:860][891]LogModuleManager: Shutting down and abandoning module PlacementMode (183)
+[2016.01.14-00.19.03:860][891]LogModuleManager: Shutting down and abandoning module AutomationWorker (182)
+[2016.01.14-00.19.03:860][891]LogModuleManager: Shutting down and abandoning module CharacterAI (181)
+[2016.01.14-00.19.03:860][891]LogModuleManager: Shutting down and abandoning module SmartSnapping (180)
+[2016.01.14-00.19.03:860][891]LogModuleManager: Shutting down and abandoning module ViewportSnapping (179)
+[2016.01.14-00.19.03:860][891]LogModuleManager: Shutting down and abandoning module LogVisualizer (178)
+[2016.01.14-00.19.03:860][891]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (177)
+[2016.01.14-00.19.03:860][891]LogModuleManager: Shutting down and abandoning module IntroTutorials (176)
+[2016.01.14-00.19.03:860][891]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (175)
+[2016.01.14-00.19.03:860][891]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (174)
+[2016.01.14-00.19.03:860][891]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (173)
+[2016.01.14-00.19.03:860][891]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
+[2016.01.14-00.19.04:328][891]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (171)
+[2016.01.14-00.19.04:328][891]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (170)
+[2016.01.14-00.19.04:328][891]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (169)
+[2016.01.14-00.19.04:328][891]LogModuleManager: Shutting down and abandoning module MergeActors (168)
+[2016.01.14-00.19.04:328][891]LogModuleManager: Shutting down and abandoning module SizeMap (167)
+[2016.01.14-00.19.04:328][891]LogModuleManager: Shutting down and abandoning module TreeMap (166)
+[2016.01.14-00.19.04:328][891]LogModuleManager: Shutting down and abandoning module ReferenceViewer (165)
+[2016.01.14-00.19.04:328][891]LogModuleManager: Shutting down and abandoning module LocalizationService (164)
+[2016.01.14-00.19.04:328][891]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (163)
+[2016.01.14-00.19.04:328][891]LogModuleManager: Shutting down and abandoning module HardwareTargeting (162)
+[2016.01.14-00.19.04:328][891]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (161)
+[2016.01.14-00.19.04:328][891]LogModuleManager: Shutting down and abandoning module UndoHistory (160)
+[2016.01.14-00.19.04:328][891]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (159)
+[2016.01.14-00.19.04:328][891]LogModuleManager: Shutting down and abandoning module UserFeedback (158)
+[2016.01.14-00.19.04:328][891]LogModuleManager: Shutting down and abandoning module XmlParser (157)
+[2016.01.14-00.19.04:328][891]LogModuleManager: Shutting down and abandoning module Blutility (156)
+[2016.01.14-00.19.04:328][891]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (155)
+[2016.01.14-00.19.04:328][891]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (154)
+[2016.01.14-00.19.04:328][891]LogModuleManager: Shutting down and abandoning module InputBindingEditor (153)
+[2016.01.14-00.19.04:328][891]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (152)
+[2016.01.14-00.19.04:328][891]LogModuleManager: Shutting down and abandoning module SettingsEditor (151)
+[2016.01.14-00.19.04:328][891]LogModuleManager: Shutting down and abandoning module ProjectLauncher (150)
+[2016.01.14-00.19.04:328][891]LogModuleManager: Shutting down and abandoning module SessionFrontend (149)
+[2016.01.14-00.19.04:328][891]LogModuleManager: Shutting down and abandoning module ProfilerClient (148)
+[2016.01.14-00.19.04:328][891]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (147)
+[2016.01.14-00.19.04:328][891]LogModuleManager: Shutting down and abandoning module DeviceManager (146)
+[2016.01.14-00.19.04:328][891]LogModuleManager: Shutting down and abandoning module AutomationController (145)
+[2016.01.14-00.19.04:329][891]LogModuleManager: Shutting down and abandoning module AutomationWindow (144)
+[2016.01.14-00.19.04:329][891]LogModuleManager: Shutting down and abandoning module Layers (143)
+[2016.01.14-00.19.04:329][891]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (142)
+[2016.01.14-00.19.04:329][891]LogModuleManager: Shutting down and abandoning module DetailCustomizations (141)
+[2016.01.14-00.19.04:329][891]LogModuleManager: Shutting down and abandoning module PackagesDialog (140)
+[2016.01.14-00.19.04:329][891]LogModuleManager: Shutting down and abandoning module Persona (139)
+[2016.01.14-00.19.04:329][891]LogModuleManager: Shutting down and abandoning module Kismet (138)
+[2016.01.14-00.19.04:329][891]LogModuleManager: Shutting down and abandoning module GraphEditor (137)
+[2016.01.14-00.19.04:329][891]LogModuleManager: Shutting down and abandoning module ClassViewer (136)
+[2016.01.14-00.19.04:329][891]LogModuleManager: Shutting down and abandoning module Toolbox (135)
+[2016.01.14-00.19.04:329][891]LogModuleManager: Shutting down and abandoning module ModuleUI (134)
+[2016.01.14-00.19.04:329][891]LogModuleManager: Shutting down and abandoning module MovieSceneTools (133)
+[2016.01.14-00.19.04:329][891]LogModuleManager: Shutting down and abandoning module OutputLog (132)
+[2016.01.14-00.19.04:329][891]LogModuleManager: Shutting down and abandoning module GammaUI (131)
+[2016.01.14-00.19.04:329][891]LogModuleManager: Shutting down and abandoning module Documentation (130)
+[2016.01.14-00.19.04:329][891]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (129)
+[2016.01.14-00.19.04:329][891]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (128)
+[2016.01.14-00.19.04:329][891]LogModuleManager: Shutting down and abandoning module AnalyticsET (127)
+[2016.01.14-00.19.04:329][891]LogModuleManager: Shutting down and abandoning module Analytics (126)
+[2016.01.14-00.19.04:329][891]LogModuleManager: Shutting down and abandoning module AITestSuite (125)
+[2016.01.14-00.19.04:329][891]LogModuleManager: Shutting down and abandoning module GameplayDebugger (124)
+[2016.01.14-00.19.04:329][891]LogModuleManager: Shutting down and abandoning module AIModule (123)
+[2016.01.14-00.19.04:329][891]LogModuleManager: Shutting down and abandoning module ProfilerService (122)
+[2016.01.14-00.19.04:385][891]LogModuleManager: Shutting down and abandoning module TaskGraph (121)
+[2016.01.14-00.19.04:385][891]LogModuleManager: Shutting down and abandoning module SlateRemote (120)
+[2016.01.14-00.19.04:385][891]LogModuleManager: Shutting down and abandoning module SteamVRController (119)
+[2016.01.14-00.19.04:385][891]LogModuleManager: Shutting down and abandoning module SteamVR (118)
+[2016.01.14-00.19.04:385][891]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (117)
+[2016.01.14-00.19.04:385][891]LogModuleManager: Shutting down and abandoning module OculusRift (116)
+[2016.01.14-00.19.04:385][891]LogModuleManager: Shutting down and abandoning module OculusLibrary (115)
+[2016.01.14-00.19.04:385][891]LogModuleManager: Shutting down and abandoning module LeapMotionController (114)
+[2016.01.14-00.19.04:399][891]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (113)
+[2016.01.14-00.19.04:399][891]LogModuleManager: Shutting down and abandoning module CableComponent (112)
+[2016.01.14-00.19.04:399][891]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (111)
+[2016.01.14-00.19.04:399][891]LogModuleManager: Shutting down and abandoning module MessagingDebugger (110)
+[2016.01.14-00.19.04:399][891]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (109)
+[2016.01.14-00.19.04:399][891]LogModuleManager: Shutting down and abandoning module HTML5Networking (108)
+[2016.01.14-00.19.04:399][891]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (107)
+[2016.01.14-00.19.04:399][891]LogModuleManager: Shutting down and abandoning module PluginBrowser (106)
+[2016.01.14-00.19.04:399][891]LogModuleManager: Shutting down and abandoning module EpicSurvey (105)
+[2016.01.14-00.19.04:399][891]LogModuleManager: Shutting down and abandoning module DesktopPlatform (104)
+[2016.01.14-00.19.04:399][891]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (103)
+[2016.01.14-00.19.04:399][891]LogModuleManager: Shutting down and abandoning module UObjectPlugin (102)
+[2016.01.14-00.19.04:399][891]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (101)
+[2016.01.14-00.19.04:399][891]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (100)
+[2016.01.14-00.19.04:399][891]LogModuleManager: Shutting down and abandoning module SourceControl (99)
+[2016.01.14-00.19.04:399][891]LogModuleManager: Shutting down and abandoning module GitSourceControl (98)
+[2016.01.14-00.19.04:399][891]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (97)
+[2016.01.14-00.19.04:399][891]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (96)
+[2016.01.14-00.19.04:399][891]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (95)
+[2016.01.14-00.19.04:399][891]LogModuleManager: Shutting down and abandoning module MeshPaint (94)
+[2016.01.14-00.19.04:399][891]LogModuleManager: Shutting down and abandoning module SlateReflector (93)
+[2016.01.14-00.19.04:399][891]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2016.01.14-00.19.04:399][891]LogModuleManager: Shutting down and abandoning module MainFrame (91)
+[2016.01.14-00.19.04:399][891]LogModuleManager: Shutting down and abandoning module LevelEditor (90)
+[2016.01.14-00.19.04:400][891]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (89)
+[2016.01.14-00.19.04:401][891]LogModuleManager: Shutting down and abandoning module AssetRegistry (88)
+[2016.01.14-00.19.04:504][891]LogModuleManager: Shutting down and abandoning module ContentBrowser (87)
+[2016.01.14-00.19.04:505][891]LogModuleManager: Shutting down and abandoning module Paper2DEditor (86)
+[2016.01.14-00.19.04:505][891]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
+[2016.01.14-00.19.04:606][891]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2016.01.14-00.19.04:606][891]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2016.01.14-00.19.04:606][891]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2016.01.14-00.19.04:608][891]LogModuleManager: Shutting down and abandoning module Media (81)
+[2016.01.14-00.19.04:608][891]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2016.01.14-00.19.04:609][891]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2016.01.14-00.19.04:609][891]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2016.01.14-00.19.04:609][891]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2016.01.14-00.19.04:609][891]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2016.01.14-00.19.04:609][891]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2016.01.14-00.19.04:609][891]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2016.01.14-00.19.04:609][891]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2016.01.14-00.19.04:609][891]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2016.01.14-00.19.04:609][891]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2016.01.14-00.19.04:609][891]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2016.01.14-00.19.04:609][891]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2016.01.14-00.19.04:609][891]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2016.01.14-00.19.04:609][891]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2016.01.14-00.19.04:609][891]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2016.01.14-00.19.04:611][891]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2016.01.14-00.19.04:611][891]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2016.01.14-00.19.04:611][891]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2016.01.14-00.19.04:611][891]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2016.01.14-00.19.04:611][891]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2016.01.14-00.19.04:611][891]LogModuleManager: Shutting down and abandoning module Core (59)
+[2016.01.14-00.19.04:611][891]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2016.01.14-00.19.04:611][891]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2016.01.14-00.19.04:611][891]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2016.01.14-00.19.04:611][891]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2016.01.14-00.19.04:612][891]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2016.01.14-00.19.04:775][891]LogDerivedDataCache: Shutdown
+[2016.01.14-00.19.04:775][891]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2016.01.14-00.19.04:775][891]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2016.01.14-00.19.04:775][891]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2016.01.14-00.19.04:775][891]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2016.01.14-00.19.04:775][891]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2016.01.14-00.19.04:775][891]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2016.01.14-00.19.04:775][891]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2016.01.14-00.19.04:775][891]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2016.01.14-00.19.04:775][891]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2016.01.14-00.19.04:775][891]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2016.01.14-00.19.04:775][891]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2016.01.14-00.19.04:775][891]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2016.01.14-00.19.04:775][891]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2016.01.14-00.19.04:775][891]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2016.01.14-00.19.04:775][891]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2016.01.14-00.19.04:775][891]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2016.01.14-00.19.04:775][891]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2016.01.14-00.19.04:775][891]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2016.01.14-00.19.04:775][891]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2016.01.14-00.19.04:775][891]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2016.01.14-00.19.04:775][891]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2016.01.14-00.19.04:775][891]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2016.01.14-00.19.04:775][891]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2016.01.14-00.19.04:775][891]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2016.01.14-00.19.04:775][891]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2016.01.14-00.19.04:775][891]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2016.01.14-00.19.04:775][891]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2016.01.14-00.19.04:775][891]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2016.01.14-00.19.04:775][891]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2016.01.14-00.19.04:775][891]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2016.01.14-00.19.04:775][891]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2016.01.14-00.19.04:775][891]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2016.01.14-00.19.04:775][891]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2016.01.14-00.19.04:775][891]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2016.01.14-00.19.04:775][891]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2016.01.14-00.19.04:775][891]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2016.01.14-00.19.05:777][891]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2016.01.14-00.19.05:777][891]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.01.14-00.19.05:777][891]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.01.14-00.19.05:777][891]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.01.14-00.19.05:777][891]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.01.14-00.19.05:777][891]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.01.14-00.19.05:778][891]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.01.14-00.19.05:778][891]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.01.14-00.19.05:778][891]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.01.14-00.19.05:778][891]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.01.14-00.19.05:778][891]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.01.14-00.19.05:778][891]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.01.14-00.19.05:778][891]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.01.14-00.19.05:778][891]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.01.14-00.19.05:778][891]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.01.14-00.19.05:778][891]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.01.14-00.19.05:778][891]LogExit: Exiting.
+[2016.01.14-00.19.05:780][891]Log file closed, 01/13/16 19:19:05

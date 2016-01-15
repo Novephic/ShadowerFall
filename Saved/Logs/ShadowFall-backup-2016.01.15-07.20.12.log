@@ -1,0 +1,1342 @@
+﻿[2016.01.15-12.15.15:199][  0]Log file open, 01/15/16 07:15:15
+[2016.01.15-12.15.15:199][  0]LogInit:Display: Running engine for game: ShadowFall
+[2016.01.15-12.15.15:199][  0]LogInit:Display: RandInit(719323135) SRandInit(719323136).
+[2016.01.15-12.15.15:199][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.01.15-12.15.15:199][  0]LogStats: Stats thread started at 0.111025
+[2016.01.15-12.15.15:199][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.01.15-12.15.15:199][  0]LogInit: API Version: 2672455
+[2016.01.15-12.15.15:199][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2016.01.15-12.15.15:199][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2016.01.15-12.15.15:199][  0]LogInit: Build Configuration: Development
+[2016.01.15-12.15.15:199][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2016.01.15-12.15.15:199][  0]LogInit: Command line:  
+[2016.01.15-12.15.15:199][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2016.01.15-12.15.15:199][  0]LogInit: Rocket: 1
+[2016.01.15-12.15.15:287][  0]LogInit: Using libcurl 7.41.0
+[2016.01.15-12.15.15:287][  0]LogInit:  - built for x86_64-pc-win32
+[2016.01.15-12.15.15:287][  0]LogInit:  - supports SSL with WinSSL
+[2016.01.15-12.15.15:287][  0]LogInit:  - other features:
+[2016.01.15-12.15.15:287][  0]LogInit:      CURL_VERSION_SSL
+[2016.01.15-12.15.15:287][  0]LogInit:      CURL_VERSION_IPV6
+[2016.01.15-12.15.15:287][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.01.15-12.15.15:287][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.01.15-12.15.15:287][  0]LogInit:      CURL_VERSION_IDN
+[2016.01.15-12.15.15:287][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.01.15-12.15.15:287][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.01.15-12.15.15:287][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.01.15-12.15.15:287][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.01.15-12.15.15:287][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.01.15-12.15.15:302][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.01.15-12.15.15:302][  0]LogInit: Object subsystem initialized
+[2016.01.15-12.15.15:302][  0]LogInit: Selected Device Profile: [Windows]
+[2016.01.15-12.15.15:302][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.01.15-12.15.15:417][  0]LogInit: Computer: MELCOM
+[2016.01.15-12.15.15:417][  0]LogInit: User: Melcom
+[2016.01.15-12.15.15:417][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.01.15-12.15.15:417][  0]LogInit: High frequency timer resolution =2.728072 MHz
+[2016.01.15-12.15.15:417][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.01.15-12.15.15:417][  0]LogMemory: Platform Memory Stats for Windows
+[2016.01.15-12.15.15:417][  0]LogMemory: Process Physical Memory: 53.84 MB used, 53.84 MB peak
+[2016.01.15-12.15.15:417][  0]LogMemory: Process Virtual Memory: 58.64 MB used, 58.64 MB peak
+[2016.01.15-12.15.15:417][  0]LogMemory: Physical Memory: 3447.85 MB used, 16302.69 MB total
+[2016.01.15-12.15.15:417][  0]LogMemory: Virtual Memory: 355.96 MB used, 134217728.00 MB total
+[2016.01.15-12.15.16:376][  0]LogTextLocalizationManager: No translations for ('fr-CA') exist, falling back to 'en' for localization and internationalization data.
+[2016.01.15-12.15.18:546][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2016.01.15-12.15.18:546][  0]LogD3D11RHI: Adapter has 128MB of dedicated video memory, 0MB of dedicated system memory, and 1792MB of shared system memory, 1 output[s]
+[2016.01.15-12.15.18:570][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce GTX 870M  (Feature Level 11_0)
+[2016.01.15-12.15.18:570][  0]LogD3D11RHI: Adapter has 6031MB of dedicated video memory, 0MB of dedicated system memory, and 8151MB of shared system memory, 0 output[s]
+[2016.01.15-12.15.18:577][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.01.15-12.15.18:577][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2016.01.15-12.15.18:577][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.01.15-12.15.18:582][  0]LogD3D11RHI: !Direct3DDevice
+[2016.01.15-12.15.18:582][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.01.15-12.15.18:604][  0]LogD3D11RHI: Async texture creation enabled
+[2016.01.15-12.15.18:621][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (F:/MergeFinal/ShadowerFall/Intermediate/Shaders/WorkingDirectory/5828/).
+[2016.01.15-12.15.18:623][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'F:/MergeFinal/ShadowerFall/Intermediate/Shaders/tmp/F76E6A6D4BA4699D33F748A0A5446F01/'.
+[2016.01.15-12.15.18:623][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.01.15-12.15.20:563][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.01.15-12.15.20:582][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.01.15-12.15.20:596][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.01.15-12.15.20:612][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.01.15-12.15.20:624][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.01.15-12.15.20:635][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.01.15-12.15.20:646][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.01.15-12.15.20:657][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.01.15-12.15.20:667][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.01.15-12.15.20:677][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.01.15-12.15.20:689][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.01.15-12.15.20:703][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.01.15-12.15.20:704][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.01.15-12.15.20:733][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.01.15-12.15.20:749][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.01.15-12.15.21:574][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.01.15-12.15.21:604][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.01.15-12.15.21:604][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.01.15-12.15.21:707][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.01.15-12.15.21:750][  0]LogDerivedDataCache: Loaded boot cache 0.04s 41MB C:/Users/Melcom/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.01.15-12.15.21:750][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Melcom/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2016.01.15-12.15.21:751][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file F:/MergeFinal/ShadowerFall/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.01.15-12.15.21:751][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.01.15-12.15.21:751][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file F:/MergeFinal/ShadowerFall/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.01.15-12.15.21:751][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.01.15-12.15.21:865][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.01.15-12.15.21:877][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Melcom/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.01.15-12.15.22:646][  0]LogInit: Selected Device Profile: [Windows]
+[2016.01.15-12.15.22:648][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.01.15-12.15.23:852][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.01.15-12.15.23:866][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.01.15-12.15.24:084][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.01.15-12.15.25:924][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.01.15-12.15.26:787][  0]LogAssetRegistry: FAssetRegistry took 0.0106 seconds to start up
+[2016.01.15-12.15.28:475][  0]SourceControl: Info Source control is disabled
+[2016.01.15-12.15.28:477][  0]SourceControl: Info Source control is disabled
+[2016.01.15-12.15.28:492][  0]SourceControl: Info Source control is disabled
+[2016.01.15-12.15.28:506][  0]SourceControl: Info Source control is disabled
+[2016.01.15-12.15.28:965][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.15-12.15.29:084][  0]LogObj: 28361 objects as part of root set at end of initial load.
+[2016.01.15-12.15.29:084][  0]LogUObjectAllocator: 6038872 out of 0 bytes used by permanent object pool.
+[2016.01.15-12.15.29:138][  0]LogEngine: Initializing Engine...
+[2016.01.15-12.15.29:146][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2016.01.15-12.15.29:147][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.01.15-12.15.30:028][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.01.15-12.15.30:036][  0]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.15-12.15.30:068][  0]LogInit: FAudioDevice initialized.
+[2016.01.15-12.15.30:094][  0]LogDerivedDataCache: Saved boot cache 0.03s 41MB C:/Users/Melcom/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.01.15-12.15.30:155][  0]LogInit: Texture streaming: Enabled
+[2016.01.15-12.15.30:389][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.01.15-12.15.30:389][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.01.15-12.15.30:389][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 647851c54a12d752e992f5bf4e7e53fb|b55a08fdee9c4555a13251bfef6368e4|069fc93a-90c1-4301-80d1-b5aa819ae568
+[2016.01.15-12.15.30:389][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.01.15-12.15.30:596][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.01.15-12.15.30:855][  0]LogInit: Transaction tracking system initialized
+[2016.01.15-12.15.31:542][  0]BlueprintLog: New page: Editor Load
+[2016.01.15-12.15.31:726][  0]LocalizationService: Info Localization service is disabled
+[2016.01.15-12.15.31:822][  0]LogConsoleResponse:Display: 
+[2016.01.15-12.15.31:929][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.01.15-12.15.32:002][  0]LogFileCache: Scanning file cache for directory 'F:/MergeFinal/ShadowerFall/Content/' took 0.06s
+[2016.01.15-12.15.32:002][  0]SourceControl: Info Source control is disabled
+[2016.01.15-12.15.32:002][  0]Cmd: MAP LOAD FILE="F:/MergeFinal/ShadowerFall/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.01.15-12.15.32:016][  0]LightingResults: New page: Lighting Build
+[2016.01.15-12.15.32:020][  0]MapCheck: New page: Map Check
+[2016.01.15-12.15.32:020][  0]LightingResults: New page: Lighting Build
+[2016.01.15-12.15.32:029][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007EA0971260
+[2016.01.15-12.15.32:400][  0]LogLinker:Warning: Asset 'F:/MergeFinal/ShadowerFall/Content/FirstPerson/Meshes/FirstPersonProjectileMesh.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.15-12.15.33:037][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Picture/Arrows'
+[2016.01.15-12.15.33:041][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Picture/Arrows' while loading F:/MergeFinal/ShadowerFall/Content/FirstPersonBP/Blueprints/HUD/CustomHUD.uasset.
+[2016.01.15-12.15.33:041][  0]LoadErrors:Error: Error /Game/FirstPersonBP/Blueprints/HUD/CustomHUD : Can't find file for asset. /Game/FirstPersonBP/Picture/Arrows
+[2016.01.15-12.15.33:046][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Picture/Arrows'
+[2016.01.15-12.15.33:047][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Picture/Arrows' while loading F:/MergeFinal/ShadowerFall/Content/FirstPersonBP/Blueprints/HUD/CustomHUD.uasset.
+[2016.01.15-12.15.33:047][  0]LoadErrors:Error: Error /Game/FirstPersonBP/Blueprints/HUD/CustomHUD : Can't find file for asset. /Game/FirstPersonBP/Picture/Arrows
+[2016.01.15-12.15.33:109][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Picture/Arrows'
+[2016.01.15-12.15.33:110][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Picture/Arrows' while loading F:/MergeFinal/ShadowerFall/Content/FirstPersonBP/Blueprints/Arrows/ArrowNORMAL.uasset.
+[2016.01.15-12.15.33:111][  0]LoadErrors:Error: Error /Game/FirstPersonBP/Blueprints/Arrows/ArrowNORMAL : Can't find file for asset. /Game/FirstPersonBP/Picture/Arrows
+[2016.01.15-12.15.33:112][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Picture/Arrows'
+[2016.01.15-12.15.33:113][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Picture/Arrows' while loading F:/MergeFinal/ShadowerFall/Content/FirstPersonBP/Blueprints/Arrows/ArrowNORMAL.uasset.
+[2016.01.15-12.15.33:113][  0]LoadErrors:Error: Error /Game/FirstPersonBP/Blueprints/Arrows/ArrowNORMAL : Can't find file for asset. /Game/FirstPersonBP/Picture/Arrows
+[2016.01.15-12.15.33:114][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Picture/Arrows'
+[2016.01.15-12.15.33:114][  0]LoadErrors: Info Failed to load /Game/FirstPersonBP/Blueprints/Arrows/ArrowNORMAL.ArrowNORMAL_C Referenced by ProgressBar_134
+[2016.01.15-12.15.33:115][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Picture/Arrows' while loading F:/MergeFinal/ShadowerFall/Content/FirstPersonBP/Blueprints/Arrows/ArrowNORMAL.uasset.
+[2016.01.15-12.15.33:115][  0]LoadErrors: Info Failed to load /Game/FirstPersonBP/Blueprints/Arrows/ArrowNORMAL.ArrowNORMAL_C Referenced by ProgressBar_134
+[2016.01.15-12.15.33:115][  0]LoadErrors:Error: Error /Game/FirstPersonBP/Blueprints/Arrows/ArrowNORMAL : Can't find file for asset. /Game/FirstPersonBP/Picture/Arrows
+[2016.01.15-12.15.33:116][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Picture/Arrows'
+[2016.01.15-12.15.33:116][  0]LoadErrors: Info Failed to load /Game/FirstPersonBP/Blueprints/Arrows/ArrowNORMAL.ArrowNORMAL_C Referenced by ProgressBar_135
+[2016.01.15-12.15.33:118][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Picture/Arrows' while loading F:/MergeFinal/ShadowerFall/Content/FirstPersonBP/Blueprints/Arrows/ArrowNORMAL.uasset.
+[2016.01.15-12.15.33:118][  0]LoadErrors: Info Failed to load /Game/FirstPersonBP/Blueprints/Arrows/ArrowNORMAL.ArrowNORMAL_C Referenced by ProgressBar_135
+[2016.01.15-12.15.33:118][  0]LoadErrors:Error: Error /Game/FirstPersonBP/Blueprints/Arrows/ArrowNORMAL : Can't find file for asset. /Game/FirstPersonBP/Picture/Arrows
+[2016.01.15-12.15.33:119][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Picture/Arrows'
+[2016.01.15-12.15.33:119][  0]LoadErrors: Info Failed to load /Game/FirstPersonBP/Blueprints/Arrows/ArrowNORMAL.ArrowNORMAL_C Referenced by ProgressBar_136
+[2016.01.15-12.15.33:120][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Picture/Arrows' while loading F:/MergeFinal/ShadowerFall/Content/FirstPersonBP/Blueprints/Arrows/ArrowNORMAL.uasset.
+[2016.01.15-12.15.33:120][  0]LoadErrors: Info Failed to load /Game/FirstPersonBP/Blueprints/Arrows/ArrowNORMAL.ArrowNORMAL_C Referenced by ProgressBar_136
+[2016.01.15-12.15.33:120][  0]LoadErrors:Error: Error /Game/FirstPersonBP/Blueprints/Arrows/ArrowNORMAL : Can't find file for asset. /Game/FirstPersonBP/Picture/Arrows
+[2016.01.15-12.15.33:124][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Picture/Arrows'
+[2016.01.15-12.15.33:124][  0]LoadErrors: Info Failed to load /Game/FirstPersonBP/Blueprints/Arrows/ArrowNORMAL.ArrowNORMAL_C Referenced by ProgressBar_134
+[2016.01.15-12.15.33:125][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Picture/Arrows' while loading F:/MergeFinal/ShadowerFall/Content/FirstPersonBP/Blueprints/Arrows/ArrowNORMAL.uasset.
+[2016.01.15-12.15.33:126][  0]LoadErrors: Info Failed to load /Game/FirstPersonBP/Blueprints/Arrows/ArrowNORMAL.ArrowNORMAL_C Referenced by ProgressBar_134
+[2016.01.15-12.15.33:126][  0]LoadErrors:Error: Error /Game/FirstPersonBP/Blueprints/Arrows/ArrowNORMAL : Can't find file for asset. /Game/FirstPersonBP/Picture/Arrows
+[2016.01.15-12.15.33:127][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Picture/Arrows'
+[2016.01.15-12.15.33:127][  0]LoadErrors: Info Failed to load /Game/FirstPersonBP/Blueprints/Arrows/ArrowNORMAL.ArrowNORMAL_C Referenced by ProgressBar_136
+[2016.01.15-12.15.33:128][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Picture/Arrows' while loading F:/MergeFinal/ShadowerFall/Content/FirstPersonBP/Blueprints/Arrows/ArrowNORMAL.uasset.
+[2016.01.15-12.15.33:128][  0]LoadErrors: Info Failed to load /Game/FirstPersonBP/Blueprints/Arrows/ArrowNORMAL.ArrowNORMAL_C Referenced by ProgressBar_136
+[2016.01.15-12.15.33:128][  0]LoadErrors:Error: Error /Game/FirstPersonBP/Blueprints/Arrows/ArrowNORMAL : Can't find file for asset. /Game/FirstPersonBP/Picture/Arrows
+[2016.01.15-12.15.33:129][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Picture/Arrows'
+[2016.01.15-12.15.33:129][  0]LoadErrors: Info Failed to load /Game/FirstPersonBP/Blueprints/Arrows/ArrowNORMAL.ArrowNORMAL_C Referenced by ProgressBar_135
+[2016.01.15-12.15.33:130][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Picture/Arrows' while loading F:/MergeFinal/ShadowerFall/Content/FirstPersonBP/Blueprints/Arrows/ArrowNORMAL.uasset.
+[2016.01.15-12.15.33:130][  0]LoadErrors: Info Failed to load /Game/FirstPersonBP/Blueprints/Arrows/ArrowNORMAL.ArrowNORMAL_C Referenced by ProgressBar_135
+[2016.01.15-12.15.33:130][  0]LoadErrors:Error: Error /Game/FirstPersonBP/Blueprints/Arrows/ArrowNORMAL : Can't find file for asset. /Game/FirstPersonBP/Picture/Arrows
+[2016.01.15-12.15.37:261][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.01.15-12.15.37:278][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.01.15-12.15.37:279][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.01.15-12.15.39:124][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 1,844.721ms to complete.
+[2016.01.15-12.15.39:124][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 7.122
+[2016.01.15-12.15.39:228][  0]LogCollectionManager: Loaded 0 collections in 0.005761 seconds
+[2016.01.15-12.15.39:290][  0]LogFileCache: Scanning file cache for directory 'F:/MergeFinal/ShadowerFall/Saved/Collections/' took 0.01s
+[2016.01.15-12.15.39:290][  0]LogFileCache: Scanning file cache for directory 'F:/MergeFinal/ShadowerFall/Content/Developers/Melcom/Collections/' took 0.01s
+[2016.01.15-12.15.39:290][  0]LogFileCache: Scanning file cache for directory 'F:/MergeFinal/ShadowerFall/Content/Collections/' took 0.01s
+[2016.01.15-12.15.39:290][  0]LogContentBrowser: Native class hierarchy populated in 0.0099 seconds. Added 1867 classes and 333 folders.
+[2016.01.15-12.15.39:298][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000007 seconds
+[2016.01.15-12.15.40:031][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0039 seconds. Added 0 classes and 0 folders.
+[2016.01.15-12.15.40:149][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0037 seconds. Added 0 classes and 0 folders.
+[2016.01.15-12.15.40:160][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0039 seconds. Added 1 classes and 2 folders.
+[2016.01.15-12.15.40:221][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.01.15-12.15.40:231][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.01.15-12.15.40:257][  0]LogLoad: Full Startup: 31.53 seconds (BP compile: 0.82 seconds)
+[2016.01.15-12.15.40:373][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.01.15-12.15.40:551][  0]LogRenderer: Reallocating scene render targets to support 1068x556 (Frame:2).
+[2016.01.15-12.15.40:858][  1]LogFileCache: Retrieving MD5 hashes for directory 'F:/MergeFinal/ShadowerFall/Content/' took 0.57s
+[2016.01.15-12.15.42:036][ 10]LogAssetRegistry: Asset discovery search completed in 15.2604 seconds
+[2016.01.15-12.15.42:036][ 10]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2016.01.15-12.15.42:036][ 10]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000019 seconds (updated 0 objects)
+[2016.01.15-12.16.25:822][615]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.15-12.16.25:822][615]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2016.01.15-12.16.25:822][615]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2016.01.15-12.16.25:822][615]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2016.01.15-12.16.25:822][615]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.01.15-12.16.25:900][615]Cmd: MAP LOAD FILE="F:/MergeFinal/ShadowerFall/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.01.15-12.16.25:900][615]LightingResults: New page: Lighting Build
+[2016.01.15-12.16.25:926][615]LoadErrors: New page: Loading map: FirstPersonExampleMap.umap
+[2016.01.15-12.16.25:929][615]MapCheck: New page: Map Check
+[2016.01.15-12.16.25:929][615]LightingResults: New page: Lighting Build
+[2016.01.15-12.16.25:945][615]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007EA86CE480
+[2016.01.15-12.16.26:045][615]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.01.15-12.16.26:062][615]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.01.15-12.16.26:382][615]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.01.15-12.16.27:554][615]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 1,171.743ms to complete.
+[2016.01.15-12.16.27:575][615]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 1.677
+[2016.01.15-12.16.28:617][622]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.15-12.16.28:617][622]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.15-12.16.28:617][622]PIE: New page: PIE session: FirstPersonExampleMap (Jan 15, 2016, 2:16:28 AM)
+[2016.01.15-12.16.28:617][622]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.01.15-12.16.28:675][622]LogPlayLevel: PIE: StaticDuplicateObject took: (0.058092s)
+[2016.01.15-12.16.28:676][622]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.01.15-12.16.28:677][622]LogPlayLevel: PIE: World Init took: (0.001257s)
+[2016.01.15-12.16.28:677][622]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.059640s)
+[2016.01.15-12.16.28:682][622]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.15-12.16.28:682][622]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2016.01.15-12.16.28:682][622]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2016.01.15-12.16.28:682][622]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2016.01.15-12.16.28:682][622]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.01.15-12.16.28:703][622]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.15-12.16.28:712][622]LogInit: FAudioDevice initialized.
+[2016.01.15-12.16.28:820][622]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.01.15-12.16.28:975][622]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2016.01.15-12.16.28:975][622]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2016.01.15-07.16.28
+[2016.01.15-12.16.28:975][622]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.15-12.16.28:977][622]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.15-12.16.29:809][622]LogWorld: Bringing up level for play took: 0.984566
+[2016.01.15-12.16.29:820][622]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 1.839
+[2016.01.15-12.16.29:821][622]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.15-12.16.29:823][622]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.29:823][622]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.29:852][623]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.090896 > MaxSimulationTimeStep (0.050) for 'FirstPersonCharacter_C_0'
+[2016.01.15-12.16.29:853][623]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.29:853][623]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.29:922][624]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.29:922][624]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.29:939][625]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.29:939][625]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.29:957][626]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.29:957][626]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.29:974][627]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.29:974][627]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.29:992][628]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.29:992][628]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.30:010][629]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.30:010][629]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.30:027][630]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.30:028][630]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.30:051][631]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.30:051][631]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.30:074][632]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.30:074][632]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.30:101][633]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.30:102][633]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.30:133][634]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.30:133][634]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.30:155][635]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.30:155][635]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.30:181][636]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.30:181][636]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.30:208][637]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.30:208][637]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.30:228][638]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.30:228][638]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.30:251][639]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.30:251][639]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.30:268][640]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.30:268][640]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.30:284][641]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.30:285][641]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.30:301][642]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.30:301][642]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.30:935][643]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.30:935][643]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.30:951][644]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.30:951][644]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.30:968][645]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.30:968][645]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.30:985][646]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.30:985][646]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.31:002][647]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.31:002][647]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.31:019][648]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.31:019][648]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.31:035][649]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.31:035][649]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.31:051][650]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.31:051][650]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.31:069][651]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.31:069][651]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.31:089][652]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.31:089][652]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.31:114][653]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.31:114][653]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.31:132][654]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.31:132][654]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.31:948][655]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.31:949][655]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.31:965][656]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.31:965][656]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.31:984][657]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.31:984][657]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.32:001][658]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.32:001][658]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.32:017][659]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.32:017][659]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.32:034][660]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.32:034][660]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.32:050][661]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.32:050][661]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.32:066][662]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.32:066][662]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.32:084][663]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.32:084][663]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.32:100][664]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.32:100][664]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.32:117][665]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.32:117][665]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.32:133][666]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.32:133][666]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.32:150][667]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.32:150][667]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.32:166][668]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.32:166][668]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.32:182][669]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.32:182][669]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.32:200][670]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.32:200][670]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.32:216][671]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.32:216][671]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.32:233][672]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.32:233][672]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.32:249][673]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.32:249][673]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.32:882][674]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.32:883][674]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.32:905][675]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.32:905][675]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.32:921][676]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.32:921][676]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.32:938][677]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.32:938][677]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.32:955][678]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.32:955][678]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.32:972][679]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.32:972][679]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.32:988][680]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.32:988][680]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.33:004][681]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.33:004][681]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.33:022][682]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.33:022][682]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.33:037][683]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.33:037][683]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.33:055][684]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.33:055][684]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.33:070][685]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.33:071][685]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.33:089][686]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.33:089][686]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.33:104][687]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.33:104][687]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.33:122][688]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.33:122][688]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.33:139][689]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] 2
+[2016.01.15-12.16.33:139][689]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] 3
+[2016.01.15-12.16.33:139][689]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.33:139][689]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.33:155][690]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.33:155][690]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.33:176][691]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.33:176][691]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.33:192][692]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.33:193][692]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.33:221][693]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.33:221][693]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.33:237][694]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.33:237][694]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.33:253][695]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.33:253][695]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.33:270][696]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.33:270][696]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.33:287][697]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.33:287][697]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.33:303][698]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.33:303][698]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.33:320][699]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.33:320][699]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.33:336][700]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.33:337][700]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.33:353][701]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.33:353][701]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.33:372][702]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.33:372][702]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.33:387][703]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.33:387][703]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.33:403][704]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.33:403][704]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.33:420][705]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.34:014][705]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.34:024][706]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.34:024][706]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.34:040][707]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.34:040][707]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.34:058][708]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.34:058][708]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.34:075][709]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.34:075][709]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.34:093][710]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.34:093][710]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.34:110][711]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.34:110][711]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.34:128][712]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.34:129][712]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.34:147][713]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.34:147][713]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.34:164][714]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.34:165][714]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.34:182][715]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.34:182][715]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.34:198][716]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.34:198][716]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.34:214][717]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.34:215][717]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.34:231][718]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.34:231][718]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.34:248][719]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.34:248][719]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.34:265][720]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.34:265][720]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.34:281][721]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.34:282][721]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.34:950][722]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.34:950][722]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.34:964][723]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.34:964][723]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.34:982][724]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.34:982][724]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.34:999][725]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.34:999][725]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.35:016][726]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.35:016][726]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.35:033][727]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.35:033][727]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.35:050][728]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.35:051][728]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.35:068][729]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.35:068][729]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.35:084][730]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.35:084][730]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.35:101][731]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.35:105][731]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.35:119][732]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.35:119][732]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.35:137][733]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.35:137][733]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.35:155][734]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.35:156][734]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.35:174][735]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.35:175][735]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.35:192][736]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.35:192][736]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.35:213][737]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.35:213][737]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.35:231][738]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.35:231][738]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.35:248][739]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.35:248][739]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.35:264][740]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.35:264][740]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.35:281][741]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.35:281][741]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.35:298][742]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.35:298][742]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.35:314][743]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.35:314][743]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.35:331][744]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.35:331][744]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.35:348][745]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.35:348][745]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.35:365][746]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.35:365][746]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.35:382][747]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.35:382][747]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.35:398][748]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.35:398][748]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.35:416][749]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.35:416][749]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.35:432][750]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.35:432][750]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.35:449][751]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.35:449][751]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.35:465][752]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.35:465][752]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.35:482][753]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.35:482][753]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.35:499][754]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.35:499][754]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.35:515][755]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.35:515][755]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.35:532][756]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.35:532][756]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.35:548][757]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.36:123][757]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.36:131][758]LogBlueprintUserMessages: [CoffreTranspercante3_194] 3
+[2016.01.15-12.16.36:132][758]LogBlueprintUserMessages: [CoffreTranspercante3_194] 5
+[2016.01.15-12.16.36:134][758]LogBlueprintUserMessages: [CoffreTranspercante2_113] 4
+[2016.01.15-12.16.36:134][758]LogBlueprintUserMessages: [CoffreTranspercante2_113] 6
+[2016.01.15-12.16.36:135][758]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.36:135][758]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.36:149][759]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.36:150][759]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.36:167][760]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.36:167][760]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.36:184][761]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.36:184][761]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.36:200][762]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.36:201][762]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.36:218][763]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.36:218][763]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.36:233][764]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.36:234][764]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.36:250][765]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.36:250][765]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.36:267][766]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.36:267][766]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.36:283][767]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.36:283][767]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.36:300][768]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.36:300][768]LogBlueprintUserMessages: [Archer_395] Caché
+[2016.01.15-12.16.36:316][769]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.36:316][769]LogBlueprintUserMessages: [Archer_395] Caché
+[2016.01.15-12.16.36:333][770]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.36:333][770]LogBlueprintUserMessages: [Archer_395] Caché
+[2016.01.15-12.16.36:349][771]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.36:349][771]LogBlueprintUserMessages: [Archer_395] Caché
+[2016.01.15-12.16.36:367][772]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.36:367][772]LogBlueprintUserMessages: [Archer_395] Caché
+[2016.01.15-12.16.36:383][773]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.36:383][773]LogBlueprintUserMessages: [Archer_395] Caché
+[2016.01.15-12.16.36:400][774]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.36:400][774]LogBlueprintUserMessages: [Archer_395] Caché
+[2016.01.15-12.16.36:416][775]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.36:416][775]LogBlueprintUserMessages: [Archer_395] Caché
+[2016.01.15-12.16.36:433][776]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.36:434][776]LogBlueprintUserMessages: [Archer_395] Caché
+[2016.01.15-12.16.36:449][777]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.36:450][777]LogBlueprintUserMessages: [Archer_395] Caché
+[2016.01.15-12.16.36:467][778]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.36:467][778]LogBlueprintUserMessages: [Archer_395] Caché
+[2016.01.15-12.16.36:482][779]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.36:482][779]LogBlueprintUserMessages: [Archer_395] Caché
+[2016.01.15-12.16.36:500][780]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.36:500][780]LogBlueprintUserMessages: [Archer_395] Caché
+[2016.01.15-12.16.36:517][781]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.37:056][781]LogBlueprintUserMessages: [Archer_395] Caché
+[2016.01.15-12.16.37:065][782]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.37:065][782]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.37:080][783]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.37:080][783]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.37:099][784]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.37:099][784]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.37:115][785]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.37:115][785]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.37:131][786]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.37:131][786]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.37:148][787]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.37:148][787]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.37:166][788]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.37:166][788]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.37:181][789]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.37:181][789]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.37:199][790]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.37:199][790]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.37:214][791]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.37:214][791]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.37:231][792]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.37:231][792]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.37:249][793]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.37:249][793]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.37:265][794]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.37:265][794]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.37:281][795]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.37:281][795]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.37:299][796]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.37:299][796]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.37:314][797]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.37:315][797]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.37:331][798]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.37:331][798]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.37:349][799]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.37:349][799]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.37:365][800]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.37:365][800]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.37:381][801]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.37:381][801]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.37:399][802]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.37:399][802]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.37:415][803]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.37:415][803]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.37:432][804]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.37:432][804]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.37:450][805]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.37:450][805]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.37:465][806]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.37:465][806]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.37:483][807]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.38:079][807]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.38:088][808]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.38:088][808]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.38:102][809]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.38:103][809]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.38:123][810]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.38:123][810]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.38:142][811]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.38:142][811]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.38:160][812]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.38:160][812]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.38:180][813]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.38:180][813]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.38:197][814]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.38:197][814]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.38:213][815]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.38:213][815]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.38:230][816]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.38:231][816]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.38:247][817]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.38:247][817]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.38:264][818]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.38:264][818]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.38:281][819]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.38:281][819]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.38:297][820]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.38:297][820]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.38:313][821]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.38:313][821]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.38:330][822]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.38:330][822]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.38:347][823]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.38:347][823]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.38:363][824]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.38:364][824]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.38:381][825]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.38:381][825]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.38:397][826]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.38:397][826]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.38:414][827]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.38:414][827]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.38:430][828]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.38:430][828]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.38:448][829]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.38:448][829]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.38:464][830]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.38:465][830]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.38:481][831]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.38:482][831]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.38:498][832]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.38:498][832]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.38:514][833]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.38:999][833]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.39:014][834]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.39:014][834]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.39:029][835]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.39:029][835]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.39:047][836]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.39:047][836]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.39:064][837]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.39:064][837]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.39:081][838]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.39:081][838]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.39:098][839]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.39:098][839]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.39:114][840]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.39:114][840]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.39:131][841]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.39:131][841]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.39:147][842]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.39:147][842]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.39:165][843]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.39:165][843]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.39:181][844]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.39:181][844]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.39:198][845]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.39:198][845]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.39:214][846]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.39:214][846]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.39:231][847]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.39:231][847]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.39:247][848]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.39:247][848]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.39:264][849]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.39:264][849]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.39:280][850]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.39:280][850]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.39:298][851]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.39:298][851]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.39:314][852]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.39:314][852]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.39:331][853]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.39:331][853]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.39:347][854]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.39:348][854]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.39:364][855]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.39:365][855]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.39:380][856]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.39:381][856]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.39:399][857]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.39:399][857]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.39:414][858]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.39:414][858]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.39:432][859]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.40:017][859]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.40:033][860]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.40:034][860]LogBlueprintUserMessages: [Archer_395] Caché
+[2016.01.15-12.16.40:049][861]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.40:050][861]LogBlueprintUserMessages: [Archer_395] Caché
+[2016.01.15-12.16.40:066][862]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.40:066][862]LogBlueprintUserMessages: [Archer_395] Caché
+[2016.01.15-12.16.40:083][863]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.40:083][863]LogBlueprintUserMessages: [Archer_395] Caché
+[2016.01.15-12.16.40:099][864]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.40:099][864]LogBlueprintUserMessages: [Archer_395] Caché
+[2016.01.15-12.16.40:116][865]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.40:117][865]LogBlueprintUserMessages: [Archer_395] Caché
+[2016.01.15-12.16.40:132][866]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.40:132][866]LogBlueprintUserMessages: [Archer_395] Caché
+[2016.01.15-12.16.40:150][867]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.40:150][867]LogBlueprintUserMessages: [Archer_395] Caché
+[2016.01.15-12.16.40:167][868]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.40:167][868]LogBlueprintUserMessages: [Archer_395] Caché
+[2016.01.15-12.16.40:184][869]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.40:184][869]LogBlueprintUserMessages: [Archer_395] Caché
+[2016.01.15-12.16.40:200][870]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.40:200][870]LogBlueprintUserMessages: [Archer_395] Caché
+[2016.01.15-12.16.40:217][871]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.40:217][871]LogBlueprintUserMessages: [Archer_395] Caché
+[2016.01.15-12.16.40:233][872]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.40:233][872]LogBlueprintUserMessages: [Archer_395] Caché
+[2016.01.15-12.16.40:250][873]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.40:250][873]LogBlueprintUserMessages: [Archer_395] Caché
+[2016.01.15-12.16.40:267][874]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.40:267][874]LogBlueprintUserMessages: [Archer_395] Caché
+[2016.01.15-12.16.40:283][875]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.40:283][875]LogBlueprintUserMessages: [Archer_395] Caché
+[2016.01.15-12.16.41:004][876]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.41:004][876]LogBlueprintUserMessages: [Archer_395] Caché
+[2016.01.15-12.16.41:018][877]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.41:018][877]LogBlueprintUserMessages: [Archer_395] Caché
+[2016.01.15-12.16.41:034][878]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.41:035][878]LogBlueprintUserMessages: [Archer_395] Caché
+[2016.01.15-12.16.41:051][879]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.41:051][879]LogBlueprintUserMessages: [Archer_395] Caché
+[2016.01.15-12.16.41:067][880]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.41:067][880]LogBlueprintUserMessages: [Archer_395] Caché
+[2016.01.15-12.16.41:084][881]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.41:084][881]LogBlueprintUserMessages: [Archer_395] Caché
+[2016.01.15-12.16.41:100][882]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.41:100][882]LogBlueprintUserMessages: [Archer_395] Caché
+[2016.01.15-12.16.41:117][883]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.41:117][883]LogBlueprintUserMessages: [Archer_395] Caché
+[2016.01.15-12.16.41:134][884]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.41:134][884]LogBlueprintUserMessages: [Archer_395] Caché
+[2016.01.15-12.16.41:150][885]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.41:155][885]LogBlueprintUserMessages: [Archer_395] Caché
+[2016.01.15-12.16.41:169][886]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.41:169][886]LogBlueprintUserMessages: [Archer_395] Caché
+[2016.01.15-12.16.41:185][887]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.41:185][887]LogBlueprintUserMessages: [Archer_395] Caché
+[2016.01.15-12.16.41:204][888]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.41:204][888]LogBlueprintUserMessages: [Archer_395] Caché
+[2016.01.15-12.16.41:218][889]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.41:219][889]LogBlueprintUserMessages: [Archer_395] Caché
+[2016.01.15-12.16.41:237][890]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.41:237][890]LogBlueprintUserMessages: [Archer_395] Caché
+[2016.01.15-12.16.41:252][891]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.41:252][891]LogBlueprintUserMessages: [Archer_395] Caché
+[2016.01.15-12.16.41:268][892]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.41:268][892]LogBlueprintUserMessages: [Archer_395] Caché
+[2016.01.15-12.16.41:287][893]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.41:287][893]LogBlueprintUserMessages: [Archer_395] Caché
+[2016.01.15-12.16.41:301][894]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.41:302][894]LogBlueprintUserMessages: [Archer_395] Caché
+[2016.01.15-12.16.41:318][895]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.41:318][895]LogBlueprintUserMessages: [Archer_395] Caché
+[2016.01.15-12.16.41:336][896]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.41:336][896]LogBlueprintUserMessages: [Archer_395] Caché
+[2016.01.15-12.16.41:351][897]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.41:352][897]LogBlueprintUserMessages: [Archer_395] Caché
+[2016.01.15-12.16.41:368][898]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.41:368][898]LogBlueprintUserMessages: [Archer_395] Caché
+[2016.01.15-12.16.41:386][899]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.41:386][899]LogBlueprintUserMessages: [Archer_395] Caché
+[2016.01.15-12.16.41:402][900]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.41:402][900]LogBlueprintUserMessages: [Archer_395] Caché
+[2016.01.15-12.16.41:418][901]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.41:418][901]LogBlueprintUserMessages: [Archer_395] Caché
+[2016.01.15-12.16.41:436][902]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.41:436][902]LogBlueprintUserMessages: [Archer_395] Caché
+[2016.01.15-12.16.41:451][903]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.41:451][903]LogBlueprintUserMessages: [Archer_395] Caché
+[2016.01.15-12.16.41:470][904]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.41:470][904]LogBlueprintUserMessages: [Archer_395] Caché
+[2016.01.15-12.16.41:485][905]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.41:485][905]LogBlueprintUserMessages: [Archer_395] Caché
+[2016.01.15-12.16.41:503][906]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.41:503][906]LogBlueprintUserMessages: [Archer_395] Caché
+[2016.01.15-12.16.41:518][907]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.41:518][907]LogBlueprintUserMessages: [Archer_395] Caché
+[2016.01.15-12.16.41:536][908]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.41:537][908]LogBlueprintUserMessages: [Archer_395] Caché
+[2016.01.15-12.16.41:553][909]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.41:553][909]LogBlueprintUserMessages: [Archer_395] Caché
+[2016.01.15-12.16.41:568][910]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.41:569][910]LogBlueprintUserMessages: [Archer_395] Caché
+[2016.01.15-12.16.41:587][911]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.41:587][911]LogBlueprintUserMessages: [Archer_395] Caché
+[2016.01.15-12.16.42:195][912]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.42:195][912]LogBlueprintUserMessages: [Archer_395] Caché
+[2016.01.15-12.16.42:211][913]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.42:211][913]LogBlueprintUserMessages: [Archer_395] Caché
+[2016.01.15-12.16.42:228][914]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.42:228][914]LogBlueprintUserMessages: [Archer_395] Caché
+[2016.01.15-12.16.42:244][915]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.42:245][915]LogBlueprintUserMessages: [Archer_395] Caché
+[2016.01.15-12.16.42:261][916]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.42:261][916]LogBlueprintUserMessages: [Archer_395] Caché
+[2016.01.15-12.16.42:278][917]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.42:278][917]LogBlueprintUserMessages: [Archer_395] Caché
+[2016.01.15-12.16.42:295][918]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.42:295][918]LogBlueprintUserMessages: [Archer_395] Caché
+[2016.01.15-12.16.42:313][919]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.42:313][919]LogBlueprintUserMessages: [Archer_395] Caché
+[2016.01.15-12.16.42:329][920]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.42:330][920]LogBlueprintUserMessages: [Archer_395] Caché
+[2016.01.15-12.16.42:346][921]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.42:346][921]LogBlueprintUserMessages: [Archer_395] Caché
+[2016.01.15-12.16.42:363][922]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.42:363][922]LogBlueprintUserMessages: [Archer_395] Caché
+[2016.01.15-12.16.42:380][923]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.42:380][923]LogBlueprintUserMessages: [Archer_395] Caché
+[2016.01.15-12.16.42:396][924]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.42:396][924]LogBlueprintUserMessages: [Archer_395] Caché
+[2016.01.15-12.16.42:413][925]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.42:413][925]LogBlueprintUserMessages: [Archer_395] Caché
+[2016.01.15-12.16.42:430][926]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.42:430][926]LogBlueprintUserMessages: [Archer_395] Caché
+[2016.01.15-12.16.42:446][927]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.42:447][927]LogBlueprintUserMessages: [Archer_395] Caché
+[2016.01.15-12.16.42:463][928]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.42:463][928]LogBlueprintUserMessages: [Archer_395] Caché
+[2016.01.15-12.16.42:481][929]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.42:481][929]LogBlueprintUserMessages: [Archer_395] Caché
+[2016.01.15-12.16.42:498][930]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.42:498][930]LogBlueprintUserMessages: [Archer_395] Caché
+[2016.01.15-12.16.42:515][931]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.42:515][931]LogBlueprintUserMessages: [Archer_395] Caché
+[2016.01.15-12.16.42:532][932]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.42:532][932]LogBlueprintUserMessages: [Archer_395] Caché
+[2016.01.15-12.16.42:549][933]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.42:550][933]LogBlueprintUserMessages: [Archer_395] Caché
+[2016.01.15-12.16.42:568][934]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] 1
+[2016.01.15-12.16.42:568][934]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] 5
+[2016.01.15-12.16.42:570][934]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.42:570][934]LogBlueprintUserMessages: [Archer_395] Caché
+[2016.01.15-12.16.43:116][934]LogBlueprintUserMessages: [ArrowNORMAL_C_1] 2
+[2016.01.15-12.16.43:116][934]LogBlueprintUserMessages: [ArrowNORMAL_C_1] 6
+[2016.01.15-12.16.43:130][935]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.43:130][935]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.43:147][936]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.43:147][936]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.43:165][937]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.43:165][937]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.43:182][938]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.43:182][938]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.43:198][939]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.43:198][939]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.43:219][940]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.43:219][940]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.43:236][941]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.43:236][941]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.43:252][942]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.43:252][942]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.43:268][943]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.43:268][943]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.43:285][944]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.43:286][944]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.43:304][945]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.43:304][945]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.43:321][946]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.43:322][946]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.43:338][947]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.43:338][947]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.43:353][948]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.43:354][948]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.43:371][949]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.43:371][949]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.43:389][950]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.43:389][950]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.43:406][951]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.43:407][951]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.43:425][952]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.43:425][952]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.44:194][953]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.44:194][953]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.44:217][954]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.44:217][954]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.44:233][955]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.44:233][955]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.44:250][956]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.44:250][956]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.44:267][957]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.44:267][957]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.44:284][958]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.44:284][958]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.44:299][959]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.44:299][959]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.44:316][960]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.44:316][960]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.44:332][961]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.44:333][961]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.44:350][962]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.44:350][962]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.44:366][963]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.44:366][963]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.44:384][964]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.44:384][964]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.44:401][965]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.44:401][965]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.44:417][966]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.44:417][966]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.44:434][967]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.44:434][967]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.44:450][968]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.44:450][968]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.44:467][969]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.44:467][969]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.44:484][970]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.44:484][970]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.44:500][971]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.44:500][971]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.44:517][972]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.44:517][972]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.44:533][973]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.44:533][973]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.44:550][974]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.44:550][974]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.44:567][975]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.44:567][975]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.44:583][976]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.44:583][976]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.44:600][977]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.44:600][977]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.44:617][978]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.44:617][978]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.44:633][979]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.44:633][979]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.44:651][980]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.44:651][980]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.44:667][981]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.44:667][981]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.44:683][982]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.44:684][982]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.44:700][983]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.44:700][983]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.44:717][984]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.44:717][984]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.44:733][985]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.44:733][985]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.44:750][986]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.44:750][986]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.44:767][987]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.45:266][987]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.45:279][988]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.45:279][988]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.45:294][989]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.45:294][989]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.45:312][990]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.45:312][990]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.45:329][991]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.45:329][991]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.45:346][992]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.45:346][992]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.45:363][993]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.45:363][993]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.45:380][994]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.45:380][994]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.45:396][995]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.45:397][995]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.45:413][996]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.45:413][996]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.45:430][997]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.45:430][997]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.45:446][998]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.45:446][998]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.45:463][999]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.45:463][999]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.45:480][  0]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.45:480][  0]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.45:496][  1]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.45:496][  1]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.45:513][  2]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.45:513][  2]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.45:529][  3]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.45:530][  3]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.45:546][  4]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.45:546][  4]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.45:563][  5]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.45:563][  5]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.45:578][  6]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.45:578][  6]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.45:596][  7]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.45:596][  7]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.45:613][  8]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.45:613][  8]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.45:630][  9]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.45:630][  9]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.45:646][ 10]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.45:646][ 10]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.45:663][ 11]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.45:663][ 11]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.45:679][ 12]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.45:680][ 12]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.45:696][ 13]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.46:293][ 13]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.46:306][ 14]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.46:307][ 14]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.46:324][ 15]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.46:324][ 15]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.46:341][ 16]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.46:341][ 16]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.46:358][ 17]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.46:358][ 17]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.46:373][ 18]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.46:373][ 18]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.46:391][ 19]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.46:391][ 19]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.46:406][ 20]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.46:406][ 20]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.46:423][ 21]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.46:423][ 21]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.46:439][ 22]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.46:439][ 22]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.46:456][ 23]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.46:456][ 23]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.46:473][ 24]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.46:473][ 24]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.46:490][ 25]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.46:490][ 25]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.46:507][ 26]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.46:507][ 26]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.46:523][ 27]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.46:523][ 27]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.46:540][ 28]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.46:540][ 28]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.46:556][ 29]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.46:556][ 29]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.46:573][ 30]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.46:573][ 30]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.46:590][ 31]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.46:590][ 31]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.46:606][ 32]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.46:606][ 32]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.46:623][ 33]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.46:623][ 33]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.46:640][ 34]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.46:640][ 34]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.46:656][ 35]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.46:656][ 35]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.46:673][ 36]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.46:673][ 36]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.46:690][ 37]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.46:690][ 37]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.46:706][ 38]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.46:706][ 38]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.46:723][ 39]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.47:223][ 39]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.47:234][ 40]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] 1
+[2016.01.15-12.16.47:234][ 40]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] 5
+[2016.01.15-12.16.47:235][ 40]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.47:235][ 40]LogBlueprintUserMessages: [Archer_395] VIsible
+[2016.01.15-12.16.47:272][ 41]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.47:293][ 42]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.47:309][ 43]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.47:327][ 44]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.47:344][ 45]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.47:361][ 46]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.47:377][ 47]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.47:394][ 48]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.47:411][ 49]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.47:427][ 50]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.47:444][ 51]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.47:460][ 52]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.47:477][ 53]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.47:493][ 54]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.47:510][ 55]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.47:526][ 56]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.47:542][ 57]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.47:559][ 58]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.47:576][ 59]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.47:593][ 60]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.47:609][ 61]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.47:625][ 62]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.47:642][ 63]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.47:658][ 64]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.47:677][ 65]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.47:692][ 66]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.47:708][ 67]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.47:725][ 68]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.47:742][ 69]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.47:760][ 70]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.47:776][ 71]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.47:792][ 72]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.47:808][ 73]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.47:826][ 74]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.47:842][ 75]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.47:858][ 76]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.47:876][ 77]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.47:892][ 78]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.47:908][ 79]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.47:926][ 80]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.47:943][ 81]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.47:958][ 82]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.47:976][ 83]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.47:994][ 84]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.48:009][ 85]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.48:027][ 86]LogBlueprintUserMessages: [Tourelle_230] Caché
+[2016.01.15-12.16.48:252][ 87]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.48:268][ 88]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.48:285][ 89]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.48:303][ 90]LogBlueprintUserMessages: [Tourelle_230] VIsible
+[2016.01.15-12.16.48:327][ 91]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.15-12.16.48:371][ 91]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.15-12.16.48:392][ 91]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007EB4DE7100
+[2016.01.15-12.16.55:491][363]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.01.15-12.16.55:816][364]Cmd: QUIT_EDITOR
+[2016.01.15-12.16.57:770][364]LogExit: Preparing to exit.
+[2016.01.15-12.16.58:870][364]LogExit: Editor shut down
+[2016.01.15-12.16.58:870][364]LogExit: Transaction tracking system shut down
+[2016.01.15-12.16.58:882][364]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007EA6DE0540
+[2016.01.15-12.16.58:882][364]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007EB3A38AE0
+[2016.01.15-12.16.58:882][364]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007EB5A214E0
+[2016.01.15-12.16.58:883][364]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007EB3A39BC0
+[2016.01.15-12.16.59:011][364]LogExit: Object subsystem successfully closed.
+[2016.01.15-12.16.59:030][364]LogD3D11RHI: Shutdown
+[2016.01.15-12.16.59:030][364]LogD3D11RHI: CleanupD3DDevice
+[2016.01.15-12.16.59:068][364]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.01.15-12.16.59:094][364]LogModuleManager: Shutting down and abandoning module CrashTracker (197)
+[2016.01.15-12.16.59:094][364]LogModuleManager: Shutting down and abandoning module SceneOutliner (196)
+[2016.01.15-12.16.59:094][364]LogModuleManager: Shutting down and abandoning module SuperSearch (195)
+[2016.01.15-12.16.59:094][364]LogModuleManager: Shutting down and abandoning module WidgetCarousel (194)
+[2016.01.15-12.16.59:094][364]LogModuleManager: Shutting down and abandoning module AddContentDialog (193)
+[2016.01.15-12.16.59:095][364]LogModuleManager: Shutting down and abandoning module EditorWidgets (192)
+[2016.01.15-12.16.59:095][364]LogModuleManager: Shutting down and abandoning module CollectionManager (191)
+[2016.01.15-12.16.59:095][364]LogModuleManager: Shutting down and abandoning module StatsViewer (190)
+[2016.01.15-12.16.59:095][364]LogModuleManager: Shutting down and abandoning module FoliageEdit (189)
+[2016.01.15-12.16.59:095][364]LogModuleManager: Shutting down and abandoning module LandscapeEditor (188)
+[2016.01.15-12.16.59:095][364]LogModuleManager: Shutting down and abandoning module ActorPickerMode (187)
+[2016.01.15-12.16.59:095][364]LogModuleManager: Shutting down and abandoning module GeometryMode (186)
+[2016.01.15-12.16.59:095][364]LogModuleManager: Shutting down and abandoning module TextureAlignMode (185)
+[2016.01.15-12.16.59:095][364]LogModuleManager: Shutting down and abandoning module BspMode (184)
+[2016.01.15-12.16.59:095][364]LogModuleManager: Shutting down and abandoning module PlacementMode (183)
+[2016.01.15-12.16.59:802][364]LogModuleManager: Shutting down and abandoning module AutomationWorker (182)
+[2016.01.15-12.16.59:802][364]LogModuleManager: Shutting down and abandoning module CharacterAI (181)
+[2016.01.15-12.16.59:802][364]LogModuleManager: Shutting down and abandoning module SmartSnapping (180)
+[2016.01.15-12.16.59:802][364]LogModuleManager: Shutting down and abandoning module ViewportSnapping (179)
+[2016.01.15-12.16.59:802][364]LogModuleManager: Shutting down and abandoning module LogVisualizer (178)
+[2016.01.15-12.16.59:803][364]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (177)
+[2016.01.15-12.16.59:803][364]LogModuleManager: Shutting down and abandoning module IntroTutorials (176)
+[2016.01.15-12.16.59:803][364]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (175)
+[2016.01.15-12.16.59:803][364]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (174)
+[2016.01.15-12.16.59:803][364]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (173)
+[2016.01.15-12.16.59:803][364]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
+[2016.01.15-12.16.59:821][364]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (171)
+[2016.01.15-12.16.59:821][364]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (170)
+[2016.01.15-12.16.59:821][364]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (169)
+[2016.01.15-12.16.59:821][364]LogModuleManager: Shutting down and abandoning module MergeActors (168)
+[2016.01.15-12.16.59:821][364]LogModuleManager: Shutting down and abandoning module SizeMap (167)
+[2016.01.15-12.16.59:821][364]LogModuleManager: Shutting down and abandoning module TreeMap (166)
+[2016.01.15-12.16.59:821][364]LogModuleManager: Shutting down and abandoning module ReferenceViewer (165)
+[2016.01.15-12.16.59:821][364]LogModuleManager: Shutting down and abandoning module LocalizationService (164)
+[2016.01.15-12.16.59:821][364]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (163)
+[2016.01.15-12.16.59:821][364]LogModuleManager: Shutting down and abandoning module HardwareTargeting (162)
+[2016.01.15-12.16.59:821][364]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (161)
+[2016.01.15-12.16.59:821][364]LogModuleManager: Shutting down and abandoning module UndoHistory (160)
+[2016.01.15-12.16.59:821][364]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (159)
+[2016.01.15-12.16.59:821][364]LogModuleManager: Shutting down and abandoning module UserFeedback (158)
+[2016.01.15-12.16.59:821][364]LogModuleManager: Shutting down and abandoning module XmlParser (157)
+[2016.01.15-12.16.59:822][364]LogModuleManager: Shutting down and abandoning module Blutility (156)
+[2016.01.15-12.16.59:822][364]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (155)
+[2016.01.15-12.16.59:822][364]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (154)
+[2016.01.15-12.16.59:822][364]LogModuleManager: Shutting down and abandoning module InputBindingEditor (153)
+[2016.01.15-12.16.59:823][364]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (152)
+[2016.01.15-12.16.59:823][364]LogModuleManager: Shutting down and abandoning module SettingsEditor (151)
+[2016.01.15-12.16.59:823][364]LogModuleManager: Shutting down and abandoning module ProjectLauncher (150)
+[2016.01.15-12.16.59:823][364]LogModuleManager: Shutting down and abandoning module SessionFrontend (149)
+[2016.01.15-12.16.59:823][364]LogModuleManager: Shutting down and abandoning module ProfilerClient (148)
+[2016.01.15-12.16.59:823][364]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (147)
+[2016.01.15-12.16.59:824][364]LogModuleManager: Shutting down and abandoning module DeviceManager (146)
+[2016.01.15-12.16.59:824][364]LogModuleManager: Shutting down and abandoning module AutomationController (145)
+[2016.01.15-12.16.59:826][364]LogModuleManager: Shutting down and abandoning module AutomationWindow (144)
+[2016.01.15-12.16.59:827][364]LogModuleManager: Shutting down and abandoning module Layers (143)
+[2016.01.15-12.16.59:827][364]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (142)
+[2016.01.15-12.16.59:827][364]LogModuleManager: Shutting down and abandoning module DetailCustomizations (141)
+[2016.01.15-12.16.59:827][364]LogModuleManager: Shutting down and abandoning module PackagesDialog (140)
+[2016.01.15-12.16.59:827][364]LogModuleManager: Shutting down and abandoning module Persona (139)
+[2016.01.15-12.16.59:827][364]LogModuleManager: Shutting down and abandoning module Kismet (138)
+[2016.01.15-12.16.59:827][364]LogModuleManager: Shutting down and abandoning module GraphEditor (137)
+[2016.01.15-12.16.59:827][364]LogModuleManager: Shutting down and abandoning module ClassViewer (136)
+[2016.01.15-12.16.59:827][364]LogModuleManager: Shutting down and abandoning module Toolbox (135)
+[2016.01.15-12.16.59:827][364]LogModuleManager: Shutting down and abandoning module ModuleUI (134)
+[2016.01.15-12.16.59:827][364]LogModuleManager: Shutting down and abandoning module MovieSceneTools (133)
+[2016.01.15-12.16.59:827][364]LogModuleManager: Shutting down and abandoning module OutputLog (132)
+[2016.01.15-12.16.59:827][364]LogModuleManager: Shutting down and abandoning module GammaUI (131)
+[2016.01.15-12.16.59:827][364]LogModuleManager: Shutting down and abandoning module Documentation (130)
+[2016.01.15-12.16.59:828][364]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (129)
+[2016.01.15-12.16.59:828][364]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (128)
+[2016.01.15-12.16.59:828][364]LogModuleManager: Shutting down and abandoning module AnalyticsET (127)
+[2016.01.15-12.16.59:828][364]LogModuleManager: Shutting down and abandoning module Analytics (126)
+[2016.01.15-12.16.59:828][364]LogModuleManager: Shutting down and abandoning module AITestSuite (125)
+[2016.01.15-12.16.59:828][364]LogModuleManager: Shutting down and abandoning module GameplayDebugger (124)
+[2016.01.15-12.16.59:828][364]LogModuleManager: Shutting down and abandoning module AIModule (123)
+[2016.01.15-12.16.59:828][364]LogModuleManager: Shutting down and abandoning module ProfilerService (122)
+[2016.01.15-12.17.00:006][364]LogModuleManager: Shutting down and abandoning module TaskGraph (121)
+[2016.01.15-12.17.00:006][364]LogModuleManager: Shutting down and abandoning module SlateRemote (120)
+[2016.01.15-12.17.00:006][364]LogModuleManager: Shutting down and abandoning module SteamVRController (119)
+[2016.01.15-12.17.00:006][364]LogModuleManager: Shutting down and abandoning module SteamVR (118)
+[2016.01.15-12.17.00:006][364]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (117)
+[2016.01.15-12.17.00:006][364]LogModuleManager: Shutting down and abandoning module OculusRift (116)
+[2016.01.15-12.17.00:006][364]LogModuleManager: Shutting down and abandoning module OculusLibrary (115)
+[2016.01.15-12.17.00:006][364]LogModuleManager: Shutting down and abandoning module LeapMotionController (114)
+[2016.01.15-12.17.00:027][364]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (113)
+[2016.01.15-12.17.00:027][364]LogModuleManager: Shutting down and abandoning module CableComponent (112)
+[2016.01.15-12.17.00:027][364]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (111)
+[2016.01.15-12.17.00:027][364]LogModuleManager: Shutting down and abandoning module MessagingDebugger (110)
+[2016.01.15-12.17.00:027][364]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (109)
+[2016.01.15-12.17.00:027][364]LogModuleManager: Shutting down and abandoning module HTML5Networking (108)
+[2016.01.15-12.17.00:027][364]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (107)
+[2016.01.15-12.17.00:027][364]LogModuleManager: Shutting down and abandoning module PluginBrowser (106)
+[2016.01.15-12.17.00:030][364]LogModuleManager: Shutting down and abandoning module EpicSurvey (105)
+[2016.01.15-12.17.00:030][364]LogModuleManager: Shutting down and abandoning module DesktopPlatform (104)
+[2016.01.15-12.17.00:030][364]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (103)
+[2016.01.15-12.17.00:030][364]LogModuleManager: Shutting down and abandoning module UObjectPlugin (102)
+[2016.01.15-12.17.00:030][364]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (101)
+[2016.01.15-12.17.00:030][364]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (100)
+[2016.01.15-12.17.00:030][364]LogModuleManager: Shutting down and abandoning module SourceControl (99)
+[2016.01.15-12.17.00:030][364]LogModuleManager: Shutting down and abandoning module GitSourceControl (98)
+[2016.01.15-12.17.00:030][364]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (97)
+[2016.01.15-12.17.00:030][364]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (96)
+[2016.01.15-12.17.00:030][364]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (95)
+[2016.01.15-12.17.00:030][364]LogModuleManager: Shutting down and abandoning module MeshPaint (94)
+[2016.01.15-12.17.00:030][364]LogModuleManager: Shutting down and abandoning module SlateReflector (93)
+[2016.01.15-12.17.00:030][364]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2016.01.15-12.17.00:030][364]LogModuleManager: Shutting down and abandoning module MainFrame (91)
+[2016.01.15-12.17.00:030][364]LogModuleManager: Shutting down and abandoning module LevelEditor (90)
+[2016.01.15-12.17.00:031][364]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (89)
+[2016.01.15-12.17.00:032][364]LogModuleManager: Shutting down and abandoning module AssetRegistry (88)
+[2016.01.15-12.17.02:541][364]LogModuleManager: Shutting down and abandoning module ContentBrowser (87)
+[2016.01.15-12.17.02:543][364]LogModuleManager: Shutting down and abandoning module Paper2DEditor (86)
+[2016.01.15-12.17.02:543][364]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
+[2016.01.15-12.17.02:644][364]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2016.01.15-12.17.02:644][364]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2016.01.15-12.17.02:644][364]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2016.01.15-12.17.02:652][364]LogModuleManager: Shutting down and abandoning module Media (81)
+[2016.01.15-12.17.02:652][364]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2016.01.15-12.17.02:653][364]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2016.01.15-12.17.02:653][364]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2016.01.15-12.17.02:653][364]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2016.01.15-12.17.02:653][364]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2016.01.15-12.17.02:653][364]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2016.01.15-12.17.02:653][364]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2016.01.15-12.17.02:653][364]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2016.01.15-12.17.02:653][364]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2016.01.15-12.17.02:653][364]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2016.01.15-12.17.02:653][364]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2016.01.15-12.17.02:653][364]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2016.01.15-12.17.02:654][364]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2016.01.15-12.17.02:659][364]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2016.01.15-12.17.02:659][364]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2016.01.15-12.17.02:670][364]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2016.01.15-12.17.02:670][364]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2016.01.15-12.17.02:670][364]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2016.01.15-12.17.02:670][364]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2016.01.15-12.17.02:670][364]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2016.01.15-12.17.02:670][364]LogModuleManager: Shutting down and abandoning module Core (59)
+[2016.01.15-12.17.02:670][364]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2016.01.15-12.17.02:670][364]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2016.01.15-12.17.02:670][364]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2016.01.15-12.17.02:670][364]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2016.01.15-12.17.02:672][364]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2016.01.15-12.17.02:968][364]LogDerivedDataCache: Shutdown
+[2016.01.15-12.17.02:968][364]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2016.01.15-12.17.02:968][364]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2016.01.15-12.17.02:968][364]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2016.01.15-12.17.02:968][364]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2016.01.15-12.17.02:968][364]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2016.01.15-12.17.02:968][364]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2016.01.15-12.17.02:968][364]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2016.01.15-12.17.02:968][364]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2016.01.15-12.17.02:968][364]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2016.01.15-12.17.02:968][364]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2016.01.15-12.17.02:969][364]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2016.01.15-12.17.02:969][364]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2016.01.15-12.17.02:969][364]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2016.01.15-12.17.02:969][364]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2016.01.15-12.17.02:969][364]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2016.01.15-12.17.02:969][364]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2016.01.15-12.17.02:969][364]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2016.01.15-12.17.02:969][364]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2016.01.15-12.17.02:969][364]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2016.01.15-12.17.02:969][364]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2016.01.15-12.17.02:969][364]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2016.01.15-12.17.02:969][364]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2016.01.15-12.17.02:969][364]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2016.01.15-12.17.02:969][364]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2016.01.15-12.17.02:969][364]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2016.01.15-12.17.03:592][364]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2016.01.15-12.17.03:592][364]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2016.01.15-12.17.03:592][364]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2016.01.15-12.17.03:592][364]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2016.01.15-12.17.03:592][364]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2016.01.15-12.17.03:592][364]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2016.01.15-12.17.03:592][364]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2016.01.15-12.17.03:592][364]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2016.01.15-12.17.03:592][364]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2016.01.15-12.17.03:592][364]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2016.01.15-12.17.03:592][364]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2016.01.15-12.17.04:593][364]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2016.01.15-12.17.04:593][364]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.01.15-12.17.04:593][364]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.01.15-12.17.04:593][364]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.01.15-12.17.04:594][364]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.01.15-12.17.04:594][364]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.01.15-12.17.04:595][364]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.01.15-12.17.04:595][364]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.01.15-12.17.04:595][364]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.01.15-12.17.04:595][364]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.01.15-12.17.04:595][364]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.01.15-12.17.04:595][364]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.01.15-12.17.04:595][364]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.01.15-12.17.04:595][364]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.01.15-12.17.04:595][364]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.01.15-12.17.04:596][364]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.01.15-12.17.04:597][364]LogExit: Exiting.
+[2016.01.15-12.17.04:613][364]Log file closed, 01/15/16 07:17:04
